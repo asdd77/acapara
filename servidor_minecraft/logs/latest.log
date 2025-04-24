@@ -315,3 +315,15 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [19:31:59] [Server thread/INFO]: Lines - 3:  - 4: 
 [19:32:53] [Server thread/INFO]: Urikett009 issued server command: /rp teleport
 [19:32:55] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
+[19:33:30] [Server thread/INFO]: Urikett009 issued server command: /rp settp
+[19:33:53] [Server thread/INFO]: [Not Secure] [Server] h
+[19:36:04] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
+[19:36:30] [Server thread/INFO]: iLeola_ has reached the goal [Remote Getaway]
+[19:36:58] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] SumaMT has disconnected from the Java server because of Bedrock client disconnected
+[19:36:58] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .SumaMT disconnected
+[19:36:58] [Server thread/INFO]: .SumaMT lost connection: Disconnected
+[19:36:58] [Server thread/INFO]: .SumaMT left the game
+[19:37:36] [Craft Scheduler Thread - 145 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:41:39] [Server thread/INFO]: Villager Villager['Villager'/21813, uuid='86ad771a-40c0-4ffc-a892-f268ecfa5029', l='ServerLevel[world]', x=9497.88, y=70.94, z=-4765.58, cpos=[593, -298], tl=17864, v=true] died, message: 'Villager was slain by Urikett009'
+[19:41:53] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
+[19:41:57] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea world
