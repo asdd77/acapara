@@ -327,3 +327,17 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [19:41:39] [Server thread/INFO]: Villager Villager['Villager'/21813, uuid='86ad771a-40c0-4ffc-a892-f268ecfa5029', l='ServerLevel[world]', x=9497.88, y=70.94, z=-4765.58, cpos=[593, -298], tl=17864, v=true] died, message: 'Villager was slain by Urikett009'
 [19:41:53] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
 [19:41:57] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea world
+[19:47:36] [Craft Scheduler Thread - 186 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:48:18] [User Authenticator #7/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[19:48:18] [Server thread/INFO]: xMega10_ joined the game
+[19:48:18] [Server thread/INFO]: xMega10_[/127.227.6.216:34897] logged in with entity id 33888 at ([world]0.0, 71.0, 0.0)
+[19:48:55] [Server thread/INFO]: xMega10_ issued server command: /rp addadmin EduardoKeith
+[19:49:05] [Server thread/INFO]: xMega10_ issued server command: /rp teleport Aldea
+[19:49:11] [Server thread/INFO]: xMega10_ issued server command: /rp addadmin EduardoKeith
+[19:49:18] [Async Chat Thread - #15/INFO]: [Not Secure] <xMega10_> ya
+[19:49:21] [Server thread/INFO]: xMega10_ lost connection: Disconnected
+[19:49:21] [Server thread/INFO]: xMega10_ left the game
+[19:49:50] [Async Chat Thread - #15/INFO]: [Not Secure] <EduardoKeith> siiiiii
+[19:53:23] [User Authenticator #8/INFO]: UUID of player SunnyyIsHere_ is ec8b9018-623f-3526-adbf-3b2fb85f38c1
+[19:53:24] [Server thread/INFO]: SunnyyIsHere_ joined the game
+[19:53:24] [Server thread/INFO]: SunnyyIsHere_[/127.9.156.13:56983] logged in with entity id 36004 at ([world]0.0, 71.0, 0.0)

@@ -3729,74 +3729,73 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-04-24 19:39:43 +0000",
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 19:39:37 +0000"
+      "log_spam_fixer": "2025-04-24 19:49:37 +0000"
     },
     "done": false
   },
@@ -3806,15 +3805,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2025-04-24 19:41:05 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/gunpowder_from_popped_chorus_blasting": {
+    "criteria": {
+      "has_item": "2025-04-24 19:41:01 +0000"
+    },
+    "done": true
+  },
   "nitdim:nitdim/root": {
     "criteria": {
       "build-between-portal": "2025-04-24 19:10:46 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-04-24 19:41:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/enter_end_gateway": {
     "criteria": {
       "entered_end_gateway": "2025-04-24 19:36:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-04-24 19:41:01 +0000"
     },
     "done": true
   },
