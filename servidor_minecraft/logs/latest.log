@@ -341,3 +341,50 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [19:53:23] [User Authenticator #8/INFO]: UUID of player SunnyyIsHere_ is ec8b9018-623f-3526-adbf-3b2fb85f38c1
 [19:53:24] [Server thread/INFO]: SunnyyIsHere_ joined the game
 [19:53:24] [Server thread/INFO]: SunnyyIsHere_[/127.9.156.13:56983] logged in with entity id 36004 at ([world]0.0, 71.0, 0.0)
+[19:54:19] [Async Chat Thread - #17/INFO]: [Not Secure] <joel_pro> chat muerto
+[19:54:22] [Async Chat Thread - #17/INFO]: [Not Secure] <EduardoKeith> ayer
+[19:54:48] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport base
+[19:55:23] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
+[19:55:46] [Async Chat Thread - #19/INFO]: [Not Secure] <SunnyyIsHere_> mañana
+[19:56:31] [Server thread/INFO]: iLeola_ lost connection: Timed out
+[19:56:31] [Server thread/INFO]: iLeola_ left the game
+[19:57:23] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport base
+[19:57:36] [Craft Scheduler Thread - 216 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:58:07] [Async Chat Thread - #21/INFO]: [Not Secure] <EduardoKeith> qqqqq volvieron mis 2 de tnt
+[19:58:36] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mateopro7773013
+[19:58:36] [localSession-7-3/INFO]: [Geyser-Spigot] Mateopro7773013 (logged in as: Mateopro7773013) has connected to the Java server
+[19:58:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Mateopro7773013 joined (UUID: 00000000-0000-0000-0009-01f5125aebff)
+[19:58:37] [Server thread/INFO]: .Mateopro7773013 joined the game
+[19:58:37] [Server thread/INFO]: .Mateopro7773013[/127.0.0.1:0] logged in with entity id 38879 at ([world]0.0, 71.0, 0.0)
+[19:59:03] [Server thread/INFO]: SunnyyIsHere_ issued server command: /rp tp base
+[19:59:27] [Server thread/INFO]: SunnyyIsHere_ issued server command: /team tp r
+[19:59:36] [Server thread/INFO]: .Mateopro7773013 issued server command: /team home
+[20:00:15] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpa EduardoKeith
+[20:00:17] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
+[20:00:45] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
+[20:00:58] [User Authenticator #9/INFO]: UUID of player iLeola_ is 04c6568a-80d6-38d1-9c7e-efc90999a73c
+[20:01:00] [Server thread/INFO]: iLeola_ joined the game
+[20:01:00] [Server thread/INFO]: iLeola_[/127.210.202.86:59651] logged in with entity id 41103 at ([world]0.0, 71.0, 0.0)
+[20:01:17] [Server thread/INFO]: SunnyyIsHere_ issued server command: /rp tp aldea
+[20:01:26] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> ahh
+[20:01:38] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> ya tengo reparacion en mi armadura
+[20:01:40] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> siii
+[20:02:07] [Server thread/INFO]: Named entity Blaze['Desert Blaze'/41801, uuid='f6a7947b-17e2-49a6-9c37-a943828871cf', l='ServerLevel[world_nether]', x=-329.67, y=67.36, z=120.69, cpos=[-21, 7], tl=366, v=true] died: Desert Blaze was slain by EduardoKeith using [Soap]
+[20:02:11] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> eduardo dame perms de la otra aldea
+[20:02:17] [Server thread/INFO]: Named entity Blaze['Desert Blaze'/41802, uuid='fa383209-f025-404a-ae71-e4e4b73d04f1', l='ServerLevel[world_nether]', x=-334.53, y=67.56, z=119.70, cpos=[-21, 7], tl=575, v=true] died: Desert Blaze was slain by EduardoKeith using [Soap]
+[20:02:20] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
+[20:02:23] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea world
+[20:02:24] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> va
+[20:02:31] [Server thread/INFO]: EduardoKeith issued server command: /rp addadmin SunnyyIsHere_
+[20:02:32] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> ya
+[20:02:49] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> qie
+[20:02:57] [Server thread/INFO]: SunnyyIsHere_ issued server command: /rp tp aldea
+[20:02:59] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> 4 caballos supah
+[20:03:59] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzzzzzz
+[20:03:59] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzz
+[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> z
+[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> z
+[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> z
+[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzz
+[20:04:01] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzz
+[20:04:01] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zz

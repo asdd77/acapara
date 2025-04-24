@@ -1,6 +1,6 @@
 cherry:
   name: cherry
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins:
   - 04c6568a-80d6-38d1-9c7e-efc90999a73c@iLeola_
   members: []
@@ -110,8 +110,9 @@ los_putoscom:
   tppoint: ''
 Aldea:
   name: Aldea
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins:
+  - 614014a7-d664-3694-ac6e-e88d6a358a90@EduardoKeith
   - 42e87595-5b86-3968-86bb-7b6c5725d790@_FacuMC_
   members: []
   leaders:
@@ -162,20 +163,19 @@ Aldea:
   candelete: true
   canpurge: true
   tppoint: ''
-Pina:
-  name: Pina
-  lastvisit: 23/04/2025
+pina:
+  name: pina
+  lastvisit: 24/04/2025
   admins: []
-  members:
-  - 8e82b803-32a1-328e-9012-b7db5c346b1f@PixelRTX_1
+  members: []
   leaders:
   - 9f11e501-0b1f-30e4-95f0-3749efba8ca9@Urikett009
   priority: 0
   welcome: ''
   world: world
-  maxX: 9510
+  maxX: 9518
   maxZ: -4747
-  minX: 9479
+  minX: 9468
   minZ: -4767
   maxY: 320
   minY: -64
@@ -215,7 +215,7 @@ Pina:
     redstone: false
   candelete: true
   canpurge: true
-  tppoint: ''
+  tppoint: 9496,70,-4764,0.0,0.0
 end:
   name: end
   lastvisit: 23/04/2025
@@ -271,7 +271,7 @@ end:
   tppoint: ''
 Stronghold:
   name: Stronghold
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins: []
   members: []
   leaders:
@@ -378,7 +378,7 @@ peru:
   tppoint: ''
 Outpost_Leo:
   name: Outpost_Leo
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins:
   - 3c697ae3-cde3-322e-9523-6878f4ab07a7@IKAL7064
   members: []
@@ -432,7 +432,7 @@ Outpost_Leo:
   tppoint: ''
 maijaus:
   name: maijaus
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins: []
   members:
   - ec8b9018-623f-3526-adbf-3b2fb85f38c1@SunnyyIsHere_
@@ -486,7 +486,7 @@ maijaus:
   tppoint: -2294,109,256,0.0,0.0
 aldea_1:
   name: aldea_1
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins:
   - 6f994cbc-4b2e-3555-96d9-b1bff3357cb4@Ecuakiller
   members: []
@@ -540,7 +540,7 @@ aldea_1:
   tppoint: ''
 base:
   name: base
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins:
   - 4fbc7bf1-ecc0-3ede-ac20-90acfbd824d1@TheMario_SM
   - ec8b9018-623f-3526-adbf-3b2fb85f38c1@SunnyyIsHere_
@@ -603,7 +603,7 @@ base:
   tppoint: ''
 outpost:
   name: outpost
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins:
   - 6f994cbc-4b2e-3555-96d9-b1bff3357cb4@Ecuakiller
   members: []
