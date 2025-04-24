@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:7b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. VII",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.7.1\",\"fallback\":\"Syx: \\\"Let there once again be order in the court. [Pause] Thank you Guardian Gada, you may return to your gallery. Does the prosecution have another witness?\\\"\n\nHane: \\\"No, your Elder.\\\"\n\nSyx: \\\"Your majesty?\\\"\"}",
+                    "{\"translate\":\"nitdim.book.ancient.7.2\",\"fallback\":\"Drizen: \\\"I rest my case, your Elder.\\\"\n\nSyx: \\\"Then the court of the Guardians will take their vote to decide the fate of King Drizen, judged by a jury of his subjects.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

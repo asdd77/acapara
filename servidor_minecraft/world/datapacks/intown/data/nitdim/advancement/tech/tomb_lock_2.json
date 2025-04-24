@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "open-dropper": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:blaze_rod"
+              ],
+              "components": {
+                "minecraft:custom_data": {
+                  "nitdim_keyHoglin":1
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitdim:nazca/tomb_treasure"
+  }
+}

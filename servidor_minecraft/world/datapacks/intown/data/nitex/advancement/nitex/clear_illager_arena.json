@@ -1,0 +1,29 @@
+{
+  "parent": "nitex:nitex/clear_piglin_cave",
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone_wall"
+    },
+    "title": {
+      "translate": "nitex.advancement.illager_arena",
+      "fallback": "A Cruel Arena"
+    },
+    "description": {
+      "translate": "nitex.advancement.illager_arena.desc",
+      "fallback": "Discover the Illagers' arena, where undead experiments duel mercilessly."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

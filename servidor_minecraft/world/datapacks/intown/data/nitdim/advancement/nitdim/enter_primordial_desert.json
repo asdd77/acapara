@@ -1,0 +1,33 @@
+{
+  "parent": "nitdim:nitdim/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title":{
+"translate": "nitdim.advancement.primordial_desert",
+"fallback":  "The Primordial Desert"
+},
+    "description":{
+"translate": "nitdim.advancement.primordial_desert.desc",
+"fallback":  "Find a portal to the Primordial Desert."
+},
+    "frame": "task",
+	"background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "travel-to-primordial_desert": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "nitdim:in_between",
+        "to": "nitdim:primordial_desert"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 8635593,
+    "fog_color": 8809823,
+    "water_color": 3226170,
+    "water_fog_color": 1646367,
+    "grass_color": 5852957,
+    "foliage_color": 5658398,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:squid_ink"
+      },
+      "probability": 0.002
+    }
+  },
+  "spawners": {
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:silverfish",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "nitdim:light_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "nitdim:dungeons_heavy",
+      "nitdim:primordial_desert/dungeon_upper"
+    ],
+    [],
+    [],
+    [
+      "nitdim:ore_infested",
+      "nitdim:primordial_desert/ore_tuff",
+      "nitdim:primordial_desert/netherrack_geode_rare",
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "nitdim:ore_andesite",
+      "nitdim:ore_diorite",
+      "nitdim:ore_granite",
+      "nitdim:primordial_desert/ore_coal_tar_pits",
+      "nitdim:primordial_desert/ore_copper_lower",
+      "nitdim:primordial_desert/ore_diamond_upper",
+      "nitdim:primordial_desert/ore_diamond_lower",
+      "nitdim:primordial_desert/ore_gold",
+      "nitdim:primordial_desert/ore_gold_buried",
+      "nitdim:primordial_desert/ore_iron",
+      "nitdim:primordial_desert/ore_iron_buried",
+      "nitdim:primordial_desert/ore_lapis",
+      "nitdim:primordial_desert/ore_redstone_lower"
+    ],
+    [],
+    [
+      "nitdim:primordial_desert/delta_tar"
+    ],
+    [
+      "nitdim:primordial_desert/patch_dead_corals"
+    ],
+    []
+  ]
+}

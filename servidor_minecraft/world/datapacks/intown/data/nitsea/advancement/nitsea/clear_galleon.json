@@ -1,0 +1,29 @@
+{
+  "parent": "nitsea:nitsea/pirates",
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_log"
+    },
+    "title": {
+      "translate": "nitsea.advancement.galleon",
+      "fallback": "The Galleon"
+    },
+    "description": {
+      "translate": "nitsea.advancement.galleon.desc",
+      "fallback": "Discover the huge warship, the Illager Galleon."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

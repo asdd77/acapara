@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:sea_lantern"
+    },
+    "target": {
+      "Name": "minecraft:glowstone"
+    },
+    "radius": 12
+  }
+}

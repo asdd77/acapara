@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
+          "direction": "up",
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:biased_to_bottom",
+                "max_inclusive": 4,
+                "min_inclusive": 2
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:mossy_cobblestone_wall",
+                  "Properties": {
+                    "east": "none",
+                    "west": "none",
+                    "north": "none",
+                    "south": "none",
+                    "up": "true",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            }
+          ],
+          "prioritize_tip": false
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:sand",
+                  "minecraft:red_sand",
+                  "minecraft:yellow_concrete_powder",
+                  "minecraft:white_concrete_powder",
+                  "minecraft:red_concrete_powder",
+                  "minecraft:orange_concrete_powder",
+                  "minecraft:pink_concrete_powder",
+                  "minecraft:magenta_concrete_powder",
+                  "minecraft:mossy_cobblestone_wall"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 10,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

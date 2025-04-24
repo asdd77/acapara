@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "p_k_e-creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+          "location": {
+            "structures": "nitdim:primordial_desert/nazca_spider",
+            "dimension": "nitdim:primordial_desert"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitdim:nazca/spider_cache"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "nitsea:recipes/root",
+  "rewards": {
+    "function": "nitsea:siteplanner/init_fishbarge"
+  },
+  "criteria": {
+    "open-dropper": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Items:[{Slot:0b,id:\"minecraft:cyan_wool\",count:8},{Slot:1b,id:\"minecraft:string\",count:32},{Slot:2b,id:\"minecraft:light_gray_wool\",count:16},{Slot:3b,id:\"minecraft:iron_bars\",count:16},{Slot:4b,id:\"minecraft:apple\",count:16},{Slot:5b,id:\"minecraft:iron_bars\",count:16},{Slot:6b,id:\"minecraft:crafting_table\",count:2},{Slot:7b,id:\"minecraft:oak_boat\",count:1,components:{\"minecraft:custom_data\":{nitsea_shipHull:1b}}},{Slot:8b,id:\"minecraft:barrel\",count:2}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

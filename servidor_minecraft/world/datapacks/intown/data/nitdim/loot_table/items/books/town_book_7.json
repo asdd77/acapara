@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:7b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #7",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.7.1\",\"fallback\":\"Rainsuary 4th\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.72\",\"fallback\":\"\nThe plan is set. I will go with Rexial to the land we have come to call the Primordial Desert. The hog creatures there are fierce, but scouts that brought back the more civilized pigs for trade discovered that they quickly succumbed to undeath.\"}]",
+                    "{\"translate\":\"nitdim.book.town.7.3\",\"fallback\":\"If we can learn the nature of this transformation, perhaps we can harness it and live, ourselves, in undeath.\nRaiden will take a team of scientists to that dark and murky place, the Buried Ocean. Some others hope to follow and seek out treasures in its\"}",
+                    "{\"translate\":\"nitdim.book.town.7.4\",\"fallback\":\"waters, but chiefly, the wizards and witches aim to understand the nature of zombie-ism altogether. Even in a world untouched by life, how can there be death? Raiden\\'s research may help us in the transformation Rexial seeks to utilize.\nRegalli, meanwhile, has volunteered to return\"}",
+                    "{\"translate\":\"nitdim.book.town.7.5\",\"fallback\":\"home. To warn the others. If the Tyrant can come to the In Between, it can come to the Tempest. He will build upon our research in the other dimensions from there, in our shared quest. We will kill the Tyrant, and more than that, we will never be killed again.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

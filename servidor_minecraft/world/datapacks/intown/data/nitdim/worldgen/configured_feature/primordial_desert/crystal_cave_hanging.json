@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "weight": 2,
+              "data": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 0,
+                  "max_inclusive": 19
+              }
+            },
+            {
+              "weight": 3,
+              "data": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 0,
+                  "max_inclusive": 2
+              }
+            },
+            {
+              "weight": 10,
+              "data": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 0,
+                  "max_inclusive": 6
+              }
+            }
+          ]
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 4,
+              "data": {
+                "Name": "minecraft:end_rod",
+                "Properties": {
+                  "facing": "down"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:end_rod",
+                "Properties": {
+                  "facing": "up"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 3,
+              "data": {
+                "Name": "minecraft:pearlescent_froglight",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            },
+            {
+              "weight": 5,
+              "data": {
+                "Name": "minecraft:amethyst_block"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:budding_amethyst"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

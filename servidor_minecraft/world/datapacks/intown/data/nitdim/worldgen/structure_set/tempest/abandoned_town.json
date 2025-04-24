@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:tempest/abandoned_town",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1260888634,
+    "spacing": 40,
+    "separation": 32
+  }
+}

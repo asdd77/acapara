@@ -1,0 +1,29 @@
+{
+  "parent": "nitex:nitex/find_artifact",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "nitex.advancement.piglin_cave",
+      "fallback": "Piglins in Cages"
+    },
+    "description": {
+      "translate": "nitex.advancement.piglin_cave.desc",
+      "fallback": "Discover the Illagers' cavern of imprisoned experiments..."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

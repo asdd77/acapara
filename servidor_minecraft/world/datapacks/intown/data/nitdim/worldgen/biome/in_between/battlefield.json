@@ -1,0 +1,58 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "category": "plains",
+  "effects": {
+    "sky_color": 6665124,
+    "fog_color": 8474961,
+    "water_color": 2373677,
+    "water_fog_color": 1646361,
+    "grass_color": 6247436,
+    "foliage_color": 7229714,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.8
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:mooshroom",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:mooshroom": {
+      "energy_budget": 0.2,
+      "charge": 1
+    }
+  },
+  "carvers": {},
+  "features": [
+    [
+      "nitdim:in_between/delta_water"
+    ],
+    [],
+    [
+      "nitdim:in_between/delta_mycelium"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "nitdim:in_between/graveyard"
+    ],
+    []
+  ]
+}

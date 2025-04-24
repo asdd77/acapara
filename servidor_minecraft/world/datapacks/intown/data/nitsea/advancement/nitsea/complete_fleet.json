@@ -1,0 +1,65 @@
+{
+  "parent": "nitsea:nitsea/clear_castle",
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_boat"
+    },
+    "title": {
+      "translate": "nitsea.advancement.complete",
+      "fallback": "Master of the Seas"
+    },
+    "description": {
+      "translate": "nitsea.advancement.complete.desc",
+      "fallback": "Build every functional ship for your fleet."
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "build-brig": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-carpenter": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-chemist": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-fruit": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-livestock": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-map": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-mushroom": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-portal": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-warship": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-weaver": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-home": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-crystal": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-fishbarge": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

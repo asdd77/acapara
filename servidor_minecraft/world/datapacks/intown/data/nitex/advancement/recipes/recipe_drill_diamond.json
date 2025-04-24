@@ -1,0 +1,26 @@
+{
+  "parent": "nitex:recipes/root",
+  "rewards": {
+    "function": "nitex:siteplanner/init_drill_diamond"
+  },
+  "criteria": {
+    "open-dropper": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Items:[{Slot:0b,id:\"minecraft:copper_ingot\",count:8},{Slot:1b,id:\"minecraft:basalt\",count:32},{Slot:2b,id:\"minecraft:copper_ingot\",count:8},{Slot:3b,id:\"minecraft:stripped_jungle_log\",count:16},{Slot:4b,id:\"minecraft:prismarine_shard\",count:1,components:{\"minecraft:custom_data\":{nitex_drillRig:1b}}},{Slot:5b,id:\"minecraft:stripped_jungle_log\",count:16},{Slot:6b,id:\"minecraft:diamond_pickaxe\",count:1},{Slot:7b,id:\"minecraft:diamond_block\",count:2},{Slot:8b,id:\"minecraft:diamond_pickaxe\",count:1}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

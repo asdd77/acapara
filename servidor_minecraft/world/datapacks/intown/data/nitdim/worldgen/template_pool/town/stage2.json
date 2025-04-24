@@ -1,0 +1,42 @@
+{
+  "name": "nitdim:in_between/town/stage2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 16,
+      "element": {
+        "location": "nitdim:in_between/town/empty",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "nitdim:in_between/town/silo",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:in_between/town/wizardtower",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 5,
+      "element": {
+        "location": "nitdim:in_between/town/guardtower",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

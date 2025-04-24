@@ -1,0 +1,78 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "category": "swamp",
+  "effects": {
+    "sky_color": 8615811,
+    "fog_color": 6312541,
+    "water_color": 2604601,
+    "water_fog_color": 1461269,
+    "grass_color": 3320134,
+    "foliage_color": 7131499
+  },
+  "spawners": {
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "water_creature": []
+  },
+  "spawn_costs": {
+    "minecraft:magma_cube": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "nitdim:tempest/delta_slime"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "nitdim:ore_granite",
+      "nitdim:ore_diorite",
+      "nitdim:ore_andesite",
+      "nitdim:tempest/ore_coal",
+      "nitdim:tempest/ore_copper_buried",
+      "nitdim:tempest/ore_diamond",
+      "nitdim:tempest/ore_gold",
+      "nitdim:tempest/ore_iron",
+      "nitdim:tempest/ore_lapis",
+      "nitdim:tempest/ore_redstone"
+    ],
+    [
+      "nitdim:tempest/patch_magma"
+    ],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:red_mushroom_normal",
+      "minecraft:brown_mushroom_normal"
+    ],
+    []
+  ]
+}

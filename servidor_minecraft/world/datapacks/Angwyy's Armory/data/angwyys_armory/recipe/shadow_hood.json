@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ooo",
+      "oxo",
+      "o o"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:ominous_bottle"
+      },
+      "o": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_helmet",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 1,
+        "minecraft:custom_data": {"shadow_hood":true},
+        "minecraft:dyed_color": {
+          "rgb": 1447716,
+          "show_in_tooltip": false
+        },
+        "minecraft:item_name": "'Ominous Hood'"
+      }
+    }
+  }
+  
+  

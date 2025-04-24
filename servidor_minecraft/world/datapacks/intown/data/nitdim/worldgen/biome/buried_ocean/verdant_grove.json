@@ -1,0 +1,164 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "category": "forest",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 69672,
+    "water_color": 19711,
+    "water_fog_color": 72795,
+    "grass_color": 3779655,
+    "foliage_color": 3454794,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:spore_blossom_air"
+      },
+      "probability": 0.004
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:pig",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:drowned",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:salmon",
+        "weight": 7,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [
+      "nitdim:buried_ocean/stalactites_huge",
+      "nitdim:buried_ocean/stalactites_common",
+      "nitdim:buried_ocean/stalactites_super_common"
+    ],
+    [
+      "minecraft:glowstone_extra",
+      "nitdim:buried_ocean/replacer_dripstone",
+      "nitdim:buried_ocean/ore_stone",
+      "nitdim:buried_ocean/ore_andesite",
+      "nitdim:buried_ocean/ore_deepslate",
+      "nitdim:buried_ocean/amethyst_geode_upper",
+      "nitdim:buried_ocean/amethyst_geode_lower",
+      "nitdim:buried_ocean/verdant_islands"
+    ],
+    [
+      "nitdim:buried_ocean/ore_coal",
+      "nitdim:buried_ocean/ore_copper",
+      "nitdim:buried_ocean/ore_diamond",
+      "nitdim:buried_ocean/ore_emerald",
+      "nitdim:buried_ocean/ore_gold",
+      "nitdim:buried_ocean/ore_iron_buried",
+      "nitdim:buried_ocean/ore_lapis",
+      "nitdim:buried_ocean/ore_redstone"
+    ],
+    [],
+    [
+      "nitdim:spring_water_ceiling"
+    ],
+    [
+      "nitdim:buried_ocean/replacer_lantern",
+      "nitdim:buried_ocean/disk_sand",
+      "nitdim:buried_ocean/disk_clay",
+      "nitdim:buried_ocean/disk_gravel"
+    ],
+    [],
+    [
+      "nitdim:buried_ocean/kelp",
+      "nitdim:buried_ocean/seagrass",
+      "nitdim:buried_ocean/bubble_coral_floater"
+    ],
+    [
+      "nitdim:buried_ocean/patch_grass",
+      "nitdim:buried_ocean/glow_lichen",
+      "nitdim:buried_ocean/sea_pickle",
+      "nitdim:buried_ocean/light_layer",
+      "nitdim:buried_ocean/verdant_tree_1",
+      "nitdim:buried_ocean/verdant_tree_2",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_clay",
+      "minecraft:spore_blossom",
+      "minecraft:classic_vines_cave_feature"
+    ],
+    []
+  ]
+}

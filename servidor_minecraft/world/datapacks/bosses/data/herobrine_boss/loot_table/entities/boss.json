@@ -1,0 +1,234 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                    "herobrine_boss.death_sound":true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "custom_name",
+                "name": {
+                  "text": "Herobrine Skull",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "+ Permanent Slow Falling",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ Permanent Strength II",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ Magic Enchant Fly",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ Soul Fire Trail",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "id": "9640b2db-7a10-4602-81e8-ff597090fa06",
+                    "slot": "head"
+                  },
+                  {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_total",
+                    "id": "3e5daeb1-0e06-4f55-8667-12804fe266eb",
+                    "slot": "head"
+                  },
+                  {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "id": "1a723b19-5242-4e9b-9273-d311cf790274",
+                    "slot": "head"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:profile": {
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBkNjIxZTQ2OWNiYmZkMTk3NmQ0ODA1ZDQyZDhlZDY4N2Y2ZWRlMzgwNDE2MDY1MGM0MWNjYzRlZiJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "smithed":{
+                    "ignore":{
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  },
+                  "herobrine_boss.skull": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 15,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:totem_of_undying",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_scrap",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:diamond",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 15,
+                  "max": 20
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,29 @@
+{
+  "parent": "nitsea:nitsea/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "nitsea.advancement.pirates",
+      "fallback": "Pirates!"
+    },
+    "description": {
+      "translate": "nitsea.advancement.pirates.desc",
+      "fallback": "Encounter the pirate Illagers of the Buried Ocean."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "temperature": -32.0,
+  "downfall": 0,
+  "has_precipitation": true,
+  "temperature_modifier": "frozen",
+  "category": "extreme_hills",
+  "effects": {
+    "sky_color": 11178666,
+    "fog_color": 15262695,
+    "water_color": 8163755,
+    "water_fog_color": 4016465,
+    "grass_color": 15073268,
+    "foliage_color": 12906201,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vindicator",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "nitdim:tempest/glacier_wall"
+    ],
+    [
+      "nitdim:tempest/replacer_basalt"
+    ],
+    [
+      "nitdim:tempest/carving_mask_glacier"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "nitdim:ore_granite",
+      "nitdim:ore_diorite",
+      "nitdim:ore_andesite",
+      "nitdim:tempest/disk_clay",
+      "nitdim:tempest/ore_copper_buried",
+      "nitdim:tempest/ore_diamond",
+      "nitdim:tempest/ore_gold_double",
+      "nitdim:tempest/ore_lapis",
+      "nitdim:tempest/ore_redstone"
+    ],
+    [
+      "minecraft:kelp_cold"
+    ],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

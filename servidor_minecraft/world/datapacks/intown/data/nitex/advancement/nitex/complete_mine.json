@@ -1,0 +1,62 @@
+{
+  "parent": "nitex:nitex/clear_pyramid",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "nitex.advancement.complete",
+      "fallback": "The Tapping"
+    },
+    "description": {
+      "translate": "nitex.advancement.complete.desc",
+      "fallback": "Build every functional shaft for your mine."
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "build-drill-copper": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-drill-diamond": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-forge": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-headlamp": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-home": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-research": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-slate": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-lift": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-gemologist": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-cave-sapper": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-portal": {
+      "trigger": "minecraft:impossible"
+    },
+    "build-surveyor": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

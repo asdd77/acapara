@@ -1,0 +1,29 @@
+{
+  "parent": "nitex:nitex/clear_pyramid",
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_campfire"
+    },
+    "title": {
+      "translate": "nitex.advancement.rexial",
+      "fallback": "The Cost of a Soul"
+    },
+    "description": {
+      "translate": "nitex.advancement.rexial.desc",
+      "fallback": "Defeat Rexial the Soulless at the Inverted Pyramid."
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

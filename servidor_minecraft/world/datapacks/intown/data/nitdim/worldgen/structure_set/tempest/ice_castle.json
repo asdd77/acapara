@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:tempest/ice_castle",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1982400279,
+    "spacing": 26,
+    "separation": 17
+  }
+}

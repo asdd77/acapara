@@ -1,0 +1,44 @@
+{
+  "feature": "nitdim:primordial_desert/crystal_tree",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 150
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air",
+              "minecraft:amethyst_cluster",
+              "minecraft:large_amethyst_bud",
+              "minecraft:medium_amethyst_bud",
+              "minecraft:small_amethyst_bud"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:tuff",
+              "minecraft:deepslate",
+              "minecraft:calcite",
+              "minecraft:amethyst_block"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

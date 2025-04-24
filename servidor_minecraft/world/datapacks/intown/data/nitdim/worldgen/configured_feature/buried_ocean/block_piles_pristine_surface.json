@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "nitdim:buried_ocean/block_column/quartz_block"
+      },
+      {
+        "chance": 0.1,
+        "feature": "nitdim:buried_ocean/block_column/raw_gold"
+      },
+      {
+        "chance": 0.4,
+        "feature": "nitdim:buried_ocean/block_column/sea_lantern"
+      },
+      {
+        "chance": 0.3,
+        "feature": "nitdim:buried_ocean/block_column/amethyst_block"
+      }
+    ],
+    "default": "nitdim:buried_ocean/block_column/sea_lantern"
+  }
+}

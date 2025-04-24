@@ -1,0 +1,2 @@
+execute store result score @s nitY run data get entity @e[tag=nitIllArena,tag=nitID_match,limit=1,sort=nearest] Pos[1]
+data merge entity @s {Tags:[nitEntityTechnical,nitEntity,nitArenaY,nitSurveyorY,smithed.strict,smithed.entity],billboard:"vertical",alignment:"center",default_background:true,view_range:0.125f,text:'[{"text":"Y = "},{"score":{"name":"@s","objective":"nitY"}}]'}

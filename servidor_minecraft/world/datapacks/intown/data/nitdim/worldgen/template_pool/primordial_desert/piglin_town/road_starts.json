@@ -1,0 +1,24 @@
+{
+  "name": "nitdim:primordial_desert/piglin_town/road_starts",
+  "fallback": "nitdim:primordial_desert/piglin_town/fallback",
+  "elements": [
+	{
+      "weight": 10,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/road_start_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/road_start_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

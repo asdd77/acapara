@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "nitdim:buried_ocean/conduit_complete",
+  "size": 1,
+  "biomes": "#nitdim:buried_ocean/oceans",
+  "max_distance_from_center": 80,
+  "start_height": {
+    "absolute": 18
+  },
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "use_expansion_hack": true
+}

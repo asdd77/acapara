@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot nitinv:commands/getbook

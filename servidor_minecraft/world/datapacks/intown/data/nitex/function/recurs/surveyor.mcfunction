@@ -1,0 +1,4 @@
+function nitdim:id_match_self
+execute unless entity @s[tag=nitCaveMarked] anchored eyes positioned ~ ~-0.5 ~ facing entity @e[tag=nitPiglinCave,tag=nitGenerated,tag=nitID_match] feet rotated ~ 0 positioned ^ ^ ^1.25 run function nitex:spawns/surveyor/piglin_cave
+execute unless entity @s[tag=nitArenaMarked] anchored eyes positioned ~ ~-0.5 ~ facing entity @e[tag=nitIllArena,tag=nitGenerated,tag=nitID_match] feet rotated ~ 0 positioned ^ ^ ^1.25 run function nitex:spawns/surveyor/arena
+execute unless entity @s[tag=nitPyramidMarked] anchored eyes positioned ~ ~-0.5 ~ facing entity @e[tag=nitIllPyramid,tag=nitGenerated,tag=nitID_match] feet rotated ~ 0 positioned ^ ^ ^1.25 run function nitex:spawns/surveyor/pyramid

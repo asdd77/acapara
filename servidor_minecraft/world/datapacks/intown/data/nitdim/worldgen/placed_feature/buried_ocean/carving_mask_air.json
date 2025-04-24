@@ -1,0 +1,9 @@
+{
+  "feature": "nitdim:buried_ocean/carving_mask_air",
+  "placement": [
+    {
+      "type": "minecraft:carving_mask",
+      "step": "air"
+    }
+  ]
+}

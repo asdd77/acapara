@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8602001
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitsea_fishingDinghy:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitdim.item.dinghy",
+                "fallback": "Fishing Dinghy",
+                "color": "dark_aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitdim.item.dinghy.desc.1",
+                  "fallback": "Use in water to collect",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.dinghy.desc.2",
+                  "fallback": "biome-specific resources",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.dinghy.desc.3",
+                  "fallback": "in the Buried Ocean.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

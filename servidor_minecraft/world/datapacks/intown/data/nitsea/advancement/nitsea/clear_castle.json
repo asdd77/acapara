@@ -1,0 +1,29 @@
+{
+  "parent": "nitsea:nitsea/clear_lab",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "nitsea.advancement.castle",
+      "fallback": "The Suspended Castle"
+    },
+    "description": {
+      "translate": "nitsea.advancement.castle.desc",
+      "fallback": "Discover the Illagers' Suspended Castle, where science and magic meet."
+    },
+    "frame": "goal",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

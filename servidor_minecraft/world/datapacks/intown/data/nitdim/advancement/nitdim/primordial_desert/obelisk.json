@@ -1,0 +1,42 @@
+{
+  "parent": "nitdim:nitdim/enter_primordial_desert",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_red_sandstone"
+    },
+    "title": {
+      "translate": "nitex.advancement.obelisk",
+      "fallback": "The Imposing Obelisk"
+    },
+    "description": {
+      "translate": "nitex.advancement.obelisk.desc",
+      "fallback": "Explore the Illagers' Obelisk in the Primordial Desert."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nitdim:primordial_desert/obelisk"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "nitdim:nitdim/enter_buried_ocean",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "nitsea.advancement.root",
+      "fallback": "Seafarers"
+    },
+    "description": {
+      "translate": "nitsea.advancement.root.desc",
+      "fallback": "Set sail in the Buried Ocean!"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "started-fleet": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

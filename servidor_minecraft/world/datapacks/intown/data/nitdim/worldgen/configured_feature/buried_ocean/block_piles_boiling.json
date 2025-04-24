@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "nitdim:buried_ocean/block_column/basalt"
+      },
+      {
+        "chance": 0.7,
+        "feature": "nitdim:buried_ocean/block_column/boiling_ore"
+      }
+    ],
+    "default": "nitdim:buried_ocean/block_column/basalt"
+  }
+}

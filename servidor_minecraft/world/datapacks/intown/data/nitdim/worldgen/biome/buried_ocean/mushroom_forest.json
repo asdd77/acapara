@@ -1,0 +1,134 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 69672,
+    "water_color": 3956639,
+    "water_fog_color": 1910345,
+    "grass_color": 3779655,
+    "foliage_color": 3454794,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.015
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:mooshroom",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:dolphin",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:cod",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:slime",
+        "weight": 12,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:drowned",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:mooshroom": {
+      "energy_budget": 0.15,
+      "charge": 0.9
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:glowstone",
+      "minecraft:glowstone_extra",
+      "nitdim:buried_ocean/ore_stone",
+      "nitdim:buried_ocean/ore_andesite",
+      "nitdim:buried_ocean/ore_deepslate"
+    ],
+    [
+      "nitdim:buried_ocean/amethyst_geode_upper",
+      "nitdim:buried_ocean/amethyst_geode_lower",
+      "nitdim:buried_ocean/ore_copper",
+      "nitdim:buried_ocean/ore_diamond",
+      "nitdim:buried_ocean/ore_iron_buried",
+      "nitdim:buried_ocean/ore_lapis",
+      "nitdim:buried_ocean/ore_redstone"
+    ],
+    [],
+    [
+      "nitdim:spring_water_ceiling"
+    ],
+    [
+      "nitdim:buried_ocean/disk_sea_lantern",
+      "nitdim:buried_ocean/disk_sand",
+      "nitdim:buried_ocean/disk_clay",
+      "nitdim:buried_ocean/disk_gravel"
+    ],
+    [],
+    [
+      "nitdim:buried_ocean/mushroom_tree_red",
+      "nitdim:buried_ocean/mushroom_tree_brown",
+      "nitdim:buried_ocean/mushroom_seafloor_blue",
+      "nitdim:buried_ocean/mushroom_seafloor_light_blue",
+      "nitdim:buried_ocean/mushroom_seafloor_little"
+    ],
+    [
+      "nitdim:buried_ocean/replacer_lantern",
+      "nitdim:patch_mushrooms",
+      "nitdim:buried_ocean/mushroom_bubbles",
+      "nitdim:buried_ocean/glow_lichen",
+      "nitdim:buried_ocean/light_layer",
+      "nitdim:buried_ocean/patch_bubble_coral"
+    ],
+    []
+  ]
+}

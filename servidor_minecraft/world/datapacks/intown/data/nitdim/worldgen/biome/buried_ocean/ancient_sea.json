@@ -1,0 +1,138 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "category": "ocean",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 69672,
+    "water_color": 830625,
+    "water_fog_color": 350022,
+    "grass_color": 3779655,
+    "foliage_color": 3454794,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:nautilus"
+      },
+      "probability": 0.0035
+    }
+  },
+  "spawners": {
+    "creature": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:cod",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:squid",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:drowned",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 9,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:guardian",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:guardian": {
+      "energy_budget": 0.3,
+      "charge": 0.7
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [
+      "nitdim:buried_ocean/iceberg_ancient",
+      "nitdim:buried_ocean/block_piles_ancient",
+      "nitdim:buried_ocean/stalactites_huge",
+      "nitdim:buried_ocean/stalactites_common",
+      "nitdim:buried_ocean/stalactites_super_common"
+    
+    ],
+    [
+      "minecraft:glowstone",
+      "minecraft:glowstone_extra",
+      "nitdim:buried_ocean/replacer_dripstone",
+      "nitdim:buried_ocean/ore_stone",
+      "nitdim:buried_ocean/ore_andesite",
+      "nitdim:buried_ocean/ore_deepslate",
+      "nitdim:buried_ocean/ore_air"
+    ],
+    [
+      "nitdim:ore_debris_large",
+      "minecraft:ore_ancient_debris_large",
+      "nitdim:buried_ocean/ore_diamond_double",
+      "nitdim:buried_ocean/ore_gold_double",
+      "nitdim:buried_ocean/ore_iron_buried",
+      "nitdim:buried_ocean/ore_lapis",
+      "nitdim:buried_ocean/ore_redstone"
+    ],
+    [],
+    [],
+    [
+      "nitdim:buried_ocean/disk_sand",
+      "nitdim:buried_ocean/disk_prismarine",
+      "nitdim:in_between/sparkles"
+    ],
+    [],
+    [
+      "nitdim:spring_water_ceiling"
+    ],
+    [
+      "nitdim:buried_ocean/replacer_lantern",
+      "nitdim:buried_ocean/kelp",
+      "nitdim:buried_ocean/seagrass",
+      "nitdim:buried_ocean/glow_lichen"
+    ],
+    []
+  ]
+}

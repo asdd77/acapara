@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:in_between/ruined_town",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 682715369,
+    "exclusion_zone": {
+      "other_set": "nitdim:in_between/portals",
+      "chunk_count": 3
+    },
+    "spacing": 60,
+    "separation": 30
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "nitdim:nitdim/enter_primordial_desert",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "nitex.advancement.root",
+      "fallback": "Excavators"
+    },
+    "description": {
+      "translate": "nitex.advancement.root.desc",
+      "fallback": "Dig down in the Primordial Desert!"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "started-fleet": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

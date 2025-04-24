@@ -1,0 +1,121 @@
+{
+  "feature": {
+    "type": "minecraft:simple_random_selector",
+    "config": {
+      "features": [
+        {
+          "feature": "nitdim:primordial_desert/block_columns/sandstone_pillar",
+          "placement": []
+        },
+        {
+          "feature": "nitdim:primordial_desert/block_columns/red_sandstone_pillar",
+          "placement": []
+        },
+        {
+          "feature": "nitdim:primordial_desert/block_columns/quartz_pillar",
+          "placement": []
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 20
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:cave_air",
+              "minecraft:air",
+              "minecraft:sculk_vein"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:cave_air",
+              "minecraft:air",
+              "minecraft:sculk_vein"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:cave_air",
+              "minecraft:air",
+              "minecraft:sculk_vein"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "blocks": [
+              "minecraft:cave_air",
+              "minecraft:air",
+              "minecraft:sculk_vein"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "blocks": [
+              "minecraft:cave_air",
+              "minecraft:air",
+              "minecraft:sculk_vein"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:sand",
+              "minecraft:sandstone",
+              "minecraft:cut_sandstone",
+              "minecraft:chiseled_sandstone",
+              "minecraft:smooth_sandstone",
+              "minecraft:quartz_block",
+              "minecraft:quartz_bricks",
+              "minecraft:sculk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "x x",
+      "o o"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:slime_ball"
+      },
+      "o": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:custom_model_data": 2,
+        "minecraft:custom_data": {"slime_boots":true},
+        "minecraft:item_name": "'Slime Boots'",
+        "minecraft:max_damage": 247,
+        "minecraft:dyed_color": {
+          "rgb": 4380283,
+          "show_in_tooltip": false
+        }
+      }
+    }
+  }
+  

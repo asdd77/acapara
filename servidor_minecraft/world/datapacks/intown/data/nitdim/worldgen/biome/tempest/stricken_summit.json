@@ -1,0 +1,110 @@
+{
+  "temperature": 0.5,
+  "downfall": 0,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "category": "extreme_hills",
+  "effects": {
+    "sky_color": 6708326,
+    "fog_color": 5521488,
+    "water_color": 5329562,
+    "water_fog_color": 2041395,
+    "grass_color": 2900011,
+    "foliage_color": 3167282,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:goat",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 14,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 21,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 24,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "nitdim:ore_infested",
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "nitdim:ore_granite",
+      "nitdim:ore_diorite",
+      "nitdim:ore_andesite",
+      "nitdim:tempest/disk_clay",
+      "nitdim:tempest/ore_coal",
+      "nitdim:tempest/ore_diamond",
+      "nitdim:tempest/ore_gold",
+      "nitdim:tempest/ore_lapis",
+      "nitdim:tempest/ore_emerald"
+    ],
+    [
+      "nitdim:tempest/floating_magnetites",
+      "minecraft:kelp_cold"
+    ],
+    [
+      "nitdim:tempest/ore_iron_magnetite",
+      "nitdim:tempest/ore_redstone_magnetite",
+      "nitdim:tempest/ore_copper_magnetite"
+    ],
+    []
+  ]
+}

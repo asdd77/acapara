@@ -1,0 +1,24 @@
+{
+  "name": "nitdim:primordial_desert/obelisk/room_boss",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:primordial_desert/obelisk/room_boss_evoker",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:primordial_desert/obelisk/room_boss_illusioner",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:redstone_ore",
+      "Properties": {
+        "lit": "true"
+      }
+    },
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "radius": 1
+  }
+}

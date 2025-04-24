@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:primordial_desert/obelisk",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 343669169,
+    "exclusion_zone": {
+      "other_set": "nitdim:primordial_desert/piglin_settlements",
+      "chunk_count": 10
+    },
+    "spacing": 40,
+    "separation": 26
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "feature": "nitdim:buried_ocean/ore_emerald",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+          "min_inclusive": 16,
+          "max_inclusive": 36
+      }
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 46
+        },
+        "max_inclusive": {
+          "absolute": 76
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

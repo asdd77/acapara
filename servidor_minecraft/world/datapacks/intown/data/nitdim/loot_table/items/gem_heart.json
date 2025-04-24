@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8602009
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitex_gem:3b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitdim.item.gem_heart",
+                "fallback": "Steel Heart",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitdim.item.gem_heart.desc.1",
+                  "fallback": "A gemstone to elevate",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.gem_heart.desc.2",
+                  "fallback": "warriors\\' hearts.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "id": "nitdim:gem_heart.armor",
+                      "amount": 5,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    },
+                    {
+                      "type": "minecraft:generic.armor_toughness",
+                      "id": "nitdim:gem_heart.armor_toughness",
+                      "amount": 5,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "id": "nitdim:gem_heart.attack_damage",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "hand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

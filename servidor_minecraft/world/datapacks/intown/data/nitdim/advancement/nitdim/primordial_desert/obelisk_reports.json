@@ -1,0 +1,116 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "nitex.advancement.obelisk_books",
+      "fallback": "Advances in Technology"
+    },
+    "description": {
+      "translate": "nitex.advancement.obelisk_books.desc",
+      "fallback": "Collect all of the Field Reports from Obelisks in the Primordial Desert."
+    },
+    "background": "minecraft:textures/block/oak_planks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nitdim:nitdim/primordial_desert/obelisk",
+  "criteria": {
+    "book1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookObelisk": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookObelisk": 2
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookObelisk": 3
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookObelisk": 4
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookObelisk": 5
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookObelisk": 6
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

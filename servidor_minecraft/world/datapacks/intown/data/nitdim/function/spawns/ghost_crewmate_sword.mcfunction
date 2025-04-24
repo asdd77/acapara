@@ -1,0 +1,1 @@
+summon minecraft:stray ~ ~ ~ {DeathLootTable:"nitdim:entities/ghost_crew",CustomName:'[{"translate":"nitdim.name.ghost_crew","fallback":"Ghost Crewmate"}]',Health:30,PersistenceRequired:1b,HandItems:[{id:"iron_sword",count:1}],attributes:[{id:"generic.max_health",base:30.0}]}

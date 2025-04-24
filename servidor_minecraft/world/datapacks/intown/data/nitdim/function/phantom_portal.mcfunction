@@ -1,0 +1,1 @@
+execute as @e[tag=nitPhantomPortal] at @s run function nitdim:create_portal

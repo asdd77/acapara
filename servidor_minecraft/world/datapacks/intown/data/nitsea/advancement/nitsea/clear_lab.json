@@ -1,0 +1,29 @@
+{
+  "parent": "nitsea:nitsea/clear_galleon",
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "title": {
+      "translate": "nitsea.advancement.lab",
+      "fallback": "A Dark Laboratory"
+    },
+    "description": {
+      "translate": "nitsea.advancement.lab.desc",
+      "fallback": "Discover the Illagers' lab, where undead experiments take place."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

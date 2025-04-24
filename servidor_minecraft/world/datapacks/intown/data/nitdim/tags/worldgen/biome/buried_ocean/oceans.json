@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nitdim:buried_ocean/deep_dark_sea",
+    "nitdim:buried_ocean/pristine_sea",
+    "nitdim:buried_ocean/ancient_sea",
+    "nitdim:buried_ocean/boiling_sea"
+  ]
+}

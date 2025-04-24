@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "get-log": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

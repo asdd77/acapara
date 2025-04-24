@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "nitTutorialStatus"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[nitSFM]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitdim:tutorial/first_mate"
+  }
+}

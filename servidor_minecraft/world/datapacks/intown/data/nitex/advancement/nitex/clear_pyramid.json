@@ -1,0 +1,29 @@
+{
+  "parent": "nitex:nitex/clear_illager_arena",
+  "display": {
+    "icon": {
+      "id": "minecraft:cartography_table"
+    },
+    "title": {
+      "translate": "nitex.advancement.pyramid",
+      "fallback": "The Inverted Pyramid"
+    },
+    "description": {
+      "translate": "nitex.advancement.pyramid.desc",
+      "fallback": "Discover the Illagers' Inverted Pyramid, the crown of the Illager's desert operations."
+    },
+    "frame": "goal",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

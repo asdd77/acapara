@@ -1,0 +1,6 @@
+
+tellraw @s [{"text":"[回] ","color":"blue","bold":true},{"text":": ","color":"white","bold":false},{"translate":"nitdim.portal.prompt","fallback":"Where should this Portal travel to?","color":"white","bold":false}]
+
+tellraw @s ["",{"text":"  "},{"translate":"nitdim.portal.overworld","fallback":"[Overworld]","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger nitFixPortal set 3"}},{"text":"  "},{"translate":"nitdim.portal.in_between","fallback":"[In Between]","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/trigger nitFixPortal set 4"}},{"text":"  "},{"translate":"nitdim.portal.buried_ocean","fallback":"[Buried Ocean]","bold":true,"color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger nitFixPortal set 5"}},{"text":"  "},{"translate":"nitdim.portal.primordial_desert","fallback":"[Primordial Desert]","bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/trigger nitFixPortal set 6"}},{"text":"  "},{"translate":"nitdim.portal.tempest","fallback":"[The Tempest]","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger nitFixPortal set 7"}}]
+
+scoreboard players set @s nitFixPortal 2

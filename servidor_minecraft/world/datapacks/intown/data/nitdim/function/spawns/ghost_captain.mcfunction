@@ -1,0 +1,1 @@
+summon minecraft:stray ~ ~ ~ {DeathLootTable:"nitdim:entities/ghost_captain",CustomName:'[{"translate":"nitdim.name.ghost_captain","fallback":"Ghost Captain"}]',Health:45,PersistenceRequired:1b,HandItems:[{id:"diamond_sword",count:1}],attributes:[{id:"generic.max_health",base:45.0}]}

@@ -1,0 +1,312 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 12,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:dark_prismarine"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:prismarine_shard"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:wet_sponge"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:nautilus_shell"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:emerald"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:ancient_debris"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/ancient_sea"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:sand"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:blackstone"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:dripstone_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:obsidian"
+            },
+            {
+              "type": "minecraft:tag",
+              "weight": 4,
+              "name": "nitdim:deepslate_ores",
+              "expand": true
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:nautilus_shell"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/deep_dark_sea"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:sand"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:prismarine_bricks"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:prismarine"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:sea_lantern"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:quartz_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:tropical_fish"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/pristine_sea"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:sand"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:clay"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:red_mushroom"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:brown_mushroom"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:mycelium"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:shroomlight"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/mushroom_forest"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:end_rod"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:tropical_fish"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:ender_pearl"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:pufferfish"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:emerald"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:amethyst_shard"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:shulker_shell"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/mystic_roughs"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:azalea"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:moss_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:glow_berries"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:flowering_azalea"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:rooted_dirt"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:emerald"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/verdant_grove"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:magma_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:fire_coral_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:basalt"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:deepslate_diamond_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:lava_bucket"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:buried_ocean/boiling_sea"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

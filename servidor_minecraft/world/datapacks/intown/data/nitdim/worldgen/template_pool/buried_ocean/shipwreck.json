@@ -1,0 +1,33 @@
+{
+  "name": "nitdim:buried_ocean/shipwreck",
+  "fallback": "minecraft:empty",
+  "elements": [
+	  {
+      "weight": 5,
+      "element": {
+        "location": "nitdim:buried_ocean/shipwreck/sideways",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	  {
+      "weight": 5,
+      "element": {
+        "location": "nitdim:buried_ocean/shipwreck/upside_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	  {
+      "weight": 5,
+      "element": {
+        "location": "nitdim:buried_ocean/shipwreck/rightside_up",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

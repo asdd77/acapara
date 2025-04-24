@@ -1,0 +1,6 @@
+title @s[scores={double_jumps_left=..9}] subtitle [{"text":"\uE002","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE002","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE002","font":"minecraft:double_jump","color":"#4e5c24"}]
+title @s[scores={double_jumps_left=10..}] subtitle [{"text":"\uE002","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE002","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE001","font":"minecraft:double_jump","color":"#4e5c24"}]
+title @s[scores={double_jumps_left=20..}] subtitle [{"text":"\uE002","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE001","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE001","font":"minecraft:double_jump","color":"#4e5c24"}]
+title @s[scores={double_jumps_left=30..}] subtitle [{"text":"\uE001","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE001","font":"minecraft:double_jump","color":"#4e5c24"},{"text":"\uE001","font":"minecraft:double_jump","color":"#4e5c24"}]
+title @s[scores={double_jumps_left=..25}] title ""
+title @s[scores={double_jumps_left=..25}] times 0t 40t 0t

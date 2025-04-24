@@ -1,0 +1,8 @@
+playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1
+tellraw @s [{"text":"[回] ","color":"blue","bold":true},{"text":": ","color":"white","bold":false},{"translate":"nitdim.tutorial.use_portal.1","fallback":"Welcome to the ","color":"white","bold":false},{"translate":"nitdim.dimension.in_between","fallback":"In Between","color":"green","bold":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"nitdim.tutorial.use_portal.hover","fallback":"A dimension that has portals to other dimensions"}]}},{"translate":"nitdim.tutorial.use_portal.2","fallback":"! In this mysterious world, you can find naturally generating portals to three other dimensions. But be warned: This portal is the only one that will take you back to the Overworld.","color":"white","bold":false}]
+
+tellraw @s [{"text":"[回] ","color":"blue","bold":true},{"text":": ","color":"white","bold":false},{"translate":"nitdim.tutorial.use_portal.3","fallback":"Custom Dimensions are still an experimental Minecraft feature. Sometimes, Portals can get confused and either not take you anywhere, or take you to the wrong dimension. If this happens, you can use ","color":"white","bold":false},{"translate":"nitdim.tutorial.fix_portal","fallback":"/trigger nitFixPortal","color":"yellow","bold":true},{"translate":"nitdim.tutorial.use_portal.4","fallback":" near that portal to fix it.","color":"white","bold":false}]
+
+scoreboard objectives add nitFixPortal trigger
+scoreboard players enable @s nitFixPortal
+scoreboard players set @s nitFixPortal 0

@@ -1,0 +1,10 @@
+{
+    "feature": "nitdim:tempest/carving_mask_glacier",
+    "placement": [
+      {
+        "type": "minecraft:carving_mask",
+        "step": "air"
+      }
+    ]
+  }
+  

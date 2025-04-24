@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vault",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:vault",
+                  "config": {
+                    "loot_table": "nitdim:chest/vault/obelisk",
+                    "key_item": {
+                      "id": "minecraft:ominous_trial_key",
+                      "components": {
+                        "minecraft:custom_data": {"nitTrialKey":2},
+                        "minecraft:custom_model_data": 8602018,
+                        "minecraft:item_name": "{\"text\":\"Ominous Obelisk Key\",\"color\":\"gold\"}"
+                      }
+                    }
+                  }
+                },
+                "minecraft:block_state": {
+                  "ominous": "true"
+                },
+                "minecraft:item_name": "{\"text\":\"Ominous Obelisk Vault\",\"color\":\"gold\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

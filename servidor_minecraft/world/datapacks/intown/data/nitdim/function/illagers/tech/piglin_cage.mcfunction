@@ -1,0 +1,3 @@
+execute align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {Tags:[nitEntityTechnical,nitEntity,nitTicking,nitObjectiveCage,nitIllagerEntity,nitHealthMedium,smithed.strict,nitBaseObjective,smithed.entity],height:3.01f,width:3.01f,response:1b,Rotation:[90.0f,0.0f]}
+
+execute align xyz run summon item_display ~0.5 ~ ~0.5 {Tags:[nitEntityTechnical,nitEntity,nitTicking,nitObjectiveHat,smithed.strict,smithed.entity],item_display:"none",item:{id:"minecraft:spawner",components:{"minecraft:custom_model_data":8602016},count:1},transformation:{translation:[0.0f,1.5f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},Glowing:1b,glow_color_override:800000000,Rotation:[90.0f,0.0f]}

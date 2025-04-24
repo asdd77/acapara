@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8602004
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitex_artifactBlunt:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitdim.item.blunt_artifact",
+                "fallback": "Blunt Artifact",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitdim.item.blunt_artifact.desc.1",
+                  "fallback": "A common artifact",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.blunt_artifact.desc.2",
+                  "fallback": "for research purposes.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

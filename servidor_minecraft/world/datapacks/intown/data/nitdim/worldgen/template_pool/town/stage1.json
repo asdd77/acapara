@@ -1,0 +1,42 @@
+{
+  "name": "nitdim:in_between/town/stage1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "nitdim:in_between/town/empty",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:in_between/town/lumbermill",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "nitdim:in_between/town/baker",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "nitdim:in_between/town/farmplot",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

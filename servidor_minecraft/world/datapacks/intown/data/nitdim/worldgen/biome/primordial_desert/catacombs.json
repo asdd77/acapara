@@ -1,0 +1,103 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2974347,
+    "fog_color": 11377279,
+    "water_color": 6443058,
+    "water_fog_color": 2498066,
+    "grass_color": 12692548,
+    "foliage_color": 13346647,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:soul"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:silverfish",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": "nitdim:volcanic_canyon"
+  },
+  "features": [
+    [],
+    [
+      "nitdim:primordial_desert/root_catacombs"
+    ],
+    [],
+    [
+      "nitdim:dungeons_heavy"
+    ],
+    [],
+    [
+      "nitdim:primordial_desert/ore_sandstone"
+    ],
+    [
+      "nitdim:primordial_desert/netherrack_geode_rare",
+      "nitdim:primordial_desert/ore_coal",
+      "nitdim:primordial_desert/ore_copper_upper",
+      "nitdim:primordial_desert/ore_diamond_lower",
+      "nitdim:primordial_desert/ore_gold_double",
+      "nitdim:primordial_desert/ore_raw_gold",
+      "nitdim:primordial_desert/ore_iron_buried",
+      "nitdim:primordial_desert/ore_lapis",
+      "nitdim:primordial_desert/ore_redstone_upper",
+      "nitdim:primordial_desert/ore_redstone_lower",
+      "nitdim:primordial_desert/ore_emerald"
+    ],
+    [
+      "nitdim:primordial_desert/catacomb_floor_sand",
+      "nitdim:primordial_desert/catacomb_floor_quartz"
+    ],
+    [
+      "nitdim:primordial_desert/sculk_patch",
+      "nitdim:primordial_desert/catacombs_ceiling",
+      "nitdim:primordial_desert/catacomb_columns"
+    ],
+    [],
+    []
+  ]
+}

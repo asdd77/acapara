@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookObelisk:3b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Obelisk Field Report #3",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[\"\",{\"translate\":\"nitdim.book.obelisk.3.1\",\"fallback\":\"Day 19\",\"underlined\":true},{\"translate\":\"nitdim.book.obelisk.3.2\",\"fallback\":\"\nIn the cover of night, a small group of Piglins have been transported from the nearby village for study. Their minds are simple, following gold easily, be they children or adults. Although some houses may lie empty now, these creatures set out on\"}]",
+                    "{\"translate\":\"nitdim.book.obelisk.3.3\",\"fallback\":\"impromptu hunting parties quite frequently. No other Piglins should miss these few. I would be surprised if they had the language and recognition skills developed enough to notice or communicate concern.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

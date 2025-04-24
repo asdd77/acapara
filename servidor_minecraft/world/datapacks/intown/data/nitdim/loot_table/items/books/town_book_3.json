@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:3b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #3",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.3.1\",\"fallback\":\"Slimesber 5th\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.3.2\",\"fallback\":\"\nWe have begun expanding our settlement into a proper town, planting crops and constructing a bakery for when they may yield. More houses are being developed for more of our people to migrate through the portal and join us. This truly is a\"}]",
+                    "{\"translate\":\"nitdim.book.town.3.3\",\"fallback\":\"wonderous world. If we all live here, we may never need mine, fight, or huddle together from the rain again. My only complaint? Sleeping does become more difficult when the father never moves! But the leaves provide some darkness to close my eyes in.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

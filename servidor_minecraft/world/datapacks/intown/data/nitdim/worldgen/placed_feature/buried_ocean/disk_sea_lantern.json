@@ -1,0 +1,12 @@
+{
+  "feature": "nitdim:buried_ocean/disk_sea_lantern",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

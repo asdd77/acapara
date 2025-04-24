@@ -1,0 +1,1 @@
+execute as @a[tag=nitPortalTravel] at @s run function nitdim:portals/assign_link

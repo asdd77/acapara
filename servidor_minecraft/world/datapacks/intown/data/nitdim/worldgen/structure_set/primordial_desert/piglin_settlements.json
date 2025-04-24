@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:primordial_desert/piglin_settlement",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1344381577,
+    "spacing": 30,
+    "separation": 18
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "nitco:nitco/summon_tyrant",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_stone_bricks"
+    },
+    "title": {
+      "translate": "nitdim.advancement.root",
+      "fallback": "A Startling Foe"
+    },
+    "description": {
+      "translate": "nitdim.advancement.root.desc",
+      "fallback": "Build or discover a Mysterious Portal and fend off those who emerge."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "function": "nitk:siteplanner/illager_attack",
+    "experience": 100
+  },
+  "criteria": {
+    "build-between-portal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

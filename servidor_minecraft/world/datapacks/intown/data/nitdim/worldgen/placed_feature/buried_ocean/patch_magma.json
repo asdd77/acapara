@@ -1,0 +1,12 @@
+{
+  "feature": "nitdim:buried_ocean/patch_magma",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 6
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

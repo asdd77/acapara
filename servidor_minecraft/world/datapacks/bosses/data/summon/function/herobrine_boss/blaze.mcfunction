@@ -1,0 +1,2 @@
+summon blaze ~ ~ ~ {DeathLootTable:"herobrine_boss:entities/minion",Team:"herobrine_boss",Tags:["herobrine_boss.minion","smithed.entity","smithed.strict"],CustomName:'{"text":"Herobrine Minion","color":"dark_red","bold":true}',attributes:[{id:"generic.follow_range",base:1000}]}
+execute as @a[distance=..32] at @s run playsound entity.blaze.ambient hostile @s

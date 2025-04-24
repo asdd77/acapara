@@ -1,0 +1,1 @@
+summon minecraft:pillager ~ ~ ~ {CustomName:'[{"translate":"nitex.name.pyramid_guard","fallback":"Illager Infiltrator"}]',PersistenceRequired:1b,Tags:[nitIllagerEntity,nitPyramidGuard,smithed.entity,smithed.strict],HandItems:[{id:crossbow,count:1},{}],HandDropChances:[0F,0f],DeathLootTable:"nitex:entities/illager_guard"}

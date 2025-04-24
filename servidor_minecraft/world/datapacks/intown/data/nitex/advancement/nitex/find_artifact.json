@@ -1,0 +1,29 @@
+{
+  "parent": "nitex:nitex/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_red_sandstone"
+    },
+    "title": {
+      "translate": "nitex.advancement.artifact",
+      "fallback": "Lost Civilization"
+    },
+    "description": {
+      "translate": "nitex.advancement.artifact.desc",
+      "fallback": "Uncover a buried artifact in the Primordial Desert."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

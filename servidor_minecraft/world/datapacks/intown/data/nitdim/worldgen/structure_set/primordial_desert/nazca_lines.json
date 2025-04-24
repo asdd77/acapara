@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:primordial_desert/nazca_creeper",
+      "weight": 10
+    },
+    {
+      "structure": "nitdim:primordial_desert/nazca_hoglin",
+      "weight": 10
+    },
+    {
+      "structure": "nitdim:primordial_desert/nazca_spider",
+      "weight": 10
+    },
+    {
+      "structure": "nitdim:primordial_desert/pharaohs_tomb",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1325461298,
+    "exclusion_zone": {
+      "other_set": "nitdim:primordial_desert/piglin_settlements",
+      "chunk_count": 8
+    },
+    "spacing": 20,
+    "separation": 8
+  }
+}

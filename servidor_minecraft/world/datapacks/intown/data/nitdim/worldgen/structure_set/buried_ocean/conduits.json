@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "nitdim:buried_ocean/conduit_ruined",
+        "weight": 15
+      },
+      {
+        "structure": "nitdim:buried_ocean/conduit_complete",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 20,
+      "separation": 16,
+      "salt": 38328176
+    }
+  }

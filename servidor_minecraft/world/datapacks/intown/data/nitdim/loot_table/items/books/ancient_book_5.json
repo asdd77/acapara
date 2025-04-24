@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:5b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. V",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.5.1\",\"fallback\":\"Hane: \\\"Guardian Gada, please state your occupation for the record.\\\"\n\nGada: \\\"I serve as the royal marine anthologist.\\\"\n\nHane: \\\"And what is your role, chiefly, in this position?\\\"\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.2\",\"fallback\":\"Gada: \\\"I study the other civilizations of the Buried Ocean, be they advanced or animal.\\\"\n\nHane: \\\"And do you study the Ender people in this role?\\\"\n\nGada: \\\"I do.\\\"\n\nHane: \\\"What do you know\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.3\",\"fallback\":\"of their culture?\\\"\n\nGada: \\\"Their oral history suggests that they come from another world, which had become overrun by a cruel ruler, who trapped and enslaved the Ender people in darkness. In time, they evolved a manner of transporting,\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.4\",\"fallback\":\"first short distances, and then to worlds far away. In small groups, they escaped their tyrant\\'s wrath as refugees, settling on the islands and roughs of the Buried Ocean, but living overall humble and communal lives.\\\"\n\nHane: \\\"For the record, please recount\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.5\",\"fallback\":\"their history with the Guardian civilization.\\\"\n\nGada: \\\"Although there is no record in our histories, the oral history of the Ender people suggests that they assisted in some part with the construction of our towers, graciously building those\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.6\",\"fallback\":\"parts which rise above the water.\\\"\n\nHane: \\\"Did they ask for anything in return for this service?\\\"\n\nGada: \\\"Yes. To be left alone.\\\"\n\nHane: \\\"And what do you know of Ender peoples\\' biology?\\\"\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.7\",\"fallback\":\"Gada: \\\"There appears to be very little left of their original form--there is evidence of great warping and accelerated evolution, that has since become stunted for the last several thousand years.\\\"\n\nHane: \\\"Could this unusual biology make\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.8\",\"fallback\":\"them a threat to us?\\\"\n\nGada: \\\"Not directly, no.\\\"\n\nHane: \\\"Why is that?\\\"\n\nGada: \\\"They have a violent, physical aversion to water.\\\"\n\nHane: \\\"Let the record show that King Drizen has visibly\"}",
+                    "{\"translate\":\"nitdim.book.ancient.5.9\",\"fallback\":\"shifted in the water, and that the spectating Guardians let out a bubble of astonishment.\\\"\n\nSyx: \\\"So noted.\\\"\n\nHane: \\\"No further questions, your Elder.\\\"\n\nSyx: \\\"Your witness, your majesty.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

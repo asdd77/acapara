@@ -1,0 +1,33 @@
+{
+  "parent": "nitdim:nitdim/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "nitdim.advancement.buried_ocean",
+      "fallback": "The Buried Ocean"
+    },
+    "description": {
+      "translate": "nitdim.advancement.buried_ocean.desc",
+      "fallback": "Find a portal to the Buried Ocean."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "travel-to-buried-ocean": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "nitdim:in_between",
+        "to": "nitdim:buried_ocean"
+      }
+    }
+  }
+}

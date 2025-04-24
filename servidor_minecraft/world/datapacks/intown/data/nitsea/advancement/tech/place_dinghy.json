@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "use_boat": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 48,
+                    "max": 49
+                  }
+                },
+                "dimension": "nitdim:buried_ocean",
+                "fluid": {
+                  "fluids": "minecraft:water"
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ],
+          "components": {
+            "minecraft:custom_data": {
+              "nitsea_fishingDinghy":1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitsea:recurs/new_dinghy"
+  }
+}

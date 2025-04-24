@@ -1,0 +1,3 @@
+execute if block ~ ~-0.15 ~ #minecraft:air run tp @s ~ ~-0.15 ~
+execute at @s if block ~ ~-0.15 ~ #minecraft:air run function nitdim:boss/entities/potion_cloud_a
+data merge entity @s {Tags:[nitEntity,nitBossEntity,nitRaidenCloud],Age:0,Duration:300,WaitTime:0,Radius:0.5f,RadiusOnUse:0.0f,RadiusPerTick:0.0025f,Particle:{type:"entity_effect",color:[1.0f,0.0f,0.7f,0.5f]},potion_contents:{custom_effects:[{id:"minecraft:instant_damage",ambient:1b},{id:"minecraft:poison",amplifier:1b,duration:400}]}}

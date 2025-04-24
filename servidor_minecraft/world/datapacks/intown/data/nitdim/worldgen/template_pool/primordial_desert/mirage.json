@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:primordial_desert/mirage",
+  "fallback": "minecraft:empty",
+  "elements": [
+  	{
+      "weight": 15,
+      "element": {
+        "location": "nitdim:primordial_desert/mirage",
+        "processors": "nitdim:nazca_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

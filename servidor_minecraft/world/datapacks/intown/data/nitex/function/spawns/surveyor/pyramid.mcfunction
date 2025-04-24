@@ -1,0 +1,3 @@
+summon block_display ~ ~0.25 ~ {Tags:[nitEntityTechnical,nitEntity,nitPyramidMarker,smithed.strict,smithed.entity],block_state:{Name:"minecraft:pointed_dripstone",Properties:{thickness:"tip","vertical_direction":"down"}},transformation:{translation:[-0.25f,-0.5f,-0.25f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.5f,0.5f,0.5f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},Rotation:[0.0f,0.0f],CustomName:'{"translate":"nitex.basename.pyramid","fallback":"Inverted Pyramid"}',CustomNameVisible:1b,view_range:0.125f}
+execute positioned ~ ~0.25 ~ summon text_display run function nitex:spawns/surveyor/pyramid_y
+tag @s add nitPyramidMarked

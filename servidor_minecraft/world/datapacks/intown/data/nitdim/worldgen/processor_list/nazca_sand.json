@@ -1,0 +1,140 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:red_sand"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:red_sand"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:mud"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:mud"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:soul_sand"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:soul_sand"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:soul_soil"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:soul_soil"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:white_concrete_powder"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:white_concrete_powder"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:yellow_concrete_powder"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:yellow_concrete_powder"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:red_concrete_powder"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:red_concrete_powder"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:orange_concrete_powder"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:orange_concrete_powder"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_concrete_powder"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:magenta_concrete_powder"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:pink_concrete_powder"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sand"
+            },
+            "output_state": {
+              "Name": "minecraft:pink_concrete_powder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

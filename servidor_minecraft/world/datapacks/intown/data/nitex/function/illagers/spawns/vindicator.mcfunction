@@ -1,0 +1,1 @@
+summon minecraft:vindicator ~ ~ ~ {CustomName:'[{"translate":"nitx.name.cave_guard","fallback":"Illager Guard"}]',PersistenceRequired:1b,Tags:[nitIllagerEntity,nitCaveGuard,smithed.entity,smithed.strict],HandItems:[{id:iron_axe,count:1},{}],HandDropChances:[0F,0f],DeathLootTable:"nitex:entities/illager_guard"}

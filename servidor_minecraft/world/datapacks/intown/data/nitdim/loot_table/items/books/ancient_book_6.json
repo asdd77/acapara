@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:6b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. VI",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.6.1\",\"fallback\":\"Drizen: \\\"Guardian Gada, how extensive would you say our kingdom\\'s historical record is?\\\"\n\nGada: \\\"I would describe it as fairly encompassing and highly accurate.\\\"\n\nDrizen: \\\"And yet you say that we as Guardians have\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.1\",\"fallback\":\"no written record of the Ender peoples\\' aid in the construction of our towers?\\\"\n\nGada: \\\"Correct. We know this to be true from their oral history--\\\"\n\nDrizen: \\\"But is it not possible that they could be lying, or misrepresenting\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.3\",\"fallback\":\"those ancient events? They were a long time ago, and oral history is not as sound as written record.\\\"\n\nGada: \\\"Both truth and lies are possible, however our history is incomplete. There is no significant record of the actual construction of the towers,\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.4\",\"fallback\":\"merely when it occured. We simply don\\'t recall how such a feat was achieved.\\\"\n\nDrizen: \\\"But our ancestors could have done so themselves, without alien intervention?\\\"\n\nGada: \\\"I am not an architect.\\\"\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.5\",\"fallback\":\"Drizen: \\\"In your opinion as an anthropologist?\\\"\n\nGada: \\\"...Anthropology often underestimates the skills and knowledge of ancient peoples and civilizations.\\\"\n\nDrizen: \\\"Indeed. Moving on, you suggest that the Ender people may\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.6\",\"fallback\":\"not be able to directly harm us, as a result of their biological aversion to water. However, they are intelligent enough to flee from a tyrant, gain the power to teleport, and communicate with an entirely distinct species of another world. Is this correct?\\\"\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.7\",\"fallback\":\"Gada: \\\"Yes.\\\"\n\nDrizen: \\\"So it is possible that the Ender people could be intelligent enough to, like us, understand the delicate balance between land and sea in the Buried Ocean, and that they could understand that their exploitation of one\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.8\",\"fallback\":\"might damage the other?\\\"\n\nGada: \\\"It is possible, but their culture suggests--\\\"\n\nGada: \\\"Putting aside whether they currently do or do not know the effects of their actions on the land might affect the sea,\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.9\",\"fallback\":\"is it possible that, whether by intent or ignorance, their warping of the Mystic Roughs could harm the aquatic ecosystem? We have all seen the purple water, after all.\\\"\n\nGada: \\\"We would know if this were the case.\\\"\n\nDrizen: \\\"In the\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.10\",\"fallback\":\"charges brought against me, it was suggested that the effects of my countersteps against the Ender people could have effects that would not be fully understood even by us for generations. Could this not also be true for their actions?\\\"\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.11\",\"fallback\":\"Gada: \\\"It could be, yes.\\\"\n\nDrizen: \\\"So it is then possible, to summarize, that the Ender people could be damaging the sanctity of the Buried Ocean, either willfully or in ignorance, and that the effects may not be immediately understood, but that in time, an Elder\"}",
+                    "{\"translate\":\"nitdim.book.ancient.6.12\",\"fallback\":\"Guardian, such as a King, could determine that these actions have or would become a threat if they continued. Is this hypothetical accurate?\\\"\n\nGada: \\\"As merely a hypothetical, yes.\\\"\n\nDrizen: \\\"No further questions.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

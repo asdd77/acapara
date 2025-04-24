@@ -1,0 +1,2 @@
+execute unless entity @s[tag=nitBigSpell] positioned ~-1 ~ ~-1 as @a[dx=2,dy=0,dz=2] run damage @s 4.0 on_fire by @e[tag=nitRexialBoss,limit=1,sort=nearest]
+execute if entity @s[tag=nitBigSpell] positioned ~-1 ~ ~-1 as @a[dx=2,dy=0,dz=2] run damage @s 7.0 on_fire by @e[tag=nitRexialBoss,limit=1,sort=nearest]

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:nether_fossil",
+  "biomes": "#nitdim:primordial_desert/has_fossils",
+  "step": "underground_decoration",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 60
+    },
+    "max_inclusive": {
+      "below_top": 2
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookObelisk:2b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Obelisk Field Report #2",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[\"\",{\"translate\":\"nitdim.book.obelisk.2.1\",\"fallback\":\"Day 17\",\"underlined\":true},{\"translate\":\"nitdim.book.obelisk.2.2\",\"fallback\":\"\nUsing resources collected by the mining teams nearby coupled with those imported from the In Between and Tempest, we have established ourselves in the Obelisk. We hope to have positive results for Rexial soon.\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

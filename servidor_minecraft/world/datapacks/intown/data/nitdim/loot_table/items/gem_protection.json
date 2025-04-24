@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8602011
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitex_gem:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitdim.item.gem_protection",
+                "fallback": "Protection Stone",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitdim.item.gem_protection.desc.1",
+                  "fallback": "When held, brings good fortune.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.gem_protection.desc.2",
+                  "fallback": "Helpful for standing your ground.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.knockback_resistance",
+                      "id": "nitdim:gem_protection.knockback_resistance",
+                      "amount": 20,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    },
+                    {
+                      "type": "minecraft:generic.luck",
+                      "id": "nitdim:gem_protection.luck",
+                      "amount": 5,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

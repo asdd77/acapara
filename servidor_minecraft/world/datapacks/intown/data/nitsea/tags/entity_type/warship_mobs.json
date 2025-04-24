@@ -1,0 +1,17 @@
+{
+    "values": [
+        "zombie",
+        "skeleton",
+        "creeper",
+        "spider",
+        "husk",
+        "stray",
+        "drowned",
+        "phantom",
+        "witch",
+        "pillager",
+        "evoker",
+        "ravager",
+        "vindicator"
+    ]
+}

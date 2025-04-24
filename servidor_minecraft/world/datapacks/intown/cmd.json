@@ -1,0 +1,114 @@
+{
+    "Prepared Ship Hull": {
+        "id": "oak_boat",
+        "cmd": 8602000
+    },
+    "Fishing Dinghy": {
+        "id": "spyglass",
+        "cmd": 8602001
+    },
+    "Clearview Spyglass": {
+        "id": "spyglass",
+        "cmd": 8602002
+    },
+    "Mining Drill Rig": {
+        "id": "prismarine_shard",
+        "cmd": 8602003
+    },
+    "Blunt Artifact": {
+        "id": "brick",
+        "cmd": 8602004
+    },
+    "Shiny Artifact": {
+        "id": "amethyst_shard",
+        "cmd": 8602005
+    },
+    "Key of the Creeper": {
+        "id": "blaze_rod",
+        "cmd": 8602006
+    },
+    "Key of the Hoglin": {
+        "id": "blaze_rod",
+        "cmd": 8602007
+    },
+    "Key of the Spider": {
+        "id": "blaze_rod",
+        "cmd": 8602008
+    },
+    "Steel Heart": {
+        "id": "emerald",
+        "cmd": 8602009
+    },
+    "Whirlwind Jewel": {
+        "id": "diamond",
+        "cmd": 8602010
+    },
+    "Protection Stone": {
+        "id": "amethyst_shard",
+        "cmd": 8602011
+    },
+    "Ship Planner": {
+        "id": "crafting_table",
+        "cmd": 8602012
+    },
+    "Shaft Planner": {
+        "id": "crafting_table",
+        "cmd": 8602013
+    },
+    "Machine Planner": {
+        "id": "crafting_table",
+        "cmd": 8602014
+    },
+    "Lift Display": {
+        "id": "magenta_glazed_terracotta",
+        "cmd": 8602015
+    },
+    "Ship Engine": {
+        "id": "furnace",
+        "cmd": 8602016
+    },
+    "Lightning Rod": {
+        "id": "lightning_rod",
+        "cmd": 8602016
+    },
+    "Test Tube": {
+        "id": "tinted_glass",
+        "cmd": 8602016
+    },
+    "Immortality Machine": {
+        "id": "enchanting_table",
+        "cmd": 8602016
+    },
+    "Piglin Cage": {
+        "id": "spawner",
+        "cmd": 8602016
+    },
+    "Research Station": {
+        "id": "lectern",
+        "cmd": 8602016
+    },
+    "Chandelier Key": {
+        "id": "trial_key",
+        "cmd": 8602017
+    },
+    "Ominous Chandelier Key": {
+        "id": "ominous_trial_key",
+        "cmd": 8602017
+    },
+    "Obelisk Key": {
+        "id": "trial_key",
+        "cmd": 8602018
+    },
+    "Ominous Obelisk Key": {
+        "id": "ominous_trial_key",
+        "cmd": 8602018
+    },
+    "Tower Key": {
+        "id": "trial_key",
+        "cmd": 8602019
+    },
+    "Ominous Tower Key": {
+        "id": "ominous_trial_key",
+        "cmd": 8602019
+    }
+}

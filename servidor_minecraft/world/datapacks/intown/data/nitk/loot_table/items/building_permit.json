@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8601000
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitk_buildingPermit:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitk.item.building_permit",
+                "fallback": "Building Permit",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitk.item.building_permit.desc.1",
+                  "fallback": "The final ingredient",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitk.item.building_permit.desc.2",
+                  "fallback": "in new town structures.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

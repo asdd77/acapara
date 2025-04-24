@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 150,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:true"
+          },
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 1,
+                  "max_inclusive": 4
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 3,
+                    "data": {
+                      "Name": "minecraft:ancient_debris"
+                    }
+                  },
+                  {
+                    "weight": 49,
+                    "data": {
+                      "Name": "minecraft:deepslate_diamond_ore"
+                    }
+                  },
+                  {
+                    "weight": 51,
+                    "data": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:blackstone",
+              "minecraft:deepslate",
+              "minecraft:andesite",
+              "minecraft:netherrack",
+              "minecraft:stone",
+              "minecraft:basalt",
+              "minecraft:magma_block"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

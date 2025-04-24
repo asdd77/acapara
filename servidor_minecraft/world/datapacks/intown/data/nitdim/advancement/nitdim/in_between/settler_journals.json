@@ -1,0 +1,131 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "nitdim.advancement.ruined_town_books",
+      "fallback": "A Twisted Turn"
+    },
+    "description": {
+      "translate": "nitdim.advancement.ruined_town_books.desc",
+      "fallback": "Uncover the complete history of the Illagers in the In Between."
+    },
+    "background": "minecraft:textures/block/oak_planks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nitdim:nitdim/in_between/ruined_town",
+  "criteria": {
+    "book1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 2
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 3
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 4
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 5
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 6
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookTown": 7
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

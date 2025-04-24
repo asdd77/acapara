@@ -1,0 +1,37 @@
+[
+  {
+    "ip": "127.229.155.139",
+    "created": "2025-04-23 00:43:09 +0000",
+    "source": "iLeola_",
+    "expires": "forever",
+    "reason": "c"
+  },
+  {
+    "ip": "127.117.239.28",
+    "created": "2025-04-21 22:29:10 +0000",
+    "source": "iCsar",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "ip": "127.46.28.169",
+    "created": "2025-04-23 00:38:48 +0000",
+    "source": "iLeola_",
+    "expires": "forever",
+    "reason": "c"
+  },
+  {
+    "ip": "127.32.104.244",
+    "created": "2025-04-23 00:41:29 +0000",
+    "source": "iLeola_",
+    "expires": "forever",
+    "reason": "c"
+  },
+  {
+    "ip": "127.172.71.63",
+    "created": "2025-04-23 00:40:08 +0000",
+    "source": "iLeola_",
+    "expires": "forever",
+    "reason": "c"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "perform-action": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:phantom",
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:spectral_arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitdim:phantom_killed"
+  }
+}

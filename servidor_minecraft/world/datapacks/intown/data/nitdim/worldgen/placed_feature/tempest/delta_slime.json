@@ -1,0 +1,13 @@
+{
+    "feature": "nitdim:tempest/delta_slime",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 15
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

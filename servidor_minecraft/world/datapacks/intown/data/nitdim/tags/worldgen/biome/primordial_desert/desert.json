@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "nitdim:primordial_desert/desert",
+    "nitdim:primordial_desert/painted_desert"
+  ]
+}

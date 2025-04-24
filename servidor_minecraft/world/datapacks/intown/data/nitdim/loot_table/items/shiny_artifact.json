@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8602005
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitex_artifactShiny:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitdim.item.shiny_artifact",
+                "fallback": "Shiny Artifact",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitdim.item.shiny_artifact.desc.1",
+                  "fallback": "A rare artifact",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.shiny_artifact.desc.2",
+                  "fallback": "for research purposes.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

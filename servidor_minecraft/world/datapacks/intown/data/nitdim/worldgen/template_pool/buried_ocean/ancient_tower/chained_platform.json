@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:buried_ocean/ancient_tower/chained_platform",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:buried_ocean/ancient_tower/chained_platform",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

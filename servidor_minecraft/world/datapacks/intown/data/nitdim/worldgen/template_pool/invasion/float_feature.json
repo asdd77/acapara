@@ -1,0 +1,51 @@
+{
+  "name": "nitdim:infected_starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 2,
+      "element": {
+        "location": "nitdim:in_between/invasion/planar_portal",
+        "processors": "nitdim:town_rot",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 20,
+      "element": {
+        "location": "nitdim:in_between/invasion/planar_portal",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:in_between/invasion/obelisk",
+        "processors": "nitdim:town_rot",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "nitdim:in_between/invasion/obelisk",
+        "processors": "nitdim:town_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 60,
+      "element": {
+        "location": "nitdim:in_between/invasion/empty",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

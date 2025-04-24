@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:location_check",
+  "offsetY": -1,
+  "predicate": {
+    "biomes": "nitdim:tempest/forboding_wood",
+    "dimension": "nitdim:tempest",
+    "block": {
+      "blocks": [
+        "minecraft:dark_oak_leaves"
+      ]
+    }
+  }
+}

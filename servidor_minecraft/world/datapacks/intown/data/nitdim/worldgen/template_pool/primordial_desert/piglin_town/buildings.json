@@ -1,0 +1,87 @@
+{
+  "name": "nitdim:primordial_desert/piglin_town/buildings",
+  "fallback": "nitdim:primordial_desert/piglin_town/fallback",
+  "elements": [
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_goldsmith",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_cave",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 5,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_shrine",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 5,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_arbor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 8,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_cook",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_tower",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 6,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_carver",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_house",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "nitdim:primordial_desert/piglin_town/building_stairs",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

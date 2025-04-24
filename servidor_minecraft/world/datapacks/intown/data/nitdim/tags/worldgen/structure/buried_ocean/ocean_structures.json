@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nitdim:buried_ocean/shipwreck",
+    "nitdim:buried_ocean/ghost_ship",
+    "nitdim:buried_ocean/ancient_tower",
+    "nitdim:buried_ocean/floater_island",
+    "nitdim:buried_ocean/conduit_ruined",
+    "nitdim:buried_ocean/conduit_complete"
+  ]
+}

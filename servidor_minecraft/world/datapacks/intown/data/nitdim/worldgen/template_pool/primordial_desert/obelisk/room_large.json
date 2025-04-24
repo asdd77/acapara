@@ -1,0 +1,42 @@
+{
+  "name": "nitdim:primordial_desert/obelisk/room_large",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 2,
+      "element": {
+        "location": "nitdim:primordial_desert/obelisk/room_large_armory",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:primordial_desert/obelisk/room_large_enchant",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:primordial_desert/obelisk/room_large_prison",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "nitdim:primordial_desert/obelisk/room_large_sleeping",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

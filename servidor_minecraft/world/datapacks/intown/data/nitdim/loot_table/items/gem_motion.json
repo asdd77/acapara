@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 8602010
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitex_gem:2b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "nitdim.item.gem_motion",
+                "fallback": "Whirlwind Jewel",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "nitdim.item.gem_motion.desc.1",
+                  "fallback": "A carved gem to accelerate",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "nitdim.item.gem_motion.desc.2",
+                  "fallback": "the whirlwind of life.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.flying_speed",
+                      "id": "nitdim:gem_motion.flying_speed",
+                      "amount": 20,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "id": "nitdim:gem_motion.attack_speed",
+                      "amount": 5,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    },
+                    {
+                      "type": "minecraft:generic.movement_speed",
+                      "id": "nitdim:gem_motion.movement_speed",
+                      "amount": 1,
+                      "operation": "add_multiplied_base",
+                      "slot": "hand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

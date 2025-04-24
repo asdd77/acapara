@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:buried_ocean/conduit_ruined",
+  "fallback": "minecraft:empty",
+  "elements": [
+	  {
+      "weight": 2,
+      "element": {
+        "location": "nitdim:buried_ocean/conduit_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

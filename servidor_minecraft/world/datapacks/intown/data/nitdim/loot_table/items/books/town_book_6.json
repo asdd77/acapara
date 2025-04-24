@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:6b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #6",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.6.1\",\"fallback\":\"Rainsuary 3rd\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.6.2\",\"fallback\":\"\nWe came to this world, and for the first time, felt hope and peace. But the Tyrant took that from us--took everything from us. The others are beginning to lay out their plans; we will go through the other portals, to explore these new worlds. We\"}]",
+                    "{\"translate\":\"nitdim.book.town.6.3\",\"fallback\":\"must find a way to survive. A way to live again, to never lose another man, woman, or child to that immortal Wither. Regalli talks of stealing its immortality. I would be satisfied with replicating it.\nIf my family must remain dead, then I will live forever with my\"}",
+                    "{\"translate\":\"nitdim.book.town.6.4\",\"fallback\":\"people to avenge them.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

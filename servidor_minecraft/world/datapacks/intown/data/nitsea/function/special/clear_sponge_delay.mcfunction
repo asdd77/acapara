@@ -1,0 +1,1 @@
+execute as @e[tag=nitSSpecialFeature] at @s run function nitsea:special/clear_sponge

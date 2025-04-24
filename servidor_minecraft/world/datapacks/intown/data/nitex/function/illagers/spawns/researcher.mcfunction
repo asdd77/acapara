@@ -1,0 +1,1 @@
+summon minecraft:witch ~ ~ ~ {CustomName:'[{"translate":"nitex.name.pyramid_researcher","fallback":"Illager Researcher"}]',PersistenceRequired:1b,Tags:[nitIllagerEntity,nitPyramidResearcher,smithed.entity,smithed.strict],DeathLootTable:"nitex:entities/researcher"}

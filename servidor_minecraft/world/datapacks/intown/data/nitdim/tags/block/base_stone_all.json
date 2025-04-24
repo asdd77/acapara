@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#nitdim:base_stone_buried_ocean",
+    "#nitdim:base_stone_primordial_desert",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:iron_ores",
+    "minecraft:raw_iron_block",
+    "#minecraft:copper_ores",
+    "minecraft:raw_copper_block"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "nitdim:buried_ocean/stronghold/portal_frame",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 10,
+      "element": {
+        "location": "nitdim:buried_ocean/stronghold/portal_frame_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 6,
+      "element": {
+        "location": "nitdim:buried_ocean/stronghold/portal_frame_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:buried_ocean/stronghold/portal_frame_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:buried_ocean/stronghold/portal_frame_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

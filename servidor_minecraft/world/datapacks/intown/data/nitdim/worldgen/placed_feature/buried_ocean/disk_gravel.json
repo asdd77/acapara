@@ -1,0 +1,12 @@
+{
+  "feature": "nitdim:buried_ocean/disk_gravel",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 5
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

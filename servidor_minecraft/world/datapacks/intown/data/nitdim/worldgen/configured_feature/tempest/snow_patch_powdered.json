@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:powder_snow"
+    },
+    "target": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "true"
+      }
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 7
+    }
+  }
+}

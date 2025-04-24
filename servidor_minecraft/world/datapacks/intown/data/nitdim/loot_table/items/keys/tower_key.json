@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trial_key",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": {"nitTrialKey":3},
+                  "minecraft:custom_model_data": 8602019,
+                  "minecraft:item_name": "{\"text\":\"Ancient Tower Key\",\"color\":\"dark_blue\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

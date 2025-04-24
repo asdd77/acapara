@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"text\":\"Vindicator Trial Spawner\",\"color\":\"dark_purple\"}",
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:trial_spawner",
+                  "required_player_range": 8,
+                  "target_cooldown_length": 36000,
+                  "normal_config": {
+                    "total_mobs": 4,
+                    "simultaneous_mobs": 2,
+                    "total_mobs_added_per_player": 1,
+                    "simultaneous_mobs_added_per_player": 0.5,
+                    "spawn_potentials": [
+                      {
+                        "weight": 1,
+                        "data": {
+                          "entity": {
+                            "id": "minecraft:vindicator",
+                            "DeathLootTable": "nitdim:entities/chandelier_basic"
+                          },
+                          "equipment": {
+                            "loot_table": "nitdim:equipment/vindicator",
+                            "slot_drop_chances": 0.0
+                          }
+                        }
+                      }
+                    ],
+                    "loot_tables_to_eject": [
+                      {
+                        "weight": 1,
+                        "data": "nitdim:chest/spawner/chandelier"
+                      }
+                    ]
+                  },
+                  "ominous_config": {
+                    "total_mobs": 6,
+                    "simultaneous_mobs": 2.5,
+                    "total_mobs_added_per_player": 1.5,
+                    "simultaneous_mobs_added_per_player": 1.5,
+                    "spawn_potentials": [
+                      {
+                        "weight": 1,
+                        "data": {
+                          "entity": {
+                            "id": "minecraft:vindicator",
+                            "DeathLootTable": "nitdim:entities/chandelier_basic"
+                          },
+                          "equipment": {
+                            "loot_table": "nitdim:equipment/vindicator_ominous",
+                            "slot_drop_chances": 0.0
+                          }
+                        }
+                      }
+                    ],
+                    "loot_tables_to_eject": [
+                      {
+                        "weight": 1,
+                        "data": "nitdim:chest/spawner/chandelier_ominous"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "nitdim:nitdim/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_log"
+    },
+    "title": {
+      "translate": "nitdim.advancement.tempest",
+      "fallback": "The Tempest"
+    },
+    "description": {
+      "translate": "nitdim.advancement.tempest.desc",
+      "fallback": "Find a portal to the Tempest."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "travel-to-tempest": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "nitdim:in_between",
+        "to": "nitdim:tempest"
+      }
+    }
+  }
+}

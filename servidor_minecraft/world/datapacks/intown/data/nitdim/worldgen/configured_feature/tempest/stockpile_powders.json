@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 64,
+    "xz_spread": 12,
+    "y_spread": 7,
+    "feature": {
+      "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+          "features": [
+            {
+              "chance": 0.2,
+              "feature": "nitdim:tempest/block_column/light_gray_concrete_powder"
+            },
+            {
+              "chance": 0.2,
+              "feature": "nitdim:tempest/block_column/gray_concrete_powder"
+            },
+            {
+              "chance": 0.2,
+              "feature": "nitdim:tempest/block_column/white_concrete_powder"
+            },
+            {
+              "chance": 0.2,
+              "feature": "nitdim:tempest/block_column/black_concrete_powder"
+            },
+            {
+              "chance": 0.2,
+              "feature": "nitdim:tempest/block_column/cyan_concrete_powder"
+            },
+            {
+              "chance": 0.2,
+              "feature": "nitdim:tempest/block_column/red_concrete_powder"
+            }
+          ],
+          "default": "nitdim:tempest/block_column/light_gray_concrete_powder"
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:light_gray_concrete",
+                  "minecraft:gray_concrete"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

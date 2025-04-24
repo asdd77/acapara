@@ -1,0 +1,26 @@
+{
+  "parent": "nitdim:nitdim/enter_primordial_desert",
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "nitinv.advancement.root",
+      "fallback": "Inventors"
+    },
+    "description": {
+      "translate": "nitinv.advancement.root.desc",
+      "fallback": "Conduct experiments in the Tempest!"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "started-fleet": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

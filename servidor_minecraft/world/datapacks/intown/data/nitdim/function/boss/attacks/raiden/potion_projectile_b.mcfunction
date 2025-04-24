@@ -1,0 +1,3 @@
+playsound minecraft:entity.evoker.cast_spell hostile @a ~ ~ ~ 1 1
+data merge entity @s {Tags:[nitEntity,nitTicking,nitBossEntity,nitRaidenSpell,nitBigSpell,smithed.entity,smithed.strict],Glowing:1b,item:{id:"minecraft:splash_potion",count:1,components:{potion_contents:{custom_color:11993088}}},brightness:{block:15,sky:15},glow_color_override:4731135,teleport_duration:1,billboard:"center",transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],scale:[1.25f,1.25f,1.25f],right_rotation:[0f,0f,0f,1f]}}
+tp @s ~ ~ ~ ~ 45

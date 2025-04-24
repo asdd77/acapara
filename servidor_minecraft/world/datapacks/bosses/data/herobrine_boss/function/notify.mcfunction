@@ -1,0 +1,2 @@
+tellraw @a [{"text": "[","color": "gray"},{"text": "Herobrine Boss Fight","color": "light_purple","hoverEvent": {"action": "show_text","value": "Visit Website"},"clickEvent": {"action": "open_url","value": "https://www.planetminecraft.com/data-pack/herobrine-boss-1-16-by-sameer-99/"}},{"text": "]","color": "gray"},{"text": " Datapack has been loaded.","color": "green"}]
+scoreboard players set herobrine_boss.s herobrine_boss.n 1

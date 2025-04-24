@@ -1,0 +1,1 @@
+scoreboard players operation @s nitID = @e[tag=nitSFM,limit=1,sort=nearest] nitID

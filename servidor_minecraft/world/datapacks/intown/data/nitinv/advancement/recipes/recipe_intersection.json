@@ -1,0 +1,26 @@
+{
+  "parent": "nitinv:recipes/root",
+  "rewards": {
+    "function": "nitinv:siteplanner/init_intersection"
+  },
+  "criteria": {
+    "open-dropper": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Items:[{Slot:0b,id:\"minecraft:dark_oak_log\",count:16},{Slot:1b,id:\"minecraft:redstone\",count:16},{Slot:2b,id:\"minecraft:dark_oak_log\",count:16},{Slot:3b,id:\"minecraft:deepslate\",count:32},{Slot:4b,id:\"minecraft:emerald\",count:1,tag:{nitinv_patentBadge:1b}},{Slot:5b,id:\"minecraft:deepslate\",count:32},{Slot:6b,id:\"minecraft:dark_oak_log\",count:16},{Slot:7b,id:\"minecraft:copper_ingot\",count:4},{Slot:8b,id:\"minecraft:dark_oak_log\",count:16}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

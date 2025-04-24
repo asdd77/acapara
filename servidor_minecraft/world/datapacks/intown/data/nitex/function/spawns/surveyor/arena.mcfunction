@@ -1,0 +1,3 @@
+summon block_display ~ ~0.25 ~ {Tags:[nitEntityTechnical,nitEntity,nitArenaMarker,smithed.strict,smithed.entity],block_state:{Name:"minecraft:hopper"},transformation:{translation:[-0.125f,-0.25f,-0.125f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.25f,0.25f,0.25f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},Rotation:[0.0f,0.0f],CustomName:'{"translate":"nitex.basename.arena","fallback":"Illager Arena"}',CustomNameVisible:1b,view_range:0.125f}
+execute positioned ~ ~0.25 ~ summon text_display run function nitex:spawns/surveyor/arena_y
+tag @s add nitArenaMarked

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "max_empty_corners_allowed": 2,
+    "fossil_structures": [
+      "nitdim:primordial_desert/fossil_dungeons/stone_square",
+      "nitdim:primordial_desert/fossil_dungeons/stone_bedroom"
+    ],
+    "overlay_structures": [
+      "nitdim:primordial_desert/fossil_dungeons/stone_square_overlay",
+      "nitdim:primordial_desert/fossil_dungeons/stone_bedroom_overlay"
+    ],
+    "fossil_processors": "minecraft:empty",
+    "overlay_processors": "nitdim:dungeon_rot"
+  }
+}

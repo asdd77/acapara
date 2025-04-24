@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "rock_count": 5,
+    "hole_count": 0,
+    "requires_block_below": false,
+    "valid_blocks": [
+      "minecraft:stone",
+      "minecraft:blackstone"
+    ]
+  }
+}

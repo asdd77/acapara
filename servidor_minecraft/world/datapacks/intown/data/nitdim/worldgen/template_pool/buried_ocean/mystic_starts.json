@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:buried_ocean/mystic_starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:buried_ocean/stronghold/portal_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot nitsea:command/getbook

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#nitdim:base_stone_buried_ocean",
+    "#minecraft:cave_vines",
+    "minecraft:dirt",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:clay",
+    "minecraft:moss_block"
+	
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 3,
+      "limit": 12,
+      "lower_size": 3,
+      "upper_size": 16
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:budding_amethyst"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:amethyst_block"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    "root_placer": {
+      "type": "minecraft:mangrove_root_placer",
+      "root_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:budding_amethyst"
+            }
+          },
+          {
+            "weight": 15,
+            "data": {
+              "Name": "minecraft:amethyst_block"
+            }
+          }
+        ]
+      },
+      "trunk_offset_y": {
+        "type": "minecraft:uniform",
+          "min_inclusive": 4,
+          "max_inclusive": 8
+      },
+      "above_root_placement": {
+        "above_root_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:small_amethyst_bud",
+                "Properties": {
+                  "facing": "down",
+                  "waterlogged": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:medium_amethyst_bud",
+                "Properties": {
+                  "facing": "down",
+                  "waterlogged": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:large_amethyst_bud",
+                "Properties": {
+                  "facing": "down",
+                  "waterlogged": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:amethyst_cluster",
+                "Properties": {
+                  "facing": "down",
+                  "waterlogged": "true"
+                }
+              }
+            }
+          ]
+        },
+        "above_root_placement_chance": 0
+      },
+      "mangrove_root_placement": {
+        "max_root_width": 8,
+        "max_root_length": 12,
+        "random_skew_chance": 0.85,
+        "can_grow_through": "#nitdim:buried_ocean_seafloor",
+        "muddy_roots_in": "#nitdim:buried_ocean_seafloor",
+        "muddy_roots_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:amethyst_block"
+          }
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 2,
+      "height_rand_b": 6
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": 0,
+      "offset": 0,
+      "height": 0
+    },
+    "decorators": [
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 15,
+              "data": {
+                "Name": "minecraft:obsidian"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:crying_obsidian"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

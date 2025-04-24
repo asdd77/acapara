@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:buried_ocean/conduit_water",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "nitdim:buried_ocean/conduit_water",
+        "processors": "minecraft:outpost_rot",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

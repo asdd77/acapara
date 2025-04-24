@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "nitdim:primordial_desert/nazca_creeper",
+    "nitdim:primordial_desert/nazca_hoglin",
+    "nitdim:primordial_desert/nazca_spider"
+  ]
+}

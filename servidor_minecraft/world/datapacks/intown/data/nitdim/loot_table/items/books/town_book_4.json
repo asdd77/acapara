@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:4b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #4",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.4.1\",\"fallback\":\"Bonesember 7th\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.4.2\",\"fallback\":\"\nA messenger arrived late last night, carrying a haunting tale. Horrific machines of unknown stones and metals appeared suddenly in the sky above his settlement. Terrible, black skeletons slaughtered every living thing there, as pale squids bombarded\"}]",
+                    "{\"translate\":\"nitdim.book.town.4.3\",\"fallback\":\"the buildings from above. This attack--this invasion--eradicated the whole of the town. We must prepare once again to stands against evil.\nHow I wish this world remained as peaceful as they day we arrived.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

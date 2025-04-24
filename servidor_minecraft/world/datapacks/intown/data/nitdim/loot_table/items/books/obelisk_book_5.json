@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookObelisk:5b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Obelisk Field Report #5",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[\"\",{\"translate\":\"nitdim.book.obelisk.5.1\",\"fallback\":\"Day 30\",\"underlined\":true},{\"translate\":\"nitdim.book.obelisk.5.2\",\"fallback\":\"\nI fear we will never be able to force the transition of a Piglin from life to undeath.\nWe have tried infecting Piglins by grafting rotten flesh from the husks of the night to their own, even letting them return to their village. In time, through half-understood\"}]",
+                    "{\"translate\":\"nitdim.book.obelisk.5.3\",\"fallback\":\"ritual and pattern recognition, they erected shrines similar to those haunting reminders we have of our mission. They have begun to worship the Tyrant, without even realizing what nightmare they offer their gold to! I almost pray that immortal Wither does come here.\"}",
+                    "{\"translate\":\"nitdim.book.obelisk.5.4\",\"fallback\":\"Perhaps that withering effect of his soldiers might yield more result than we have...\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

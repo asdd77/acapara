@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/carver"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/cook"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/goldsmith"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/guard"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/miner"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/priest"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nitdim:piglin_types/storyteller"
+      }
+    ]
+  }
+}

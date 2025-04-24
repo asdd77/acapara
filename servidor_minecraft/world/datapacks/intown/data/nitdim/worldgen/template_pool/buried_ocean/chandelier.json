@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:buried_ocean/chandelier",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 3,
+      "element": {
+        "location": "nitdim:buried_ocean/chandelier/start",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

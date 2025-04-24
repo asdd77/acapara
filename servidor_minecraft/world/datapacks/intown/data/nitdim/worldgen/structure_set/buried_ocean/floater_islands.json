@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "nitdim:buried_ocean/floater_island",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 18,
+      "separation": 8,
+      "salt": 53368805
+    }
+  }

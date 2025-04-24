@@ -1,0 +1,29 @@
+{
+  "parent": "nitsea:nitsea/clear_castle",
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "nitsea.advancement.raiden",
+      "fallback": "The Secret to Unlife"
+    },
+    "description": {
+      "translate": "nitsea.advancement.raiden.desc",
+      "fallback": "Defeat Raiden the Necromancer at the Suspended Castle."
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "explore": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

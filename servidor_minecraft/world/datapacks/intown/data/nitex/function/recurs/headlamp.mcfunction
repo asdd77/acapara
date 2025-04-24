@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:lever[powered=true] run effect give @a[distance=..100,gamemode=survival] minecraft:night_vision 15 0 true

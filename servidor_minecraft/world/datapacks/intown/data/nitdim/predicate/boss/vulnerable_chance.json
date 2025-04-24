@@ -1,0 +1,47 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.01
+          },
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "nitInvulTime"
+            },
+            "range": {
+              "min": 100,
+              "max": 199
+            }
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          },
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "nitInvulTime"
+            },
+            "range": {
+              "min": 200
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

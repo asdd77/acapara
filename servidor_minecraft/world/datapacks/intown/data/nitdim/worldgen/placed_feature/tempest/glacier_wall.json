@@ -1,0 +1,12 @@
+{
+  "feature": "nitdim:tempest/glacier_wall",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 12
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

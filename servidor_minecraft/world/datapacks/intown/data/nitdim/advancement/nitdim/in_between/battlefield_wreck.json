@@ -1,0 +1,42 @@
+{
+  "parent": "nitdim:nitdim/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_nether_bricks"
+    },
+    "title": {
+      "translate": "nitdim.advancement.battlefield",
+      "fallback": "Forgotten Invaders"
+    },
+    "description": {
+      "translate": "nitdim.advancement.battlefield.desc",
+      "fallback": "Find evidence of the Tyrant's past visit to the In Between."
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nitdim:in_between/war_machine"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "temperature": -32.0,
+  "downfall": 0,
+  "has_precipitation": true,
+  "temperature_modifier": "frozen",
+  "category": "forest",
+  "effects": {
+    "sky_color": 11178666,
+    "fog_color": 15262695,
+    "water_color": 8163755,
+    "water_fog_color": 4016465,
+    "grass_color": 15073268,
+    "foliage_color": 12906201,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:fox",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:llama",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 6,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vindicator",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "nitdim:ore_granite",
+      "nitdim:ore_diorite",
+      "nitdim:ore_andesite",
+      "nitdim:tempest/disk_clay",
+      "nitdim:tempest/ore_coal",
+      "nitdim:tempest/ore_copper_buried",
+      "nitdim:tempest/ore_diamond",
+      "nitdim:tempest/ore_gold",
+      "nitdim:tempest/ore_iron_hailing_wood",
+      "nitdim:tempest/ore_lapis",
+      "nitdim:tempest/ore_redstone"
+    ],
+    [
+      "minecraft:spruce_checked",
+      "nitdim:forest_fancy",
+      "minecraft:kelp_cold"
+    ],
+    [
+      "nitdim:tempest/snow_patch",
+      "nitdim:tempest/snow_patch_powdered",
+      "minecraft:patch_grass_plain"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

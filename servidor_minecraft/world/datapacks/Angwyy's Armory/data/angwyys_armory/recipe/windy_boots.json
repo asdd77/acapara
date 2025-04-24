@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "   ",
+    "# #",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:wind_charge"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_boots",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "'Windy Boots'",
+      "minecraft:custom_model_data": 1,
+      "minecraft:custom_data": {"windy_boots":true},
+      "minecraft:dyed_color": {
+        "rgb": 15263996,
+        "show_in_tooltip": false
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:2b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #2",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.2.1\",\"fallback\":\"Slimesber 2nd\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.2.2\",\"fallback\":\"\nWe have established a settlement--one of many--here in this world. Scouts have reported many other portals around us, but for the moment, there is no need to explore through them. For all we know, they may take us back home, or somewhere\"}]",
+                    "{\"translate\":\"nitdim.book.town.2.3\",\"fallback\":\"even more dangerous. I for one would choose to protect my family here in this peaceful place.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

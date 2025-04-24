@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookObelisk:4b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Obelisk Field Report #4",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[\"\",{\"translate\":\"nitdim.book.obelisk.4.1\",\"fallback\":\"Day 22\",\"underlined\":true},{\"translate\":\"nitdim.book.obelisk.4.2\",\"fallback\":\"\nDespite the research brought in from those teams in the Tempest, the Piglins of this dimension appear quite stable in their clinging to life.\nWe have attempted to recreate the situations for curing of the zombie plague, first by\"}]",
+                    "{\"translate\":\"nitdim.book.obelisk.4.3\",\"fallback\":\"weakening them with potions, then by offering a Golden Apple. However, they absolutely refuse to consume golden foods, instead choosing to hoard it.\nWe tried then, perhaps, strengthening them, and offering ordinary apples, as these can be\"}",
+                    "{\"translate\":\"nitdim.book.obelisk.4.4\",\"fallback\":\"found in the In Between where their transformation is gauranteed. Again, there was no change. Even proximity to our portal back from this world does not produce different results.\nWe have opted to resort to more medieval forms of experimentation.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

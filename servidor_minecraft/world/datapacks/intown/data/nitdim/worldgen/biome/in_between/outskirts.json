@@ -1,0 +1,46 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "category": "beach",
+  "effects": {
+    "sky_color": 8905458,
+    "fog_color": 11780827,
+    "water_color": 9040100,
+    "water_fog_color": 329011,
+    "grass_color": 7331029,
+    "foliage_color": 5097407,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.4
+    }
+  },
+  "spawners": {
+    "creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "nitdim:in_between/delta_water"
+    ],
+    [],
+    [
+      "nitdim:delta_grass"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:trees_swamp"],
+    []
+  ]
+}

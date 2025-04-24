@@ -1,0 +1,86 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "category": "mesa",
+  "effects": {
+    "sky_color": 8615811,
+    "fog_color": 6312541,
+    "water_color": 7638226,
+    "water_fog_color": 3291203,
+    "grass_color": 8736271,
+    "foliage_color": 7229714
+  },
+  "spawners": {
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:pillager",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 16,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:silverfish",
+        "weight": 24,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "nitdim:tempest/stockpile_powders"
+    ],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "nitdim:ore_granite",
+      "nitdim:ore_diorite",
+      "nitdim:ore_andesite",
+      "nitdim:tempest/disk_clay",
+      "nitdim:tempest/ore_coal",
+      "nitdim:tempest/ore_copper_buried",
+      "nitdim:tempest/ore_diamond",
+      "nitdim:tempest/ore_gold",
+      "nitdim:tempest/ore_iron",
+      "nitdim:tempest/ore_lapis",
+      "nitdim:tempest/ore_redstone"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

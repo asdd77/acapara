@@ -1,0 +1,297 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 12,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:sand"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:porkchop"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:leather"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:cactus"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:stick"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:primordial_desert/desert"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:soul_sand"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:soul_soil"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:bone"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:sculk"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:mud"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:obsidian"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:primordial_desert/tar_pits"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:blackstone"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:calcite"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:basalt"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:magma_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "minecraft:lava_bucket"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 3,
+              "name": "minecraft:blaze_rod"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "minecraft:diamond"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "minecraft:emerald"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:ancient_debris",
+			        "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:primordial_desert/volcanic_zone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:porkchop"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:beef"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:mutton"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:chicken"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:water_bucket"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:jungle_log"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:jungle_sapling"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:wheat_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:emerald"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:primordial_desert/oasis"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:leather"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:porkchop"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:red_sand"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:stripped_crimson_stem"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:crimson_fungus"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:primordial_desert/painted_desert"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:end_rod"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:amethyst_block"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:amethyst_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:pearlescent_froglight"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:warped_fungus"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:warped_stem"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nitdim:primordial_desert/crystal_caves"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:2b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. II",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.2.1\",\"fallback\":\"Guardian Hane: \\\"King Drizen has ruled over the Guardians of the Buried Ocean as a good natured if brazen Elder for many years. However, as this court well knows, this demeanor changed abruptly with his sudden declaration of war against the land-dwelling\"}",
+                    "{\"translate\":\"nitdim.book.ancient.2.2\",\"fallback\":\"Ender people of the Mystic Roughs, whose quiet civilization predates even our aquatic kingdom. He mounted unecessary defenses in the form of a great barrier between our home waters and the rest of the Buried Ocean, polluted countless land masses\"}",
+                    "{\"translate\":\"nitdim.book.ancient.2.3\",\"fallback\":\"and islets in an effort to extinguish Ender-life upon them--an act of genocide--which then resulted in the infection of our waters and the rise of the zombie menace. His actions, made single-handedly and without remorse, have put the Guardians of this kingdom in grave\"}",
+                    "{\"translate\":\"nitdim.book.ancient.2.4\",\"fallback\":\"danger, created a rift between our great civilization and our humble neighbors that will corrupt our relations for years to come, and altered the seascape in ways the effects of which will not be fully understood for generations, threatening our way of life.\"}",
+                    "{\"translate\":\"nitdim.book.ancient.2.5\",\"fallback\":\"He must be punished for this.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

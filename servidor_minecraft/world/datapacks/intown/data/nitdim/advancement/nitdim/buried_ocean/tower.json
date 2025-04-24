@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_prismarine"
+    },
+    "title":{
+"translate": "nitsea.advancement.tower",
+"fallback":  "The Ancient Tower"
+},
+    "description":{
+"translate": "nitsea.advancement.tower.desc",
+"fallback":  "Discover the aquatic Tower of the rare Ancient Sea."
+},
+    "background": "minecraft:textures/block/oak_planks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nitdim:nitdim/enter_buried_ocean",
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nitdim:buried_ocean/ancient_tower"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

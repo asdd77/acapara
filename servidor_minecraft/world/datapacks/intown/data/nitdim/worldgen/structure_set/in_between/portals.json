@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "nitdim:in_between/portal",
+        "weight": 3
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 10,
+      "separation": 8,
+      "salt": 500400
+    }
+  }

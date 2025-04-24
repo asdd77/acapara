@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:in_between/war_machine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 12794368,
+    "spacing": 17,
+    "separation": 15
+  }
+}

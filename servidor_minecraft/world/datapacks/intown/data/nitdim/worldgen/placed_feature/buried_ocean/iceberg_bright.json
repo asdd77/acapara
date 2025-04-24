@@ -1,0 +1,12 @@
+{
+  "feature": "nitdim:buried_ocean/iceberg_bright",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 350
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

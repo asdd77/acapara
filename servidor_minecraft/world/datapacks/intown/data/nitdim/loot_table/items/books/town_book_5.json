@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:5b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #5",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.5.1\",\"fallback\":\"Rainsuary 1st\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.5.2\",\"fallback\":\"\nIt took two months to erect a headstone for all of the dead. A battlefield graveyard, none marked. We could not tell the bones of the villagers from the invaders; their bones were all blackened and crumbling.\nHundreds of us, from all across the\"}]",
+                    "{\"translate\":\"nitdim.book.town.5.3\",\"fallback\":\"In Between. And only a dozen left. We pushed back those horrible creatures, and that thing... That Tyrant. But Regalli believes it will be back.\nWe will return to our village in the morning. I hope I can hold back my tears when I look into my daughter\\'s eyes again.\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

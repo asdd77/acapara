@@ -1,0 +1,1 @@
+summon illusioner ~ ~ ~ {CustomName:'{"translate":"nitsea.name.castle_wizard","fallback":"Castle Wizard"}',Tags:[nitIllagerEntity,nitWizard,smithed.entity,smithed.strict],DeathLootTable:"nitsea:entities/pirate",HandItems:[{id:"minecraft:bow",count:1},{}],HandDropChances:[0f,0f],CanPickUpLoot:0b,PersistenceRequired:1b}

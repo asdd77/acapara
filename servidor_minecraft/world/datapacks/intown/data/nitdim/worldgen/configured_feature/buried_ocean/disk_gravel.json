@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:gravel"
+        }
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:all_of",
+      "predicates": [
+        {
+          "type": "minecraft:matching_blocks",
+          "blocks": [
+            "minecraft:blackstone",
+            "minecraft:sand",
+            "minecraft:dirt",
+            "minecraft:prismarine"
+          ]
+        },
+        {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "blocks": [
+            "minecraft:water",
+            "minecraft:bubble_column",
+            "minecraft:kelp",
+            "minecraft:seagrass"
+          ]
+        }
+      ]
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+    },
+    "half_height": 2
+  }
+}

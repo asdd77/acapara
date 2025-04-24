@@ -1,0 +1,1 @@
+summon witch ~ ~ ~ {CustomName:'{"translate":"nitsea.name.necro_scientist","fallback":"Necro Scientist"}',Tags:[nitIllagerEntity,nitScientist,smithed.entity,smithed.strict],DeathLootTable:"nitsea:entities/scientist",CanPickUpLoot:1b,PersistenceRequired:1b}

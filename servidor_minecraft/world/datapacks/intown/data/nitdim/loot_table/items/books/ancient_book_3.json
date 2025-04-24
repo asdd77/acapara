@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:3b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. III",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.3.1\",\"fallback\":\"Syx: \\\"The court will now hear the opening statements of King Drizen, representing himself. Your Majesty.\\\"\n\nDrizen: \\\"My efforts to resolve our plight with the Ender people peacefully and diplomatically were met with silence, blank stares, and overall\"}",
+                    "{\"translate\":\"nitdim.book.ancient.3.2\",\"fallback\":\"betrayal of the compassion our kingdom has shown them since our establishment. The land-dwellers of the Mystic Roughs are older than us, perhaps, but they are not indigenous to these waters--they are invaders from another world, and over time it became\"}",
+                    "{\"translate\":\"nitdim.book.ancient.3.3\",\"fallback\":\"clear to me that their intent was to transform all they could touch, to warp it to their whims and desires. I offered them peaceful egress from the Buried Ocean, but they refused. Claiming right of asylum, like refugees, as though they had not dwelled here without threat,\"}",
+                    "{\"translate\":\"nitdim.book.ancient.3.4\",\"fallback\":\"without respect for the seas of our home, for millenia. There was no choice but to choke them out. Although we are not a land-dwelling people, their affectation of the land would only become a danger to the ocean in time. Even without direct contact with our domain, the relationship between\"}",
+                    "{\"translate\":\"nitdim.book.ancient.3.5\",\"fallback\":\"the water and what rests overhead and above is well-known. What harms one would harm the other. But we are more attuned to this symbiosis than any other. I knew the risks and the effects of my actions and those actions I ordered upon those lands. With or without my rule,\"}",
+                    "{\"translate\":\"nitdim.book.ancient.3.6\",\"fallback\":\"there is no argument that the Ender people cannot remain here.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

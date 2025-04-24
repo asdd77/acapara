@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "nitdim:primordial_desert/surface_fossil",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 274807053,
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      -3,
+      0
+    ],
+    "spacing": 2,
+    "separation": 1
+  }
+}

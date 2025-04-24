@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookTown:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Settler's Journal #1",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"underlined\":true,\"translate\":\"nitdim.book.town.1.1\",\"fallback\":\"Thundsber 6th\"},{\"underlined\":false,\"translate\":\"nitdim.book.town.1.2\",\"fallback\":\"\nIt has been many years since I have breathed a sigh of relief. I admit I was wary at first, when that structure appeared from the glowing Phantom; nothing back home was safe or sacred, so there was no reason to suspect--to hope--that this would be.\"}]",
+                    "[{\"translate\":\"nitdim.book.town.1.3\",\"fallback\":\"But ho, how much I would have given to feel hope again, and now on the otherside of that wonderous archway, I have it. The portal was wet and filmy, and yet stepping out of it, I became \"},{\"italic\":true,\"translate\":\"nitdim.book.town.1.4\",\"fallback\":\"dry\"},{\"translate\":\"nitdim.book.town.1.5\",\"fallback\":\" for the first time in my life. The clouds in the sky of this world, so sparse and white...\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

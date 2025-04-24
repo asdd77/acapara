@@ -1,0 +1,60 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 8905458,
+    "fog_color": 11780827,
+    "water_color": 9040100,
+    "water_fog_color": 329011,
+    "grass_color": 900954,
+    "foliage_color": 16683222,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.03
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:fox",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:frog",
+        "weight": 7,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "nitdim:in_between/delta_water"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "nitdim:in_between/forest_cherry",
+      "minecraft:patch_grass_plain",
+      "nitdim:in_between/flowers",
+      "minecraft:flower_cherry"
+    ],
+    []
+  ]
+}

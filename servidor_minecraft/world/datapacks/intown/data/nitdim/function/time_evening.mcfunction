@@ -1,0 +1,2 @@
+execute if entity @s[tag=nitSSpecialFeature] if loaded ~ ~ ~ unless entity @e[tag=nitIllagerObjective,distance=..200] run function nitsea:pillager_bases
+execute if entity @s[tag=nitESpecialFeature] if loaded ~ ~ ~ unless entity @e[tag=nitIllagerObjective,distance=..200] run function nitex:pillager_bases

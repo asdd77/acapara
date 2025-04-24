@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ominous_trial_key",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": {"nitTrialKey":1},
+                  "minecraft:custom_model_data": 8602017,
+                  "minecraft:item_name": "{\"text\":\"Ominous Chandelier Key\",\"color\":\"dark_purple\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

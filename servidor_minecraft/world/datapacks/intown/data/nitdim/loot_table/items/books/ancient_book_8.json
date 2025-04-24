@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:8b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. VIII",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.8.1\",\"fallback\":\"Syx: \\\"The vote is counted. By a tally of three-hundred-and-twelve to seventy-nine, King Drizen, you are hereby convicted on the charges of endangering, pollution, and war crimes, and are forcibly abdicated from your throne. As consequence, you will be banished from\"}",
+                    "{\"translate\":\"nitdim.book.ancient.8.2\",\"fallback\":\"the Buried Ocean entirely, through the Mysterious Portals of the sky-world and to another plane entirely, to be imprisoned for eternity in an aquatic cell, forgotten by this kingdom. Reparations will be made immediately to restore our civilization\\'s raport with the Ender peoples, and\"}",
+                    "{\"translate\":\"nitdim.book.ancient.8.3\",\"fallback\":\"research will begin on the effects of your actions at the now-infected Mushroom Islets, and how to reverse them. Baliff, assemble the Royal Guard to escort King Drizen to his consequence.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

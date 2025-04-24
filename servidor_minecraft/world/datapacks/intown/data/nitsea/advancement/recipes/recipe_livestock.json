@@ -1,0 +1,26 @@
+{
+  "parent": "nitsea:recipes/root",
+  "rewards": {
+    "function": "nitsea:siteplanner/init_livestock"
+  },
+  "criteria": {
+    "open-dropper": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Items:[{Slot:0b,id:\"minecraft:wheat\",count:4},{Slot:1b,id:\"minecraft:pink_wool\",count:12},{Slot:2b,id:\"minecraft:cooked_beef\",count:4},{Slot:3b,id:\"minecraft:cooked_porkchop\",count:4},{Slot:4b,id:\"minecraft:apple\",count:8},{Slot:5b,id:\"minecraft:cooked_mutton\",count:4},{Slot:6b,id:\"minecraft:grass_block\",count:6},{Slot:7b,id:\"minecraft:oak_boat\",count:1,components:{\"minecraft:custom_data\":{nitsea_shipHull:1b}}},{Slot:8b,id:\"minecraft:grass_block\",count:6}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "category": "ocean",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 2621697,
+    "water_color": 13434878,
+    "water_fog_color": 9941941,
+    "grass_color": 13315590,
+    "foliage_color": 15479346,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "campfire_cosy_smoke"
+      },
+      "probability": 0.0015
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 5,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 6,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [
+      "nitdim:buried_ocean/stalactites_huge",
+      "nitdim:buried_ocean/stalactites_super_common"
+    ],
+    [
+      "minecraft:glowstone",
+      "minecraft:glowstone_extra",
+      "nitdim:buried_ocean/ore_stone",
+      "nitdim:buried_ocean/ore_andesite",
+      "nitdim:buried_ocean/ore_deepslate",
+      "minecraft:basalt_pillar",
+      "nitdim:buried_ocean/block_piles_boiling_top",
+      "nitdim:buried_ocean/block_piles_boiling_bottom"
+    ],
+    [],
+    [
+      "nitdim:buried_ocean/ore_coal",
+      "nitdim:buried_ocean/ore_copper",
+      "nitdim:buried_ocean/ore_diamond_double",
+      "nitdim:buried_ocean/ore_gold",
+      "nitdim:buried_ocean/ore_iron_buried",
+      "nitdim:buried_ocean/ore_redstone"
+    ],
+    [],
+    [
+      "nitdim:buried_ocean/disk_gravel",
+      "nitdim:buried_ocean/disk_netherrack"
+    ],
+    [
+      "nitdim:buried_ocean/fire_coral_trees",
+      "nitdim:buried_ocean/patch_fire_coral"
+    ],
+    [
+      "nitdim:spring_lava_heavy",
+      "nitdim:buried_ocean/patch_magma",
+      "nitdim:buried_ocean/delta_boiling"
+    ],
+    [
+      "nitdim:buried_ocean/replacer_lantern",
+      "nitdim:buried_ocean/glow_lichen"
+    ],
+    []
+  ]
+}

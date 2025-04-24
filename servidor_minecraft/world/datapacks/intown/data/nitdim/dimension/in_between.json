@@ -1,0 +1,61 @@
+{
+	"type": "nitdim:in_between",
+	"generator": {
+	  "type": "minecraft:noise",
+	  "settings": "nitdim:in_between",
+	  "biome_source": {
+		"type": "minecraft:multi_noise",
+		"biomes": [
+		  {
+			"biome": "nitdim:in_between/sparkling_glacier",
+			"parameters": {
+			  "temperature": -0.6,
+			  "humidity": 0,
+			  "continentalness": 0,
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "nitdim:in_between/woolen_woods",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": 0.2,
+			  "continentalness": 0,
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "nitdim:in_between/cherry_woods",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": -0.4,
+			  "continentalness": 0,
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "nitdim:in_between/battlefield",
+			"parameters": {
+			  "temperature": 0.75,
+			  "humidity": 0,
+			  "continentalness": 0,
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  }
+		]
+	  }
+	}
+  }
+  

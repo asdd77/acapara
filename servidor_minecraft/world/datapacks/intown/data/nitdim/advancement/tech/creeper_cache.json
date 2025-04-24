@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "p_k_e-creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+          "location": {
+            "structures": "nitdim:primordial_desert/nazca_creeper",
+            "dimension": "nitdim:primordial_desert"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitdim:nazca/creeper_cache"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookObelisk:6b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Obelisk Field Report #6",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "[\"\",{\"translate\":\"nitdim.book.obelisk.6.1\",\"fallback\":\"Day 31\",\"underlined\":true},{\"translate\":\"nitdim.book.obelisk.6.2\",\"fallback\":\"\nOn a whim, I took one of the Piglins to be caged outside of the Obelisk. Around the cage, I erected a short enclosure of copper, hooking it to the cage and directly to the piglin with redstone. Finally, I set a lightning rod on top.\"}]",
+                    "{\"translate\":\"nitdim.book.obelisk.6.3\",\"fallback\":\"Not once in this Primordial Desert has it stormed. Lightning is an every day--every moment--occurence in the Tempest, where Piglins transform immediately. Even in the In Between, floating high in the sky of same alien dimension, Piglins shed their life for undeath despite the lack\"}",
+                    "[\"\",{\"translate\":\"nitdim.book.obelisk.6.4\",\"fallback\":\"of rain there, either. This \"},{\"translate\":\"nitdim.book.obelisk.6.5\",\"fallback\":\"must\",\"italic\":true},{\"translate\":\"nitdim.book.obelisk.6.6\",\"fallback\":\" be why they cling to life so thoroughly in this dry desert with its calm skies. But, if one of our wizards could cast a sufficiently powered lightning spell, directing all of that energy into a single Piglin...\nSuccess! I must inform Rexial immediately.\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

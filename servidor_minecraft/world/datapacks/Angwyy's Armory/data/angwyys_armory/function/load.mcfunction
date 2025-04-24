@@ -1,0 +1,11 @@
+scoreboard objectives add double_jump dummy
+scoreboard objectives add double_jumps_left dummy
+scoreboard objectives add fall_distance dummy
+scoreboard objectives add groundtime dummy
+scoreboard objectives add jumped custom:jump
+scoreboard objectives add motionY dummy
+scoreboard objectives add sneaktime dummy
+scoreboard objectives add dash_cooldown dummy
+scoreboard objectives add dashtime dummy
+scoreboard objectives add display_priority dummy
+scoreboard objectives add rocket_fuel dummy

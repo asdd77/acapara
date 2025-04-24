@@ -1,0 +1,15 @@
+{
+  "name": "nitdim:in_between/portal",
+  "fallback": "minecraft:empty",
+  "elements": [
+	  {
+      "weight": 85,
+      "element": {
+        "location": "nitdim:in_between/portals/standard",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

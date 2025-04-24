@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "o o",
+      "x x",
+      "# #"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:redstone"
+      },
+      "#": {
+        "item": "minecraft:coal"
+      },
+      "o": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:item_name": "'Rocket Boots'",
+        "minecraft:custom_model_data": 3,
+        "minecraft:custom_data": {"rocket_boots":true},
+        "minecraft:max_damage": 429,
+        "minecraft:dyed_color": {
+          "rgb": 16728711,
+          "show_in_tooltip": false
+        },
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "rocket_boots",
+              "type": "minecraft:generic.armor",
+              "amount": 3,
+              "operation": "add_value",
+              "slot": "feet"
+            }
+          ],
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

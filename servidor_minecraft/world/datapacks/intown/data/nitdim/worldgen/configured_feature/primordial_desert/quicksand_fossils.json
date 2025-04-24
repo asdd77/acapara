@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:root_system",
+  "config": {
+    "required_vertical_space_for_tree": 8,
+    "root_radius": 3,
+    "root_placement_attempts": 20,
+    "root_column_max_height": 100,
+    "hanging_root_radius": 3,
+    "hanging_roots_vertical_span": 2,
+    "hanging_root_placement_attempts": 20,
+    "allowed_vertical_water_for_tree": 3,
+    "root_replaceable": "#nitdim:base_stone_primordial_desert",
+    "root_state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:soul_sand"
+      }
+    },
+    "hanging_root_state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:weeping_vines",
+        "Properties": {
+          "age": "1"
+        }
+      }
+    },
+    "allowed_tree_position": {
+      "type": "minecraft:true"
+    },
+    "feature": "nitdim:primordial_desert/fossil"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:blackstone",
+    "minecraft:deepslate",
+    "minecraft:andesite",
+    "minecraft:clay",
+    "minecraft:sand",
+    "minecraft:sea_lantern",
+    "minecraft:prismarine",
+    "minecraft:dirt",
+    "minecraft:gravel"
+  ]
+}

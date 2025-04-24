@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitdim_bookAncient:4b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Buried Histories Vol. IV",
+                  "author": "Unknown",
+                  "generation": 3,
+                  "pages": [
+                    "{\"translate\":\"nitdim.book.ancient.4.1\",\"fallback\":\"Syx: \\\"Thank you, your majesty. We will proceed with the first witness, Guardian Gada. Please rise and swim before me. Guardian Hane will take the first examination. Baliff?\\\"\n\nBaliff: \\\"Guardian Gada, do you swear upon the great lanterns above to speak\"}",
+                    "{\"translate\":\"nitdim.book.ancient.4.2\",\"fallback\":\"honestly, without bias or ill intent, at peril of banishment?\\\"\n\nGuardian Gada: \\\"I swear it.\\\"\n\nBaliff: \\\"Guardian Hane may proceed.\\\"\"}"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

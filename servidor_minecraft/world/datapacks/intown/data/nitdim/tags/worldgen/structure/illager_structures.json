@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nitdim:buried_ocean/chandelier",
+    "nitdim:primordial_desert/obelisk",
+    "nitdim:tempest/railway",
+    "nitdim:tempest/ice_castle"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:amethyst_shard"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:diamond"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:emerald"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:blaze_rod"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:netherite_scrap"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:blunt_artifact"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nitex:shiny_artifact"
+    }
+  ]
+}

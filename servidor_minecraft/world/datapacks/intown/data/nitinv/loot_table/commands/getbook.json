@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{nitContractBook:1b,nit_particleType:6b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Invention Patent",
+                  "author": "The Mayor",
+                  "pages": [
+                    "[\"\",{\"text\":\"\\n\\n\\n\\n\\n \\u0020 \\u0020 \\u0020 \"},{\"translate\":\"nitinv.contract_book.contents\",\"fallback\":\"Begin your\\n        inventing!\",\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger nitContract set 65\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"nitk.contract_book.hover\",\"fallback\":\"THIS CANNOT BE UNDONE\"}]}}]"
+                  ]
+                },
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

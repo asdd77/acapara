@@ -1,0 +1,233 @@
+[18:55:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[18:55:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[18:55:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:55:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[18:55:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), LoginSecurity (3.3.0), RedProtect (8.1.2-SNAPSHOT), SimpleTpa (7.6), SkinsRestorer (15.6.2), UltimateTeams (3.3), ViaBackwards (5.3.2), ViaRewind (4.0.4), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[18:55:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:55:46] [ServerMain/WARN]: Missing metadata in pack file/Angwyy's Armory (1).zip
+[18:55:46] [ServerMain/WARN]: Missing metadata in pack file/MINECRAFT - SERVERS.zip
+[18:55:46] [ServerMain/WARN]: Missing metadata in pack file/intown.zip
+[18:55:49] [ServerMain/INFO]: Loaded 1314 recipes
+[18:55:50] [ServerMain/ERROR]: Couldn't load advancements: [nitex:nitex/defeat_rexial, nitdim:nitdim/in_between/settler_journals, nitdim:nitdim/enter_buried_ocean, nitdim:nitdim/in_between/ruined_town, nitsea:nitsea/defeat_raiden, nitsea:nitsea/root, nitdim:nitdim/enter_primordial_desert, nitex:nitex/find_artifact, nitdim:nitdim/in_between/battlefield_wreck, nitex:nitex/complete_mine, nitex:nitex/clear_illager_arena, nitdim:nitdim/primordial_desert/obelisk_reports, nitdim:nitdim/root, nitsea:nitsea/clear_castle, nitsea:nitsea/clear_galleon, nitsea:nitsea/complete_fleet, nitinv:nitinv/root, nitsea:nitsea/clear_lab, nitdim:nitdim/buried_ocean/tower, nitex:nitex/root, nitsea:nitsea/pirates, nitex:nitex/clear_piglin_cave, nitdim:nitdim/enter_tempest, nitdim:nitdim/buried_ocean/tower_history, nitex:nitex/clear_pyramid, nitdim:nitdim/primordial_desert/obelisk]
+[18:55:50] [ServerMain/INFO]: Loaded 1645 advancements
+[18:55:50] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: nitdim:buried_ocean/boiling_sea, nitdim:buried_ocean/mushroom_forest, nitdim:buried_ocean/mystic_roughs, nitdim:buried_ocean/pristine_sea, nitdim:buried_ocean/verdant_grove, nitdim:primordial_desert/crystal_caves, nitdim:primordial_desert/oasis, nitdim:primordial_desert/painted_desert, nitdim:primordial_desert/tar_pits, nitdim:primordial_desert/volcanic_zone
+[18:55:50] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[18:55:50] [Server thread/INFO]: Loading properties
+[18:55:50] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[18:55:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:55:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:55:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:55:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:55:52] [Server thread/INFO]: Default game type: SURVIVAL
+[18:55:52] [Server thread/INFO]: Generating keypair
+[18:55:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:55:52] [Server thread/INFO]: Using epoll channel type
+[18:55:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:55:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:55:53] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loading 6 libraries... please wait
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[18:55:54] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/h2database/h2/2.3.232/h2-2.3.232.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[18:55:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[18:55:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[18:55:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:55:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:55:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:55:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:55:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[18:55:59] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.3.2.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType.findById(int)'
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8$3.register(EntityPacketRewriter1_8.java:144) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.<init>(PacketHandlers.java:38) ~[ViaVersion-5.3.2.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8$3.<init>(EntityPacketRewriter1_8.java:130) ~[ViaRewind-4.0.4.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8.registerPackets(EntityPacketRewriter1_8.java:130) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:36) ~[ViaVersion-5.3.2.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.Protocol1_8To1_7_6_10.registerPackets(Protocol1_8To1_7_6_10.java:62) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:106) ~[ViaVersion-5.3.2.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:213) ~[ViaVersion-5.3.2.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:207) ~[ViaVersion-5.3.2.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.api.ViaRewindPlatform.init(ViaRewindPlatform.java:55) ~[ViaRewind-4.0.4.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.BukkitPlugin.lambda$new$0(BukkitPlugin.java:29) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:115) ~[ViaVersion-5.3.2.jar:?]
+	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:87) ~[ViaVersion-5.3.2.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:55:59] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:56:00] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[18:56:00] [Server thread/INFO]: [floodgate] Took 1,621ms to boot Floodgate
+[18:56:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[18:56:00] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[18:56:00] [Server thread/INFO]: [UltimateTeams] Loading server plugin UltimateTeams v3.3
+[18:56:00] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[18:56:00] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[18:56:00] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[18:56:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[18:56:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[18:56:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[18:56:02] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.2-SNAPSHOT
+[18:56:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:56:02] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[18:56:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[18:56:03] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[18:56:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[18:56:04] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[18:56:05] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:56:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:56:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:56:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:56:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:56:05] [Server thread/INFO]: Preparing level "world"
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:56:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:56:07] [Server thread/INFO]: Time elapsed: 1409 ms
+[18:56:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:56:07] [Server thread/INFO]: Time elapsed: 338 ms
+[18:56:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:56:08] [Server thread/INFO]: Time elapsed: 448 ms
+[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:tempest
+[18:56:08] [Server thread/INFO]: Time elapsed: 220 ms
+[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:in_between
+[18:56:08] [Server thread/INFO]: Time elapsed: 146 ms
+[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:primordial_desert
+[18:56:08] [Server thread/INFO]: Time elapsed: 159 ms
+[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:buried_ocean
+[18:56:08] [Server thread/INFO]: Time elapsed: 328 ms
+[18:56:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[18:56:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[18:56:09] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:56:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[18:56:09] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[18:56:09] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[18:56:09] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[18:56:09] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:56:09] [Server thread/INFO]: [UltimateTeams] Enabling UltimateTeams v3.3
+[18:56:10] [Server thread/INFO]: [UltimateTeams] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing plugin config & locale files...
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized plugin config & locale files
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing SQLite database connection...
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Database tables created
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized SQLite database connection
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing commands...
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized commands
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing events...
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized events
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing teams...
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized teams
+[18:56:10] [Server thread/INFO]: -------------------------------------------
+[18:56:10] [Server thread/INFO]: UltimateTeams: PlaceholderAPI not found!
+[18:56:10] [Server thread/INFO]: UltimateTeams: External placeholders disabled!
+[18:56:10] [Server thread/INFO]: -------------------------------------------
+[18:56:10] [Server thread/INFO]: -------------------------------------------
+[18:56:10] [Server thread/INFO]: UltimateTeams: FloodgateApi not found/feature disabled!
+[18:56:10] [Server thread/INFO]: UltimateTeams: Bedrock support won't work!
+[18:56:10] [Server thread/INFO]: -------------------------------------------
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing metrics...
+[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized metrics
+[18:56:10] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[18:56:10] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:56:10] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:56:10] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:56:10] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:56:11] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[18:56:11] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[18:56:11] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.2-SNAPSHOT
+[18:56:12] [Server thread/INFO]: [RedProtect] Server version: 1.21.1-R0.1-SNAPSHOT
+[18:56:12] [Server thread/INFO]: [RedProtect] All configurations loaded!
+[18:56:12] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
+[18:56:12] [Server thread/INFO]: [RedProtect] Registering commands...
+[18:56:12] [Server thread/INFO]: [RedProtect] Registering listeners...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_tempest's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_in_between's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_primordial_desert's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_buried_ocean's regions...
+[18:56:13] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[18:56:13] [Server thread/INFO]: [RedProtect] There are 15 regions on (file) database!
+[18:56:13] [Server thread/INFO]: [RedProtect] Helper version: Latest
+[18:56:13] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
+[18:56:13] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
+[18:56:13] [Server thread/INFO]: [RedProtect] Loading API...
+[18:56:13] [Server thread/INFO]: [RedProtect] API Loaded!
+[18:56:13] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
+[18:56:13] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
+[18:56:13] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
+[18:56:13] [Server thread/INFO]: » RedProtect v8.1.2-SNAPSHOT enabled
+[18:56:13] [Server thread/INFO]: 
+[18:56:13] [Server thread/INFO]: [spark] Starting background profiler...
+[18:56:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:56:13] [Server thread/INFO]: [Geyser-Spigot] 
+[18:56:13] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b812 (git-master-efd4dcc)
+[18:56:13] [Server thread/INFO]: [Geyser-Spigot] 
+[18:56:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:56:21] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
+[18:56:21] [Server thread/INFO]: [Geyser-Spigot] Done (8.094s)! Run /geyser help for help!
+[18:56:21] [Server thread/INFO]: Done preparing level "world" (16.906s)
+[18:56:21] [Server thread/INFO]: Running delayed init tasks
+[18:56:21] [Server thread/INFO]: Done (42.402s)! For help, type "help"
+[18:56:21] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:56:21] [Server thread/INFO]: Timings Reset
+[18:56:21] [Craft Scheduler Thread - 8 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[18:56:22] [Craft Scheduler Thread - 7 - UltimateTeams/INFO]: Loaded 5 teams!
+[18:56:56] [Server thread/INFO]: Nothing changed. The player already is an operator
+[18:58:56] [User Authenticator #0/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[18:58:56] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[18:58:56] [Server thread/INFO]: xMega10_ joined the game
+[18:58:57] [Server thread/INFO]: xMega10_[/127.227.6.216:59881] logged in with entity id 215 at ([world]0.0, 71.0, 0.0)
+[19:01:25] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:01:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7323ms or 146 ticks behind
+[19:01:37] [User Authenticator #1/INFO]: UUID of player Urikett009 is 9f11e501-0b1f-30e4-95f0-3749efba8ca9
+[19:01:39] [Server thread/INFO]: Urikett009 joined the game
+[19:01:39] [Server thread/INFO]: Urikett009[/127.230.42.224:38323] logged in with entity id 749 at ([world]0.0, 71.0, 0.0)
+[19:03:11] [Server thread/INFO]: [Not Secure] [Server] say gg
+[19:03:13] [Async Chat Thread - #1/INFO]: [Not Secure] <xMega10_> q
+[19:03:28] [Server thread/INFO]: [Not Secure] [Server] mañana evento final
+[19:03:38] [User Authenticator #2/INFO]: UUID of player iLeola_ is 04c6568a-80d6-38d1-9c7e-efc90999a73c
+[19:03:41] [Server thread/INFO]: iLeola_ joined the game
+[19:03:41] [Server thread/INFO]: iLeola_[/127.210.202.86:37071] logged in with entity id 2317 at ([world]0.0, 71.0, 0.0)
+[19:03:49] [Server thread/INFO]: [Not Secure] [Server] y ya el sabado pasaremos a skyblock
+[19:04:18] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> que bonito el rollback
+[19:04:25] [Server thread/INFO]: [Not Secure] [Server] q
+[19:04:37] [Server thread/INFO]: [Not Secure] [Server] ah si no te preocupes por eso!
+[19:04:40] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> estoy con mi espada sin el encantamiento aquel del void strike
+[19:04:44] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> y ando de vuelta en el overwolrd
+[19:04:46] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> wolrd
+[19:05:23] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> y la raid de mierda que hice
+[19:05:27] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> mis totems carajo

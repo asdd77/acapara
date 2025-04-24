@@ -1,0 +1,4 @@
+playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1
+tellraw @s [{"text":"[回] ","color":"blue","bold":true},{"text":": ","color":"white","bold":false},{"translate":"nitdim.tutorial.XXXXX","fallback":"ooooTEXToooo ","color":"white","bold":false},{"translate":"nitdim.tutorial.XXXXX","fallback":"ooooTEXToooo","color":"green","bold":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"nitdim.tutorial.XXXXX.hover","fallback":"ooooHOVERTEXToooo"}]}},{"translate":"nitdim.tutorial.XXXXX","fallback":" ooooTEXToooo","color":"white","bold":false}]
+
+tellraw @s [{"translate":"nitdim.tutorial.XXXXX","fallback":" ooooTEXToooo","color":"yellow","bold":true}]

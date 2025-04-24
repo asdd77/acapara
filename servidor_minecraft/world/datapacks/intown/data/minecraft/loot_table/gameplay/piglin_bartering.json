@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/piglin_bartering_nether"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "nitDimension": 0
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nitdim:gameplay/piglin_bartering_primordial_desert"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "nitDimension": 1
+          }
+        }
+      ]
+    }
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "smithed:merge",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path":"pools[0]"
+        },
+        "conditions": []
+      }
+    ],
+    "priority": {
+      "default":0,
+      "after": [],
+      "before": []
+    }
+  }
+}

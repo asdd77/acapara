@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "nitsea.advancement.tower_books",
+      "fallback": "An Ancient Trial"
+    },
+    "description": {
+      "translate": "nitsea.advancement.tower_books.desc",
+      "fallback": "Learn the complete history of the trial of King Drizen."
+    },
+    "background": "minecraft:textures/block/oak_planks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nitdim:nitdim/buried_ocean/tower",
+  "criteria": {
+    "book1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 2
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 3
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 4
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 5
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 6
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 7
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {
+                "nitdim_bookAncient": 8
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

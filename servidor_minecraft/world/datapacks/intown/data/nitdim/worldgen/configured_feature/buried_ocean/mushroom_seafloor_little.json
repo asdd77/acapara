@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 8,
+      "limit": 5,
+      "lower_size": 2,
+      "upper_size": 5
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:prismarine_wall",
+        "Properties": {
+          "east": "none",
+          "north": "none",
+          "south": "none",
+          "up": "true",
+          "waterlogged": "true",
+          "west": "none"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:shroomlight"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:cyan_glazed_terracotta",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 2,
+      "height_rand_a": 2,
+      "height_rand_b": 5
+    },
+    "foliage_placer": {
+      "type": "minecraft:bush_foliage_placer",
+      "radius": 1,
+      "offset": 0,
+      "height": 0
+    },
+    "decorators": []
+  }
+}
