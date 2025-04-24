@@ -1209,3 +1209,90 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.potion.PotionData.getT
 [23:24:46] [Async Chat Thread - #45/INFO]: [Not Secure] <SunnyyIsHere_> VAMO
 [23:24:50] [Async Chat Thread - #45/INFO]: [Not Secure] <EduardoKeith> esprea
 [23:24:53] [Async Chat Thread - #45/INFO]: [Not Secure] <EduardoKeith> tengo poca vida
+[23:25:50] [Async Chat Thread - #45/INFO]: [Not Secure] <EduardoKeith> aqui
+[23:25:51] [Async Chat Thread - #45/INFO]: [Not Secure] <SunnyyIsHere_> dond
+[23:26:16] [Server thread/INFO]: Villager Villager['Villager'/80003, uuid='8df96a04-828a-4306-a319-6514d4cbfc6f', l='ServerLevel[world]', x=-2381.34, y=63.00, z=920.05, cpos=[-149, 57], tl=173503, v=true] died, message: 'Villager was slain by Vindicator'
+[23:26:25] [Server thread/INFO]: _FacuMC_ has made the advancement [Voluntary Exile]
+[23:26:47] [Server thread/INFO]: There are 6 of a max of 30 players online: Urikett009, EduardoKeith, SunnyyIsHere_, Sicraft, iLeola_, _FacuMC_
+[23:26:57] [Async Chat Thread - #47/INFO]: [Not Secure] <EduardoKeith> cuidado
+[23:27:00] [Async Chat Thread - #47/INFO]: [Not Secure] <SunnyyIsHere_> carajito
+[23:27:00] [Async Chat Thread - #47/INFO]: [Not Secure] <EduardoKeith> con los aldeanos
+[23:27:04] [Async Chat Thread - #47/INFO]: [Not Secure] <EduardoKeith> y los fuegos artificiales
+[23:27:47] [Server thread/INFO]: SunnyyIsHere_ has made the advancement [Voluntary Exile]
+[23:28:40] [Server thread/INFO]: Sign Spy - Location: x: 252, y: 64, z: 711, world: world
+[23:28:40] [Server thread/INFO]: Player: Sicraft
+[23:28:40] [Server thread/INFO]: Lines - 1: [RP] - 2: Woods
+[23:28:40] [Server thread/INFO]: Lines - 3:  - 4: 
+[23:29:09] [Server thread/INFO]: Sicraft issued server command: /redprotect
+[23:29:20] [Async Chat Thread - #50/INFO]: [Not Secure] <EduardoKeith> esta lloviendo
+[23:29:21] [Server thread/INFO]: Sicraft issued server command: /redprotect addadmin .Sicraft6905
+[23:29:22] [Async Chat Thread - #50/INFO]: [Not Secure] <EduardoKeith> ay que miedo
+[23:29:24] [Server thread/INFO]: Sicraft issued server command: /redprotect addadmin .Sicraft6905
+[23:29:28] [Server thread/INFO]: Sicraft issued server command: /redprotect addadmin .Sicraft6905
+[23:29:30] [Async Chat Thread - #50/INFO]: [Not Secure] <SunnyyIsHere_> ACA
+[23:29:41] [Server thread/INFO]: _FacuMC_ has made the advancement [Ol' Betsy]
+[23:29:41] [Server thread/INFO]: _FacuMC_ has made the advancement [Take Aim]
+[23:30:15] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Sicraft6095
+[23:30:15] [localSession-7-2/INFO]: [Geyser-Spigot] Sicraft6095 (logged in as: Sicraft6095) has connected to the Java server
+[23:30:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sicraft6095 joined (UUID: 00000000-0000-0000-0009-01fee2a160f9)
+[23:30:15] [Server thread/INFO]: .Sicraft6095 joined the game
+[23:30:15] [Server thread/INFO]: .Sicraft6095[/127.0.0.1:0] logged in with entity id 99421 at ([world]9.5, 70.0, -1.5)
+[23:30:24] [Async Chat Thread - #50/INFO]: [Not Secure] <EduardoKeith> MALDITOS ENANOS
+[23:30:32] [Server thread/INFO]: [Not Secure] [Server] porque 2 sicrafts
+[23:30:33] [Server thread/INFO]: There are 7 of a max of 30 players online: Urikett009, EduardoKeith, SunnyyIsHere_, Sicraft, iLeola_, _FacuMC_, .Sicraft6095
+[23:30:46] [Async Chat Thread - #50/INFO]: [Not Secure] <.Sicraft6095> :3
+[23:30:47] [Async Chat Thread - #50/INFO]: [Not Secure] <iLeola_> oe cesar cuando arreglas el altar
+[23:30:52] [Async Chat Thread - #50/INFO]: [Not Secure] <.Sicraft6095> es para probar el rp
+[23:31:02] [Server thread/INFO]: [Not Secure] [Server] solo revive el dragon y ya leo
+[23:31:03] [Server thread/INFO]: Villager Villager['Butcher'/79984, uuid='335db2c6-2b33-4033-aec8-9d34007ffbb4', l='ServerLevel[world]', x=-2381.50, y=63.00, z=928.29, cpos=[-149, 58], tl=171056, v=true] died, message: 'Butcher was shot by Pillager'
+[23:31:03] [Server thread/INFO]: .Sicraft6095 issued server command: /redprotect
+[23:31:08] [Async Chat Thread - #50/INFO]: [Not Secure] <iLeola_> con qué mierda lo voy a revivir
+[23:31:16] [Server thread/INFO]: .Sicraft6095 issued server command: /rp woods
+[23:31:18] [Server thread/INFO]: [Not Secure] [Server] end crystals con que mas
+[23:31:20] [Async Chat Thread - #50/INFO]: [Not Secure] <SunnyyIsHere_> DONDEEE
+[23:31:21] [Async Chat Thread - #49/INFO]: [Not Secure] <EduardoKeith> por fin mato a esos 1.50
+[23:31:22] [Server thread/INFO]: Villager Villager['Armorer'/88188, uuid='de8bce43-c00d-4005-88e0-270b16d3b412', l='ServerLevel[world]', x=-2380.83, y=67.23, z=925.17, cpos=[-149, 57], tl=179742, v=true] died, message: 'Armorer was shot by Pillager'
+[23:31:26] [Async Chat Thread - #49/INFO]: [Not Secure] <iLeola_> eso es lo que deberías hacerlo tú
+[23:31:28] [Server thread/INFO]: .Sicraft6095 issued server command: /rp 2
+[23:31:34] [Server thread/INFO]: [Not Secure] [Server] si, una polla
+[23:31:41] [Server thread/INFO]: [Not Secure] [Server] mentira ya entro
+[23:31:42] [Server thread/INFO]: .Sicraft6095 issued server command: /rp ? 2
+[23:31:54] [Async Chat Thread - #49/INFO]: [Not Secure] <iLeola_> más te vale.
+[23:32:00] [Server thread/INFO]: Sicraft issued server command: /redprotect
+[23:32:04] [Server thread/INFO]: Sicraft issued server command: /redprotect teleport
+[23:32:25] [Async Chat Thread - #49/INFO]: [Not Secure] <.Sicraft6095> ／rp teleport Woods
+[23:32:29] [Craft Scheduler Thread - 447 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[23:32:30] [Async Chat Thread - #49/INFO]: [Not Secure] <EduardoKeith> DONDE ESTA OMNI MAN
+[23:32:34] [Server thread/INFO]: .Sicraft6095 issued server command: /rp teleport woods
+[23:32:47] [Server thread/INFO]: Sicraft issued server command: /rp info
+[23:32:58] [Async Chat Thread - #49/INFO]: [Not Secure] <_FacuMC_> CUEVA
+[23:33:00] [Server thread/INFO]: _FacuMC_ has reached the goal [Postmortal]
+[23:33:06] [Server thread/INFO]: Sicraft issued server command: /rp removeadmin .Sicraft6905
+[23:33:10] [Async Chat Thread - #49/INFO]: [Not Secure] <SunnyyIsHere_> BRO COMO POPEAS UN TOTEM
+[23:33:12] [Async Chat Thread - #49/INFO]: [Not Secure] <SunnyyIsHere_> QUE MANCO
+[23:33:18] [Server thread/INFO]: Sicraft issued server command: /rp addadmin .Sicraft6095
+[23:33:40] [Server thread/INFO]: Sicraft issued server command: /rp removeadmin .Sicraft6905
+[23:33:45] [Async Chat Thread - #49/INFO]: [Not Secure] <iLeola_> que divertido ver cómo se les baja la vida
+[23:33:59] [Async Chat Thread - #49/INFO]: [Not Secure] <SunnyyIsHere_> SIOLENCIO
+[23:34:09] [Server thread/INFO]: _FacuMC_ was killed by Witch using magic
+[23:34:15] [Server thread/INFO]: _FacuMC_ issued server command: /BACK
+[23:34:17] [Async Chat Thread - #49/INFO]: [Not Secure] <iLeola_> XDXDXD
+[23:34:17] [Server thread/INFO]: _FacuMC_ issued server command: /back
+[23:34:25] [Server thread/INFO]: EduardoKeith has completed the challenge [Hero of the Village]
+[23:34:25] [Server thread/INFO]: _FacuMC_ has completed the challenge [Hero of the Village]
+[23:34:25] [Server thread/INFO]: SunnyyIsHere_ has completed the challenge [Hero of the Village]
+[23:34:27] [Async Chat Thread - #49/INFO]: [Not Secure] <EduardoKeith> gggg
+[23:34:32] [Server thread/INFO]: .Sicraft6095 issued server command: /rp tp Woods
+[23:34:34] [Async Chat Thread - #49/INFO]: [Not Secure] <SunnyyIsHere_> GGG
+[23:34:53] [Async Chat Thread - #49/INFO]: [Not Secure] <_FacuMC_> perdi el casco
+[23:34:54] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Sicraft6095 has disconnected from the Java server because of Bedrock client disconnected
+[23:34:54] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Sicraft6095 disconnected
+[23:34:54] [Server thread/INFO]: .Sicraft6095 lost connection: Disconnected
+[23:34:54] [Server thread/INFO]: .Sicraft6095 left the game
+[23:34:56] [Async Chat Thread - #49/INFO]: [Not Secure] <SunnyyIsHere_> GANAMOS
+[23:34:56] [Async Chat Thread - #49/INFO]: [Not Secure] <_FacuMC_> jaja que funi
+[23:35:09] [Server thread/INFO]: Sign Spy - Location: x: 252, y: 64, z: 711, world: world
+[23:35:09] [Server thread/INFO]: Player: Sicraft
+[23:35:09] [Server thread/INFO]: Lines - 1: [RP]: Done.ssd - 2: Woods
+[23:35:09] [Server thread/INFO]: Lines - 3:  - 4: 
+[23:35:36] [Async Chat Thread - #49/INFO]: [Not Secure] <SunnyyIsHere_> saque un totem
