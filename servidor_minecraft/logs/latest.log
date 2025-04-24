@@ -231,3 +231,45 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [19:04:46] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> wolrd
 [19:05:23] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> y la raid de mierda que hice
 [19:05:27] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> mis totems carajo
+[19:06:29] [Craft Scheduler Thread - 48 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:07:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
+[19:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8535ms or 170 ticks behind
+[19:08:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16871ms or 337 ticks behind
+[19:09:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10419ms or 208 ticks behind
+[19:09:04] [User Authenticator #3/INFO]: UUID of player joel_pro is 81c7b1d6-9201-396c-9664-227342306ead
+[19:09:06] [Server thread/INFO]: joel_pro joined the game
+[19:09:06] [Server thread/INFO]: joel_pro[/127.175.2.198:60315] logged in with entity id 7140 at ([world]0.0, 71.0, 0.0)
+[19:09:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13434ms or 268 ticks behind
+[19:09:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13265ms or 265 ticks behind
+[19:10:32] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SumaMT
+[19:10:32] [localSession-7-2/INFO]: [Geyser-Spigot] SumaMT (logged in as: SumaMT) has connected to the Java server
+[19:10:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .SumaMT joined (UUID: 00000000-0000-0000-0009-01f4e628707b)
+[19:10:33] [Server thread/INFO]: .SumaMT joined the game
+[19:10:33] [Server thread/INFO]: .SumaMT[/127.0.0.1:0] logged in with entity id 7992 at ([world]1.5, 70.0, -0.5)
+[19:10:40] [Async Chat Thread - #3/INFO]: [Not Secure] <xMega10_> suma
+[19:10:41] [Async Chat Thread - #3/INFO]: [Not Secure] <xMega10_> hol
+[19:10:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2604ms or 52 ticks behind
+[19:10:46] [Server thread/INFO]: iLeola_ has made the advancement [A Startling Foe]
+[19:11:44] [Async Chat Thread - #4/INFO]: [Not Secure] <.SumaMT> e
+[19:12:03] [Async Chat Thread - #3/INFO]: [Not Secure] <.SumaMT> que carajo
+[19:12:08] [Async Chat Thread - #3/INFO]: [Not Secure] <.SumaMT> perdi todas mis cosas
+[19:14:14] [Async Chat Thread - #6/INFO]: [Not Secure] <xMega10_> esto esta bug
+[19:14:18] [Async Chat Thread - #6/INFO]: [Not Secure] <xMega10_> las elytras no me dejan volar
+[19:14:19] [Async Chat Thread - #6/INFO]: [Not Secure] <xMega10_> xdxd
+[19:15:17] [Server thread/INFO]: Urikett009 issued server command: /rp teleport
+[19:15:18] [Server thread/INFO]: xMega10_ lost connection: Disconnected
+[19:15:18] [Server thread/INFO]: xMega10_ left the game
+[19:15:20] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
+[19:15:31] [User Authenticator #4/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[19:15:31] [Server thread/INFO]: xMega10_ joined the game
+[19:15:31] [Server thread/INFO]: xMega10_[/127.227.6.216:35513] logged in with entity id 14309 at ([world]0.0, 71.0, 0.0)
+[19:15:31] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[19:15:52] [Async Chat Thread - #7/INFO]: [Not Secure] <xMega10_> p
+[19:16:00] [Async Chat Thread - #7/INFO]: [Not Secure] <xMega10_> sigue sin dejarme volar
+[19:17:36] [Craft Scheduler Thread - 102 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:17:46] [Server thread/INFO]: [Not Secure] [Server] h
+[19:18:01] [Server thread/INFO]: .SumaMT has made the advancement [Stone Age]
+[19:19:48] [Server thread/INFO]: .SumaMT has made the advancement [Getting an Upgrade]
+[19:20:19] [Server thread/INFO]: xMega10_ issued server command: /rp teleport aldea
+[19:20:47] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> man
+[19:21:09] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> pq no me deja volar la mierda esta
