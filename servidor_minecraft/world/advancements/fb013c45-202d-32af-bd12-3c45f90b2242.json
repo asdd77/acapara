@@ -389,73 +389,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:02:29 +0000"
+      "log_spam_fixer": "2025-04-24 23:12:29 +0000"
     },
     "done": false
   },
@@ -549,6 +549,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-04-24 23:11:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-04-24 22:35:04 +0000"
@@ -576,6 +582,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-04-24 22:44:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-04-24 23:11:57 +0000"
     },
     "done": true
   },
@@ -640,6 +652,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-04-24 23:11:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2025-04-24 22:47:34 +0000"
@@ -649,6 +667,12 @@
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2025-04-24 22:44:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-04-24 23:11:57 +0000"
     },
     "done": true
   },
@@ -868,6 +892,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-04-24 23:11:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-04-24 22:35:10 +0000"
@@ -931,6 +961,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-04-24 22:35:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-04-24 23:11:57 +0000"
     },
     "done": true
   },

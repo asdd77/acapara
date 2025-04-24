@@ -1103,3 +1103,56 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.potion.PotionData.getT
 [23:02:28] [Server thread/INFO]: IKAL7064 lost connection: Disconnected
 [23:02:28] [Server thread/INFO]: IKAL7064 left the game
 [23:02:29] [Craft Scheduler Thread - 355 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[23:05:39] [Server thread/INFO]: Sign Spy - Location: x: 9484, y: 57, z: -4762, world: world
+[23:05:39] [Server thread/INFO]: Player: Urikett009
+[23:05:39] [Server thread/INFO]: Lines - 1:  - 2: Filo
+[23:05:39] [Server thread/INFO]: Lines - 3: V - 4: 
+[23:05:53] [Server thread/INFO]: iLeola_ issued server command: /team home
+[23:07:28] [Server thread/INFO]: EduardoKeith has made the advancement [Best Friends Forever]
+[23:07:30] [Async Chat Thread - #36/INFO]: [Not Secure] <EduardoKeith> siiiiiiiiii
+[23:07:53] [Server thread/INFO]: Sign Spy - Location: x: 9482, y: 57, z: -4762, world: world
+[23:07:53] [Server thread/INFO]: Player: Urikett009
+[23:07:53] [Server thread/INFO]: Lines - 1:  - 2: Aspecto Igneo
+[23:07:53] [Server thread/INFO]: Lines - 3: II - 4: 
+[23:09:18] [Server thread/INFO]: [Not Secure] [Server] h
+[23:09:21] [Server thread/INFO]: There are 4 of a max of 30 players online: Urikett009, EduardoKeith, Sicraft, iLeola_
+[23:09:23] [Async Chat Thread - #38/INFO]: [Not Secure] <EduardoKeith> h
+[23:09:27] [Async Chat Thread - #39/INFO]: [Not Secure] <Sicraft> extraño a suni
+[23:09:29] [Async Chat Thread - #39/INFO]: [Not Secure] <Sicraft> a aqui est
+[23:09:30] [Async Chat Thread - #39/INFO]: [Not Secure] <Sicraft> holaa
+[23:10:16] [Async Chat Thread - #39/INFO]: [Not Secure] <EduardoKeith> porfin encontre comida
+[23:10:46] [User Authenticator #13/INFO]: UUID of player SunnyyIsHere_ is ec8b9018-623f-3526-adbf-3b2fb85f38c1
+[23:10:47] [Server thread/INFO]: SunnyyIsHere_ joined the game
+[23:10:47] [Server thread/INFO]: SunnyyIsHere_[/127.9.156.13:35237] logged in with entity id 87859 at ([world]0.0, 71.0, 0.0)
+[23:10:48] [Server thread/INFO]: Sign Spy - Location: x: 9480, y: 57, z: -4762, world: world
+[23:10:48] [Server thread/INFO]: Player: Urikett009
+[23:10:48] [Server thread/INFO]: Lines - 1:  - 2: Protección
+[23:10:48] [Server thread/INFO]: Lines - 3: IV - 4: 
+[23:10:57] [Async Chat Thread - #39/INFO]: [Not Secure] <Sicraft> OLAAAA
+[23:11:02] [Server thread/INFO]: Villager Villager['Librarian'/956, uuid='2d1bdeb5-a9c8-4ea2-b39b-8adcd7d2606b', l='ServerLevel[world]', x=9486.50, y=55.00, z=-4763.30, cpos=[592, -298], tl=217642, v=true] died, message: 'Librarian went up in flames'
+[23:11:11] [Server thread/INFO]: Sicraft was blown up by Creeper
+[23:11:14] [Async Chat Thread - #39/INFO]: [Not Secure] <EduardoKeith> Q
+[23:11:22] [Async Chat Thread - #38/INFO]: [Not Secure] <Sicraft> AHAJAJAJA
+[23:11:26] [Async Chat Thread - #38/INFO]: [Not Secure] <Sicraft> ESE CREEPER ME ASUSTÓP
+[23:11:37] [Async Chat Thread - #38/INFO]: [Not Secure] <EduardoKeith> creeper jumpscare
+[23:11:51] [Async Chat Thread - #38/INFO]: [Not Secure] <SunnyyIsHere_> quiero elytras uauaua
+[23:12:04] [Server thread/INFO]: Sicraft issued server command: /BACK
+[23:12:05] [Async Chat Thread - #38/INFO]: [Not Secure] <EduardoKeith> te doy las mias
+[23:12:07] [Server thread/INFO]: Sicraft issued server command: /back
+[23:12:08] [Async Chat Thread - #38/INFO]: [Not Secure] <EduardoKeith> ggggg
+[23:12:11] [Async Chat Thread - #38/INFO]: [Not Secure] <Sicraft> ggggggg
+[23:12:16] [Server thread/INFO]: EduardoKeith issued server command: /tpa SunnyyIsHere_
+[23:12:17] [Async Chat Thread - #38/INFO]: [Not Secure] <Sicraft> Sunny traes casa?
+[23:12:22] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpaccept
+[23:12:28] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> eh
+[23:12:29] [Craft Scheduler Thread - 401 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[23:12:31] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> la de mega si
+[23:12:51] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> me asusto el perro man
+[23:12:55] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> casi le pego XDDD
+[23:12:59] [Async Chat Thread - #40/INFO]: [Not Secure] <EduardoKeith> qqqq
+[23:13:33] [Async Chat Thread - #40/INFO]: [Not Secure] <Sicraft> xd
+[23:14:06] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> a estas elytras les pongo mending y durabilidad III ya tengo para rato
+[23:14:07] [Server thread/INFO]: Sicraft was shot by Skeleton
+[23:14:08] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> muejejeje
+[23:14:11] [Server thread/INFO]: Sicraft issued server command: /back
+[23:14:18] [Async Chat Thread - #40/INFO]: [Not Secure] <SunnyyIsHere_> sicraft mejor ven donde mega
