@@ -1,58 +1,54 @@
-[18:55:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
-[18:55:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[18:55:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:55:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[18:55:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+[21:11:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[21:11:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[21:11:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:11:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[21:11:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
  - Geyser-Spigot (2.7.0-SNAPSHOT), LoginSecurity (3.3.0), RedProtect (8.1.2-SNAPSHOT), SimpleTpa (7.6), SkinsRestorer (15.6.2), UltimateTeams (3.3), ViaBackwards (5.3.2), ViaRewind (4.0.4), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[18:55:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:55:46] [ServerMain/WARN]: Missing metadata in pack file/Angwyy's Armory (1).zip
-[18:55:46] [ServerMain/WARN]: Missing metadata in pack file/MINECRAFT - SERVERS.zip
-[18:55:46] [ServerMain/WARN]: Missing metadata in pack file/intown.zip
-[18:55:49] [ServerMain/INFO]: Loaded 1314 recipes
-[18:55:50] [ServerMain/ERROR]: Couldn't load advancements: [nitex:nitex/defeat_rexial, nitdim:nitdim/in_between/settler_journals, nitdim:nitdim/enter_buried_ocean, nitdim:nitdim/in_between/ruined_town, nitsea:nitsea/defeat_raiden, nitsea:nitsea/root, nitdim:nitdim/enter_primordial_desert, nitex:nitex/find_artifact, nitdim:nitdim/in_between/battlefield_wreck, nitex:nitex/complete_mine, nitex:nitex/clear_illager_arena, nitdim:nitdim/primordial_desert/obelisk_reports, nitdim:nitdim/root, nitsea:nitsea/clear_castle, nitsea:nitsea/clear_galleon, nitsea:nitsea/complete_fleet, nitinv:nitinv/root, nitsea:nitsea/clear_lab, nitdim:nitdim/buried_ocean/tower, nitex:nitex/root, nitsea:nitsea/pirates, nitex:nitex/clear_piglin_cave, nitdim:nitdim/enter_tempest, nitdim:nitdim/buried_ocean/tower_history, nitex:nitex/clear_pyramid, nitdim:nitdim/primordial_desert/obelisk]
-[18:55:50] [ServerMain/INFO]: Loaded 1645 advancements
-[18:55:50] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: nitdim:buried_ocean/boiling_sea, nitdim:buried_ocean/mushroom_forest, nitdim:buried_ocean/mystic_roughs, nitdim:buried_ocean/pristine_sea, nitdim:buried_ocean/verdant_grove, nitdim:primordial_desert/crystal_caves, nitdim:primordial_desert/oasis, nitdim:primordial_desert/painted_desert, nitdim:primordial_desert/tar_pits, nitdim:primordial_desert/volcanic_zone
-[18:55:50] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[18:55:50] [Server thread/INFO]: Loading properties
-[18:55:50] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[18:55:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:55:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:55:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:55:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[18:55:52] [Server thread/INFO]: Default game type: SURVIVAL
-[18:55:52] [Server thread/INFO]: Generating keypair
-[18:55:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:55:52] [Server thread/INFO]: Using epoll channel type
-[18:55:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:55:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:55:53] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loading 6 libraries... please wait
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
-[18:55:54] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/h2database/h2/2.3.232/h2-2.3.232.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
-[18:55:54] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[18:55:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[18:55:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[18:55:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:55:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:55:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[18:55:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[18:55:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[18:55:59] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.3.2.jar' in folder 'plugins' (Is it up to date?)
+[21:11:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:11:41] [ServerMain/WARN]: Missing metadata in pack file/Angwyy's Armory (1).zip
+[21:11:41] [ServerMain/WARN]: Missing metadata in pack file/MINECRAFT - SERVERS.zip
+[21:11:41] [ServerMain/WARN]: Missing metadata in pack file/intown.zip
+[21:11:46] [ServerMain/INFO]: Loaded 1314 recipes
+[21:11:47] [ServerMain/ERROR]: Couldn't load advancements: [nitex:nitex/defeat_rexial, nitdim:nitdim/in_between/settler_journals, nitdim:nitdim/enter_buried_ocean, nitdim:nitdim/in_between/ruined_town, nitsea:nitsea/defeat_raiden, nitsea:nitsea/root, nitdim:nitdim/enter_primordial_desert, nitex:nitex/find_artifact, nitdim:nitdim/in_between/battlefield_wreck, nitex:nitex/complete_mine, nitex:nitex/clear_illager_arena, nitdim:nitdim/primordial_desert/obelisk_reports, nitdim:nitdim/root, nitsea:nitsea/clear_castle, nitsea:nitsea/clear_galleon, nitsea:nitsea/complete_fleet, nitinv:nitinv/root, nitsea:nitsea/clear_lab, nitdim:nitdim/buried_ocean/tower, nitex:nitex/root, nitsea:nitsea/pirates, nitex:nitex/clear_piglin_cave, nitdim:nitdim/enter_tempest, nitdim:nitdim/buried_ocean/tower_history, nitex:nitex/clear_pyramid, nitdim:nitdim/primordial_desert/obelisk]
+[21:11:47] [ServerMain/INFO]: Loaded 1645 advancements
+[21:11:47] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: nitdim:buried_ocean/boiling_sea, nitdim:buried_ocean/mushroom_forest, nitdim:buried_ocean/mystic_roughs, nitdim:buried_ocean/pristine_sea, nitdim:buried_ocean/verdant_grove, nitdim:primordial_desert/crystal_caves, nitdim:primordial_desert/oasis, nitdim:primordial_desert/painted_desert, nitdim:primordial_desert/tar_pits, nitdim:primordial_desert/volcanic_zone
+[21:11:47] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:11:47] [Server thread/INFO]: Loading properties
+[21:11:47] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[21:11:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:11:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:11:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:11:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:11:50] [Server thread/INFO]: Default game type: SURVIVAL
+[21:11:50] [Server thread/INFO]: Generating keypair
+[21:11:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:11:50] [Server thread/INFO]: Using epoll channel type
+[21:11:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:11:50] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loading 6 libraries... please wait
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/h2database/h2/2.3.232/h2-2.3.232.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[21:11:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /workspaces/acapara/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[21:11:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[21:11:53] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[21:11:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:11:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:11:56] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:11:56] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:11:58] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[21:11:58] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.3.2.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType.findById(int)'
 	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8$3.register(EntityPacketRewriter1_8.java:144) ~[ViaRewind-4.0.4.jar:?]
 	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.<init>(PacketHandlers.java:38) ~[ViaVersion-5.3.2.jar:?]
@@ -76,315 +72,148 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:55:59] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[18:56:00] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[18:56:00] [Server thread/INFO]: [floodgate] Took 1,621ms to boot Floodgate
-[18:56:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[18:56:00] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[18:56:00] [Server thread/INFO]: [UltimateTeams] Loading server plugin UltimateTeams v3.3
-[18:56:00] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[18:56:00] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[18:56:00] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
-[18:56:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
-[18:56:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[18:56:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[18:56:02] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.2-SNAPSHOT
-[18:56:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:56:02] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[18:56:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
-[18:56:03] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[18:56:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[18:56:04] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[18:56:05] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[18:56:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:56:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:56:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:56:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:56:05] [Server thread/INFO]: Preparing level "world"
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[18:56:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[18:56:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:56:07] [Server thread/INFO]: Time elapsed: 1409 ms
-[18:56:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:56:07] [Server thread/INFO]: Time elapsed: 338 ms
-[18:56:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:56:08] [Server thread/INFO]: Time elapsed: 448 ms
-[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:tempest
-[18:56:08] [Server thread/INFO]: Time elapsed: 220 ms
-[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:in_between
-[18:56:08] [Server thread/INFO]: Time elapsed: 146 ms
-[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:primordial_desert
-[18:56:08] [Server thread/INFO]: Time elapsed: 159 ms
-[18:56:08] [Server thread/INFO]: Preparing start region for dimension nitdim:buried_ocean
-[18:56:08] [Server thread/INFO]: Time elapsed: 328 ms
-[18:56:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[18:56:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[18:56:09] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[18:56:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[18:56:09] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[18:56:09] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[18:56:09] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[18:56:09] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[18:56:09] [Server thread/INFO]: [UltimateTeams] Enabling UltimateTeams v3.3
-[18:56:10] [Server thread/INFO]: [UltimateTeams] [ACF] Enabled Asynchronous Tab Completion Support!
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing plugin config & locale files...
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized plugin config & locale files
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing SQLite database connection...
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Database tables created
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized SQLite database connection
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing commands...
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized commands
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing events...
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized events
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing teams...
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized teams
-[18:56:10] [Server thread/INFO]: -------------------------------------------
-[18:56:10] [Server thread/INFO]: UltimateTeams: PlaceholderAPI not found!
-[18:56:10] [Server thread/INFO]: UltimateTeams: External placeholders disabled!
-[18:56:10] [Server thread/INFO]: -------------------------------------------
-[18:56:10] [Server thread/INFO]: -------------------------------------------
-[18:56:10] [Server thread/INFO]: UltimateTeams: FloodgateApi not found/feature disabled!
-[18:56:10] [Server thread/INFO]: UltimateTeams: Bedrock support won't work!
-[18:56:10] [Server thread/INFO]: -------------------------------------------
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Initializing metrics...
-[18:56:10] [Server thread/INFO]: [UltimateTeams] Successfully initialized metrics
-[18:56:10] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[18:56:10] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[18:56:10] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[18:56:10] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[18:56:10] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[18:56:11] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[18:56:11] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
-[18:56:11] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.2-SNAPSHOT
-[18:56:12] [Server thread/INFO]: [RedProtect] Server version: 1.21.1-R0.1-SNAPSHOT
-[18:56:12] [Server thread/INFO]: [RedProtect] All configurations loaded!
-[18:56:12] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
-[18:56:12] [Server thread/INFO]: [RedProtect] Registering commands...
-[18:56:12] [Server thread/INFO]: [RedProtect] Registering listeners...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_tempest's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_in_between's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_primordial_desert's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_buried_ocean's regions...
-[18:56:13] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
-[18:56:13] [Server thread/INFO]: [RedProtect] There are 15 regions on (file) database!
-[18:56:13] [Server thread/INFO]: [RedProtect] Helper version: Latest
-[18:56:13] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
-[18:56:13] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
-[18:56:13] [Server thread/INFO]: [RedProtect] Loading API...
-[18:56:13] [Server thread/INFO]: [RedProtect] API Loaded!
-[18:56:13] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
-[18:56:13] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
-[18:56:13] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
-[18:56:13] [Server thread/INFO]: » RedProtect v8.1.2-SNAPSHOT enabled
-[18:56:13] [Server thread/INFO]: 
-[18:56:13] [Server thread/INFO]: [spark] Starting background profiler...
-[18:56:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:56:13] [Server thread/INFO]: [Geyser-Spigot] 
-[18:56:13] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b812 (git-master-efd4dcc)
-[18:56:13] [Server thread/INFO]: [Geyser-Spigot] 
-[18:56:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:56:21] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
-[18:56:21] [Server thread/INFO]: [Geyser-Spigot] Done (8.094s)! Run /geyser help for help!
-[18:56:21] [Server thread/INFO]: Done preparing level "world" (16.906s)
-[18:56:21] [Server thread/INFO]: Running delayed init tasks
-[18:56:21] [Server thread/INFO]: Done (42.402s)! For help, type "help"
-[18:56:21] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[18:56:21] [Server thread/INFO]: Timings Reset
-[18:56:21] [Craft Scheduler Thread - 8 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[18:56:22] [Craft Scheduler Thread - 7 - UltimateTeams/INFO]: Loaded 5 teams!
-[18:56:56] [Server thread/INFO]: Nothing changed. The player already is an operator
-[18:58:56] [User Authenticator #0/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
-[18:58:56] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[18:58:56] [Server thread/INFO]: xMega10_ joined the game
-[18:58:57] [Server thread/INFO]: xMega10_[/127.227.6.216:59881] logged in with entity id 215 at ([world]0.0, 71.0, 0.0)
-[19:01:25] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:01:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7323ms or 146 ticks behind
-[19:01:37] [User Authenticator #1/INFO]: UUID of player Urikett009 is 9f11e501-0b1f-30e4-95f0-3749efba8ca9
-[19:01:39] [Server thread/INFO]: Urikett009 joined the game
-[19:01:39] [Server thread/INFO]: Urikett009[/127.230.42.224:38323] logged in with entity id 749 at ([world]0.0, 71.0, 0.0)
-[19:03:11] [Server thread/INFO]: [Not Secure] [Server] say gg
-[19:03:13] [Async Chat Thread - #1/INFO]: [Not Secure] <xMega10_> q
-[19:03:28] [Server thread/INFO]: [Not Secure] [Server] mañana evento final
-[19:03:38] [User Authenticator #2/INFO]: UUID of player iLeola_ is 04c6568a-80d6-38d1-9c7e-efc90999a73c
-[19:03:41] [Server thread/INFO]: iLeola_ joined the game
-[19:03:41] [Server thread/INFO]: iLeola_[/127.210.202.86:37071] logged in with entity id 2317 at ([world]0.0, 71.0, 0.0)
-[19:03:49] [Server thread/INFO]: [Not Secure] [Server] y ya el sabado pasaremos a skyblock
-[19:04:18] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> que bonito el rollback
-[19:04:25] [Server thread/INFO]: [Not Secure] [Server] q
-[19:04:37] [Server thread/INFO]: [Not Secure] [Server] ah si no te preocupes por eso!
-[19:04:40] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> estoy con mi espada sin el encantamiento aquel del void strike
-[19:04:44] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> y ando de vuelta en el overwolrd
-[19:04:46] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> wolrd
-[19:05:23] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> y la raid de mierda que hice
-[19:05:27] [Async Chat Thread - #1/INFO]: [Not Secure] <iLeola_> mis totems carajo
-[19:06:29] [Craft Scheduler Thread - 48 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[19:07:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
-[19:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8535ms or 170 ticks behind
-[19:08:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16871ms or 337 ticks behind
-[19:09:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10419ms or 208 ticks behind
-[19:09:04] [User Authenticator #3/INFO]: UUID of player joel_pro is 81c7b1d6-9201-396c-9664-227342306ead
-[19:09:06] [Server thread/INFO]: joel_pro joined the game
-[19:09:06] [Server thread/INFO]: joel_pro[/127.175.2.198:60315] logged in with entity id 7140 at ([world]0.0, 71.0, 0.0)
-[19:09:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13434ms or 268 ticks behind
-[19:09:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13265ms or 265 ticks behind
-[19:10:32] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SumaMT
-[19:10:32] [localSession-7-2/INFO]: [Geyser-Spigot] SumaMT (logged in as: SumaMT) has connected to the Java server
-[19:10:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .SumaMT joined (UUID: 00000000-0000-0000-0009-01f4e628707b)
-[19:10:33] [Server thread/INFO]: .SumaMT joined the game
-[19:10:33] [Server thread/INFO]: .SumaMT[/127.0.0.1:0] logged in with entity id 7992 at ([world]1.5, 70.0, -0.5)
-[19:10:40] [Async Chat Thread - #3/INFO]: [Not Secure] <xMega10_> suma
-[19:10:41] [Async Chat Thread - #3/INFO]: [Not Secure] <xMega10_> hol
-[19:10:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2604ms or 52 ticks behind
-[19:10:46] [Server thread/INFO]: iLeola_ has made the advancement [A Startling Foe]
-[19:11:44] [Async Chat Thread - #4/INFO]: [Not Secure] <.SumaMT> e
-[19:12:03] [Async Chat Thread - #3/INFO]: [Not Secure] <.SumaMT> que carajo
-[19:12:08] [Async Chat Thread - #3/INFO]: [Not Secure] <.SumaMT> perdi todas mis cosas
-[19:14:14] [Async Chat Thread - #6/INFO]: [Not Secure] <xMega10_> esto esta bug
-[19:14:18] [Async Chat Thread - #6/INFO]: [Not Secure] <xMega10_> las elytras no me dejan volar
-[19:14:19] [Async Chat Thread - #6/INFO]: [Not Secure] <xMega10_> xdxd
-[19:15:17] [Server thread/INFO]: Urikett009 issued server command: /rp teleport
-[19:15:18] [Server thread/INFO]: xMega10_ lost connection: Disconnected
-[19:15:18] [Server thread/INFO]: xMega10_ left the game
-[19:15:20] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
-[19:15:31] [User Authenticator #4/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
-[19:15:31] [Server thread/INFO]: xMega10_ joined the game
-[19:15:31] [Server thread/INFO]: xMega10_[/127.227.6.216:35513] logged in with entity id 14309 at ([world]0.0, 71.0, 0.0)
-[19:15:31] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
-[19:15:52] [Async Chat Thread - #7/INFO]: [Not Secure] <xMega10_> p
-[19:16:00] [Async Chat Thread - #7/INFO]: [Not Secure] <xMega10_> sigue sin dejarme volar
-[19:17:36] [Craft Scheduler Thread - 102 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[19:17:46] [Server thread/INFO]: [Not Secure] [Server] h
-[19:18:01] [Server thread/INFO]: .SumaMT has made the advancement [Stone Age]
-[19:19:48] [Server thread/INFO]: .SumaMT has made the advancement [Getting an Upgrade]
-[19:20:19] [Server thread/INFO]: xMega10_ issued server command: /rp teleport aldea
-[19:20:47] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> man
-[19:21:09] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> pq no me deja volar la mierda esta
-[19:25:07] [Server thread/INFO]: .SumaMT has made the advancement [Acquire Hardware]
-[19:25:51] [User Authenticator #5/INFO]: UUID of player EduardoKeith is 614014a7-d664-3694-ac6e-e88d6a358a90
-[19:25:53] [Server thread/INFO]: EduardoKeith joined the game
-[19:25:53] [Server thread/INFO]: EduardoKeith[/127.130.30.118:56423] logged in with entity id 22013 at ([world]0.0, 71.0, 0.0)
-[19:26:27] [Server thread/INFO]: iLeola_ issued server command: /rp list
-[19:26:28] [Server thread/INFO]: iLeola_ issued server command: /rp teleport End world_the_end
-[19:27:36] [Craft Scheduler Thread - 149 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[19:27:44] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> Man
-[19:27:49] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> me tiene hasta los huevos el no poder volar
-[19:28:13] [Server thread/INFO]: xMega10_ issued server command: /rp teleport base
-[19:28:52] [Server thread/INFO]: xMega10_ lost connection: Timed out
-[19:28:52] [Server thread/INFO]: xMega10_ left the game
-[19:29:05] [User Authenticator #6/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
-[19:29:05] [Server thread/INFO]: xMega10_ joined the game
-[19:29:05] [Server thread/INFO]: xMega10_[/127.227.6.216:56361] logged in with entity id 24382 at ([world]0.0, 71.0, 0.0)
-[19:29:05] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
-[19:29:51] [Server thread/INFO]: There are 6 of a max of 30 players online: Urikett009, joel_pro, .SumaMT, EduardoKeith, iLeola_, xMega10_
-[19:30:01] [Server thread/INFO]: Sign Spy - Location: x: 9467, y: 71, z: -4760, world: world
-[19:30:01] [Server thread/INFO]: Player: Urikett009
-[19:30:01] [Server thread/INFO]: Lines - 1: [RP] - 2: 57
-[19:30:01] [Server thread/INFO]: Lines - 3:  - 4: 
-[19:30:08] [Server thread/INFO]: Sign Spy - Location: x: 9467, y: 71, z: -4760, world: world
-[19:30:08] [Server thread/INFO]: Player: Urikett009
-[19:30:08] [Server thread/INFO]: Lines - 1: Error - 2: 57
-[19:30:08] [Server thread/INFO]: Lines - 3:  - 4: 
-[19:30:31] [Server thread/INFO]: Urikett009 issued server command: /rp border
-[19:30:38] [Server thread/INFO]: Urikett009 issued server command: /rp border
-[19:30:56] [Server thread/INFO]: Urikett009 issued server command: /rp expand-vert
-[19:30:59] [Server thread/INFO]: .SumaMT has made the advancement [Isn't It Iron Pick]
-[19:31:01] [Server thread/INFO]: xMega10_ lost connection: Disconnected
-[19:31:01] [Server thread/INFO]: xMega10_ left the game
-[19:31:03] [Server thread/INFO]: Urikett009 issued server command: /rp border
-[19:31:14] [Server thread/INFO]: Urikett009 issued server command: /rp wand
-[19:31:25] [Server thread/INFO]: Urikett009 issued server command: /rp list
-[19:31:32] [Server thread/INFO]: Urikett009 issued server command: /rp delete
-[19:31:39] [Server thread/INFO]: Urikett009 issued server command: /rp yes
-[19:31:59] [Server thread/INFO]: Sign Spy - Location: x: 9467, y: 71, z: -4760, world: world
-[19:31:59] [Server thread/INFO]: Player: Urikett009
-[19:31:59] [Server thread/INFO]: Lines - 1: [RP] - 2: pina
-[19:31:59] [Server thread/INFO]: Lines - 3:  - 4: 
-[19:32:53] [Server thread/INFO]: Urikett009 issued server command: /rp teleport
-[19:32:55] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
-[19:33:30] [Server thread/INFO]: Urikett009 issued server command: /rp settp
-[19:33:53] [Server thread/INFO]: [Not Secure] [Server] h
-[19:36:04] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
-[19:36:30] [Server thread/INFO]: iLeola_ has reached the goal [Remote Getaway]
-[19:36:58] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] SumaMT has disconnected from the Java server because of Bedrock client disconnected
-[19:36:58] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .SumaMT disconnected
-[19:36:58] [Server thread/INFO]: .SumaMT lost connection: Disconnected
-[19:36:58] [Server thread/INFO]: .SumaMT left the game
-[19:37:36] [Craft Scheduler Thread - 145 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[19:41:39] [Server thread/INFO]: Villager Villager['Villager'/21813, uuid='86ad771a-40c0-4ffc-a892-f268ecfa5029', l='ServerLevel[world]', x=9497.88, y=70.94, z=-4765.58, cpos=[593, -298], tl=17864, v=true] died, message: 'Villager was slain by Urikett009'
-[19:41:53] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
-[19:41:57] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea world
-[19:47:36] [Craft Scheduler Thread - 186 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[19:48:18] [User Authenticator #7/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
-[19:48:18] [Server thread/INFO]: xMega10_ joined the game
-[19:48:18] [Server thread/INFO]: xMega10_[/127.227.6.216:34897] logged in with entity id 33888 at ([world]0.0, 71.0, 0.0)
-[19:48:55] [Server thread/INFO]: xMega10_ issued server command: /rp addadmin EduardoKeith
-[19:49:05] [Server thread/INFO]: xMega10_ issued server command: /rp teleport Aldea
-[19:49:11] [Server thread/INFO]: xMega10_ issued server command: /rp addadmin EduardoKeith
-[19:49:18] [Async Chat Thread - #15/INFO]: [Not Secure] <xMega10_> ya
-[19:49:21] [Server thread/INFO]: xMega10_ lost connection: Disconnected
-[19:49:21] [Server thread/INFO]: xMega10_ left the game
-[19:49:50] [Async Chat Thread - #15/INFO]: [Not Secure] <EduardoKeith> siiiiii
-[19:53:23] [User Authenticator #8/INFO]: UUID of player SunnyyIsHere_ is ec8b9018-623f-3526-adbf-3b2fb85f38c1
-[19:53:24] [Server thread/INFO]: SunnyyIsHere_ joined the game
-[19:53:24] [Server thread/INFO]: SunnyyIsHere_[/127.9.156.13:56983] logged in with entity id 36004 at ([world]0.0, 71.0, 0.0)
-[19:54:19] [Async Chat Thread - #17/INFO]: [Not Secure] <joel_pro> chat muerto
-[19:54:22] [Async Chat Thread - #17/INFO]: [Not Secure] <EduardoKeith> ayer
-[19:54:48] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport base
-[19:55:23] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
-[19:55:46] [Async Chat Thread - #19/INFO]: [Not Secure] <SunnyyIsHere_> mañana
-[19:56:31] [Server thread/INFO]: iLeola_ lost connection: Timed out
-[19:56:31] [Server thread/INFO]: iLeola_ left the game
-[19:57:23] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport base
-[19:57:36] [Craft Scheduler Thread - 216 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
-[19:58:07] [Async Chat Thread - #21/INFO]: [Not Secure] <EduardoKeith> qqqqq volvieron mis 2 de tnt
-[19:58:36] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mateopro7773013
-[19:58:36] [localSession-7-3/INFO]: [Geyser-Spigot] Mateopro7773013 (logged in as: Mateopro7773013) has connected to the Java server
-[19:58:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Mateopro7773013 joined (UUID: 00000000-0000-0000-0009-01f5125aebff)
-[19:58:37] [Server thread/INFO]: .Mateopro7773013 joined the game
-[19:58:37] [Server thread/INFO]: .Mateopro7773013[/127.0.0.1:0] logged in with entity id 38879 at ([world]0.0, 71.0, 0.0)
-[19:59:03] [Server thread/INFO]: SunnyyIsHere_ issued server command: /rp tp base
-[19:59:27] [Server thread/INFO]: SunnyyIsHere_ issued server command: /team tp r
-[19:59:36] [Server thread/INFO]: .Mateopro7773013 issued server command: /team home
-[20:00:15] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpa EduardoKeith
-[20:00:17] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
-[20:00:45] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
-[20:00:58] [User Authenticator #9/INFO]: UUID of player iLeola_ is 04c6568a-80d6-38d1-9c7e-efc90999a73c
-[20:01:00] [Server thread/INFO]: iLeola_ joined the game
-[20:01:00] [Server thread/INFO]: iLeola_[/127.210.202.86:59651] logged in with entity id 41103 at ([world]0.0, 71.0, 0.0)
-[20:01:17] [Server thread/INFO]: SunnyyIsHere_ issued server command: /rp tp aldea
-[20:01:26] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> ahh
-[20:01:38] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> ya tengo reparacion en mi armadura
-[20:01:40] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> siii
-[20:02:07] [Server thread/INFO]: Named entity Blaze['Desert Blaze'/41801, uuid='f6a7947b-17e2-49a6-9c37-a943828871cf', l='ServerLevel[world_nether]', x=-329.67, y=67.36, z=120.69, cpos=[-21, 7], tl=366, v=true] died: Desert Blaze was slain by EduardoKeith using [Soap]
-[20:02:11] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> eduardo dame perms de la otra aldea
-[20:02:17] [Server thread/INFO]: Named entity Blaze['Desert Blaze'/41802, uuid='fa383209-f025-404a-ae71-e4e4b73d04f1', l='ServerLevel[world_nether]', x=-334.53, y=67.56, z=119.70, cpos=[-21, 7], tl=575, v=true] died: Desert Blaze was slain by EduardoKeith using [Soap]
-[20:02:20] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea
-[20:02:23] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport aldea world
-[20:02:24] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> va
-[20:02:31] [Server thread/INFO]: EduardoKeith issued server command: /rp addadmin SunnyyIsHere_
-[20:02:32] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> ya
-[20:02:49] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> qie
-[20:02:57] [Server thread/INFO]: SunnyyIsHere_ issued server command: /rp tp aldea
-[20:02:59] [Async Chat Thread - #23/INFO]: [Not Secure] <EduardoKeith> 4 caballos supah
-[20:03:59] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzzzzzz
-[20:03:59] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzz
-[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> z
-[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> z
-[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> z
-[20:04:00] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzz
-[20:04:01] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zzz
-[20:04:01] [Async Chat Thread - #23/INFO]: [Not Secure] <SunnyyIsHere_> zz
+[21:11:58] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:12:00] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:12:00] [Server thread/INFO]: [floodgate] Took 2,043ms to boot Floodgate
+[21:12:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[21:12:00] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[21:12:00] [Server thread/INFO]: [UltimateTeams] Loading server plugin UltimateTeams v3.3
+[21:12:00] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[21:12:00] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[21:12:00] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[21:12:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[21:12:03] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:12:03] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:12:03] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.2-SNAPSHOT
+[21:12:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:12:03] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[21:12:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[21:12:04] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:12:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[21:12:04] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[21:12:05] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:12:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:12:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:12:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:12:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:12:05] [Server thread/INFO]: Preparing level "world"
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:12:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:12:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:12:07] [Server thread/INFO]: Time elapsed: 1095 ms
+[21:12:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:12:07] [Server thread/INFO]: Time elapsed: 202 ms
+[21:12:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:12:08] [Server thread/INFO]: Time elapsed: 366 ms
+[21:12:08] [Server thread/INFO]: Preparing start region for dimension nitdim:buried_ocean
+[21:12:08] [Server thread/INFO]: Time elapsed: 161 ms
+[21:12:08] [Server thread/INFO]: Preparing start region for dimension nitdim:primordial_desert
+[21:12:08] [Server thread/INFO]: Time elapsed: 207 ms
+[21:12:08] [Server thread/INFO]: Preparing start region for dimension nitdim:tempest
+[21:12:08] [Server thread/INFO]: Time elapsed: 265 ms
+[21:12:08] [Server thread/INFO]: Preparing start region for dimension nitdim:in_between
+[21:12:09] [Server thread/INFO]: Time elapsed: 710 ms
+[21:12:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[21:12:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[21:12:09] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:12:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[21:12:10] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[21:12:10] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[21:12:10] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[21:12:10] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[21:12:10] [Server thread/INFO]: [UltimateTeams] Enabling UltimateTeams v3.3
+[21:12:10] [Server thread/INFO]: [UltimateTeams] [ACF] Enabled Asynchronous Tab Completion Support!
+[21:12:10] [Server thread/INFO]: [UltimateTeams] Initializing plugin config & locale files...
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Successfully initialized plugin config & locale files
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Initializing SQLite database connection...
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Database tables created
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Successfully initialized SQLite database connection
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Initializing commands...
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Successfully initialized commands
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Initializing events...
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Successfully initialized events
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Initializing teams...
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Successfully initialized teams
+[21:12:11] [Server thread/INFO]: -------------------------------------------
+[21:12:11] [Server thread/INFO]: UltimateTeams: PlaceholderAPI not found!
+[21:12:11] [Server thread/INFO]: UltimateTeams: External placeholders disabled!
+[21:12:11] [Server thread/INFO]: -------------------------------------------
+[21:12:11] [Server thread/INFO]: -------------------------------------------
+[21:12:11] [Server thread/INFO]: UltimateTeams: FloodgateApi not found/feature disabled!
+[21:12:11] [Server thread/INFO]: UltimateTeams: Bedrock support won't work!
+[21:12:11] [Server thread/INFO]: -------------------------------------------
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Initializing metrics...
+[21:12:11] [Server thread/INFO]: [UltimateTeams] Successfully initialized metrics
+[21:12:11] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[21:12:11] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[21:12:11] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[21:12:11] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[21:12:11] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[21:12:11] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[21:12:11] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[21:12:12] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.2-SNAPSHOT
+[21:12:12] [Server thread/INFO]: [RedProtect] Server version: 1.21.1-R0.1-SNAPSHOT
+[21:12:12] [Server thread/INFO]: [RedProtect] All configurations loaded!
+[21:12:12] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
+[21:12:12] [Server thread/INFO]: [RedProtect] Registering commands...
+[21:12:13] [Server thread/INFO]: [RedProtect] Registering listeners...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_buried_ocean's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_primordial_desert's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_tempest's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] - Loading world_nitdim_in_between's regions...
+[21:12:13] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[21:12:13] [Server thread/INFO]: [RedProtect] There are 15 regions on (file) database!
+[21:12:13] [Server thread/INFO]: [RedProtect] Helper version: Latest
+[21:12:13] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
+[21:12:13] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
+[21:12:13] [Server thread/INFO]: [RedProtect] Loading API...
+[21:12:13] [Server thread/INFO]: [RedProtect] API Loaded!
+[21:12:13] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
+[21:12:13] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
+[21:12:13] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
+[21:12:13] [Server thread/INFO]: » RedProtect v8.1.2-SNAPSHOT enabled
+[21:12:13] [Server thread/INFO]: 
+[21:12:13] [Server thread/INFO]: [spark] Starting background profiler...
+[21:12:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:12:13] [Server thread/INFO]: [Geyser-Spigot] 
+[21:12:13] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b812 (git-master-efd4dcc)
+[21:12:13] [Server thread/INFO]: [Geyser-Spigot] 
+[21:12:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:12:21] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
+[21:12:21] [Server thread/INFO]: [Geyser-Spigot] Done (7.885s)! Run /geyser help for help!
+[21:12:21] [Server thread/INFO]: Done preparing level "world" (16.147s)
+[21:12:21] [Server thread/INFO]: Running delayed init tasks
+[21:12:21] [Server thread/INFO]: Done (51.091s)! For help, type "help"
+[21:12:21] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:12:21] [Craft Scheduler Thread - 8 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[21:12:21] [Server thread/INFO]: Timings Reset
+[21:12:22] [Craft Scheduler Thread - 7 - UltimateTeams/INFO]: Loaded 5 teams!
+[21:12:27] [Server thread/INFO]: [Not Secure] [Server] h
+[21:12:55] [User Authenticator #0/INFO]: UUID of player EduardoKeith is 614014a7-d664-3694-ac6e-e88d6a358a90
+[21:12:56] [Server thread/INFO]: EduardoKeith joined the game
+[21:12:57] [Server thread/INFO]: EduardoKeith[/127.130.30.118:35961] logged in with entity id 163 at ([world]0.0, 71.0, 0.0)
+[21:16:35] [User Authenticator #1/INFO]: UUID of player Urikett009 is 9f11e501-0b1f-30e4-95f0-3749efba8ca9
+[21:16:36] [Server thread/INFO]: Urikett009 joined the game
+[21:16:36] [Server thread/INFO]: Urikett009[/127.230.42.224:45869] logged in with entity id 817 at ([world]0.0, 71.0, 0.0)
+[21:16:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 25f39df3-38f7-4cbf-a910-edf368361fce, mapped to Horse['Horse'/941, uuid='25f39df3-38f7-4cbf-a910-edf368361fce', l='ServerLevel[world]', x=9518.90, y=72.00, z=-4717.82, cpos=[594, -295], tl=192764, v=true], can't add Horse['Horse'/943, uuid='25f39df3-38f7-4cbf-a910-edf368361fce', l='ServerLevel[world]', x=9522.91, y=72.00, z=-4713.91, cpos=[595, -295], tl=190110, v=false]
+[21:16:50] [User Authenticator #1/INFO]: UUID of player IKAL7064 is 3c697ae3-cde3-322e-9523-6878f4ab07a7
+[21:16:51] [Server thread/INFO]: IKAL7064 joined the game
+[21:16:51] [Server thread/INFO]: IKAL7064[/127.29.232.125:60251] logged in with entity id 1214 at ([world]0.0, 71.0, 0.0)
+[21:16:59] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:17:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7453ms or 149 ticks behind
+[21:17:06] [Server thread/WARN]: Urikett009 moved too quickly! 7.132425484001942,-7.234235600668711,-1.0725296554483066
+[21:18:02] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> asdfghjklñ
