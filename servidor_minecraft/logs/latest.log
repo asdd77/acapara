@@ -273,3 +273,45 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [19:20:19] [Server thread/INFO]: xMega10_ issued server command: /rp teleport aldea
 [19:20:47] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> man
 [19:21:09] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> pq no me deja volar la mierda esta
+[19:25:07] [Server thread/INFO]: .SumaMT has made the advancement [Acquire Hardware]
+[19:25:51] [User Authenticator #5/INFO]: UUID of player EduardoKeith is 614014a7-d664-3694-ac6e-e88d6a358a90
+[19:25:53] [Server thread/INFO]: EduardoKeith joined the game
+[19:25:53] [Server thread/INFO]: EduardoKeith[/127.130.30.118:56423] logged in with entity id 22013 at ([world]0.0, 71.0, 0.0)
+[19:26:27] [Server thread/INFO]: iLeola_ issued server command: /rp list
+[19:26:28] [Server thread/INFO]: iLeola_ issued server command: /rp teleport End world_the_end
+[19:27:36] [Craft Scheduler Thread - 149 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:27:44] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> Man
+[19:27:49] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> me tiene hasta los huevos el no poder volar
+[19:28:13] [Server thread/INFO]: xMega10_ issued server command: /rp teleport base
+[19:28:52] [Server thread/INFO]: xMega10_ lost connection: Timed out
+[19:28:52] [Server thread/INFO]: xMega10_ left the game
+[19:29:05] [User Authenticator #6/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[19:29:05] [Server thread/INFO]: xMega10_ joined the game
+[19:29:05] [Server thread/INFO]: xMega10_[/127.227.6.216:56361] logged in with entity id 24382 at ([world]0.0, 71.0, 0.0)
+[19:29:05] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[19:29:51] [Server thread/INFO]: There are 6 of a max of 30 players online: Urikett009, joel_pro, .SumaMT, EduardoKeith, iLeola_, xMega10_
+[19:30:01] [Server thread/INFO]: Sign Spy - Location: x: 9467, y: 71, z: -4760, world: world
+[19:30:01] [Server thread/INFO]: Player: Urikett009
+[19:30:01] [Server thread/INFO]: Lines - 1: [RP] - 2: 57
+[19:30:01] [Server thread/INFO]: Lines - 3:  - 4: 
+[19:30:08] [Server thread/INFO]: Sign Spy - Location: x: 9467, y: 71, z: -4760, world: world
+[19:30:08] [Server thread/INFO]: Player: Urikett009
+[19:30:08] [Server thread/INFO]: Lines - 1: Error - 2: 57
+[19:30:08] [Server thread/INFO]: Lines - 3:  - 4: 
+[19:30:31] [Server thread/INFO]: Urikett009 issued server command: /rp border
+[19:30:38] [Server thread/INFO]: Urikett009 issued server command: /rp border
+[19:30:56] [Server thread/INFO]: Urikett009 issued server command: /rp expand-vert
+[19:30:59] [Server thread/INFO]: .SumaMT has made the advancement [Isn't It Iron Pick]
+[19:31:01] [Server thread/INFO]: xMega10_ lost connection: Disconnected
+[19:31:01] [Server thread/INFO]: xMega10_ left the game
+[19:31:03] [Server thread/INFO]: Urikett009 issued server command: /rp border
+[19:31:14] [Server thread/INFO]: Urikett009 issued server command: /rp wand
+[19:31:25] [Server thread/INFO]: Urikett009 issued server command: /rp list
+[19:31:32] [Server thread/INFO]: Urikett009 issued server command: /rp delete
+[19:31:39] [Server thread/INFO]: Urikett009 issued server command: /rp yes
+[19:31:59] [Server thread/INFO]: Sign Spy - Location: x: 9467, y: 71, z: -4760, world: world
+[19:31:59] [Server thread/INFO]: Player: Urikett009
+[19:31:59] [Server thread/INFO]: Lines - 1: [RP] - 2: pina
+[19:31:59] [Server thread/INFO]: Lines - 3:  - 4: 
+[19:32:53] [Server thread/INFO]: Urikett009 issued server command: /rp teleport
+[19:32:55] [Server thread/INFO]: Urikett009 issued server command: /rp teleport pina
