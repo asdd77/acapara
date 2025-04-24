@@ -3777,83 +3777,17 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-24 22:04:29 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_purple_dye": "2025-04-24 21:33:29 +0000"
+      "has_packed_ice": "2025-04-24 21:25:25 +0000"
     },
     "done": true
+  },
+  "stellarity:cauldron/balanced_diet_2": {
+    "criteria": {
+      "crystal_heartfish": "2025-04-24 21:27:05 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
@@ -3861,9 +3795,15 @@
     },
     "done": true
   },
-  "stellarity:void_fishing/the_void_provides": {
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "open_frozen": "2025-04-24 21:46:06 +0000"
+      "has_snowball": "2025-04-24 21:31:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_purple_dye": "2025-04-24 21:33:29 +0000"
     },
     "done": true
   },
@@ -3873,27 +3813,9 @@
     },
     "done": true
   },
-  "stellarity:imbuements": {
-    "criteria": {
-      "brew_lingering_potion": "2025-04-24 21:46:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_purple_dye": "2025-04-24 21:33:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_ice": {
-    "criteria": {
-      "has_ice": "2025-04-24 21:53:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_ice": {
-    "criteria": {
-      "has_packed_ice": "2025-04-24 21:25:25 +0000"
     },
     "done": true
   },
@@ -3915,15 +3837,100 @@
     },
     "done": true
   },
-  "stellarity:cauldron/balanced_diet_2": {
+  "stellarity:void_fishing/the_void_provides": {
     "criteria": {
-      "crystal_heartfish": "2025-04-24 21:27:05 +0000"
+      "open_frozen": "2025-04-24 21:46:06 +0000"
+    },
+    "done": true
+  },
+  "stellarity:imbuements": {
+    "criteria": {
+      "brew_lingering_potion": "2025-04-24 21:46:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-04-24 21:53:43 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "has_snowball": "2025-04-24 21:31:18 +0000"
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-04-24 22:18:29 +0000",
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-24 22:18:29 +0000"
+    },
+    "done": false
+  },
+  "stellarity:void_fishing/topped_off": {
+    "criteria": {
+      "cardio": "2025-04-24 22:13:08 +0000"
     },
     "done": true
   },
