@@ -1364,3 +1364,163 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.potion.PotionData.getT
 [23:45:39] [Server thread/INFO]: iCsar[/127.2.114.198:39229] logged in with entity id 114360 at ([world]0.0, 71.0, 0.0)
 [23:45:39] [Async Chat Thread - #54/INFO]: [Not Secure] <_FacuMC_> like si llueve
 [23:45:43] [Async Chat Thread - #53/INFO]: [Not Secure] <EduardoKeith> like
+[23:46:09] [Async Chat Thread - #53/INFO]: [Not Secure] <iCsar> XD este back roll es demasiado
+[23:46:12] [Async Chat Thread - #53/INFO]: [Not Secure] <iCsar> rollback*
+[23:46:18] [Async Chat Thread - #53/INFO]: [Not Secure] <iLeola_> como no
+[23:46:22] [Async Chat Thread - #53/INFO]: [Not Secure] <iLeola_> si hasta devolvió el anterior end
+[23:46:29] [Async Chat Thread - #53/INFO]: [Not Secure] <iCsar> Que XD
+[23:46:32] [Async Chat Thread - #53/INFO]: [Not Secure] <iLeola_> si
+[23:46:40] [Async Chat Thread - #53/INFO]: [Not Secure] <IKAL7064> por algo no tengo mi armor
+[23:46:44] [Async Chat Thread - #53/INFO]: [Not Secure] <iCsar> no jodas con razón estaba roto el altar
+[23:46:55] [Async Chat Thread - #53/INFO]: [Not Secure] <IKAL7064> el altar esta
+[23:47:08] [Server thread/INFO]: iCsar issued server command: /gamemode spectatoe
+[23:47:10] [Async Chat Thread - #53/INFO]: [Not Secure] <IKAL7064> pero detecta al dragon como vivo todavia
+[23:47:11] [User Authenticator #17/INFO]: UUID of player SunnyyIsHere_ is ec8b9018-623f-3526-adbf-3b2fb85f38c1
+[23:47:11] [Server thread/INFO]: iCsar issued server command: /gamemode spectator
+[23:47:11] [Server thread/INFO]: [iCsar: Set own game mode to Spectator Mode]
+[23:47:11] [Server thread/INFO]: SunnyyIsHere_ joined the game
+[23:47:11] [Server thread/INFO]: SunnyyIsHere_[/127.9.156.13:48163] logged in with entity id 116759 at ([world]0.0, 71.0, 0.0)
+[23:47:17] [Server thread/INFO]: iCsar issued server command: /gamemode creatibe
+[23:47:20] [Server thread/INFO]: iCsar issued server command: /gamemode creative
+[23:47:20] [Server thread/INFO]: [iCsar: Set own game mode to Creative Mode]
+[23:47:30] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[23:47:53] [Async Chat Thread - #53/INFO]: [Not Secure] <iCsar> que tryhard
+[23:47:58] [Async Chat Thread - #53/INFO]: [Not Secure] <Urikett009> un poquito
+[23:48:00] [Server thread/INFO]: iCsar issued server command: /tp IKAL7064
+[23:48:00] [Server thread/INFO]: [iCsar: Teleported iCsar to IKAL7064]
+[23:48:04] [Async Chat Thread - #54/INFO]: [Not Secure] <EduardoKeith> que hacia mi perro en el nether wtffff
+[23:48:04] [Async Chat Thread - #54/INFO]: [Not Secure] <iCsar> hola ikal
+[23:48:11] [Server thread/INFO]: iCsar issued server command: /tp Sicraft
+[23:48:11] [Server thread/INFO]: [iCsar: Teleported iCsar to Sicraft]
+[23:48:11] [Async Chat Thread - #53/INFO]: [Not Secure] <IKAL7064> hola
+[23:48:15] [Async Chat Thread - #53/INFO]: [Not Secure] <SunnyyIsHere_> que miedo
+[23:48:42] [Server thread/INFO]: Villager Villager['Villager'/117141, uuid='82392c04-cd82-41d6-9099-4ed43f8385f4', l='ServerLevel[world_nether]', x=-270.25, y=119.00, z=43.75, cpos=[-17, 2], tl=299447, v=true] died, message: 'Villager was slain by SunnyyIsHere_'
+[23:48:47] [Async Chat Thread - #53/INFO]: [Not Secure] <iCsar> encontraste la mina de oro
+[23:48:52] [Async Chat Thread - #53/INFO]: [Not Secure] <Sicraft> xd
+[23:49:00] [Server thread/INFO]: iCsar issued server command: /tp iLeola_
+[23:49:00] [Server thread/INFO]: [iCsar: Teleported iCsar to iLeola_]
+[23:49:18] [Async Chat Thread - #54/INFO]: [Not Secure] <EduardoKeith> when
+[23:49:25] [Async Chat Thread - #54/INFO]: [Not Secure] <SunnyyIsHere_> PERO
+[23:49:26] [Async Chat Thread - #54/INFO]: [Not Secure] <EduardoKeith> ay cabron
+[23:49:32] [Async Chat Thread - #54/INFO]: [Not Secure] <EduardoKeith> no tengo carne
+[23:49:46] [Async Chat Thread - #54/INFO]: [Not Secure] <EduardoKeith> volo alto
+[23:49:52] [Async Chat Thread - #54/INFO]: [Not Secure] <EduardoKeith> quemado*
+[23:50:19] [Server thread/INFO]: IKAL7064 issued server command: /team home
+[23:51:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:04] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:05] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:05] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:06] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:06] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:07] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:07] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:07] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:07] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:08] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:08] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:09] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn iCsar<--[HERE]
+[23:51:09] [Server thread/INFO]: [RedProtect] Player iCsar damaged by VOID - Running command:
+ - Command: spawn iCsar
+[23:51:09] [Server thread/INFO]: iCsar fell out of the world
+[23:51:17] [Async Chat Thread - #55/INFO]: [Not Secure] <_FacuMC_> xd
+[23:51:19] [Async Chat Thread - #55/INFO]: [Not Secure] <SunnyyIsHere_> se cayo al void
+[23:51:24] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> si
+[23:51:33] [Server thread/INFO]: iCsar issued server command: /locate structure minecraft:stronghold
+[23:51:33] [Server thread/INFO]: Locating element minecraft:stronghold took 7 ms
+[23:51:34] [Server thread/INFO]: iCsar issued server command: /tp @s 1968 ~ 624
+[23:51:34] [Server thread/INFO]: [iCsar: Teleported iCsar to 1968.500000, 79.000000, 624.500000]
+[23:51:39] [Server thread/INFO]: iCsar issued server command: /gamemode spectator
+[23:51:39] [Server thread/INFO]: [iCsar: Set own game mode to Spectator Mode]
+[23:51:39] [Async Chat Thread - #55/INFO]: [Not Secure] <EduardoKeith> creo que si aguanto esa caida
+[23:51:42] [Async Chat Thread - #55/INFO]: [Not Secure] <EduardoKeith> si
+[23:51:48] [Server thread/INFO]: IKAL7064 issued server command: /rp tp end
+[23:51:54] [Async Chat Thread - #55/INFO]: [Not Secure] <EduardoKeith> me parti las piernas jejejej
+[23:51:58] [Async Chat Thread - #55/INFO]: [Not Secure] <SunnyyIsHere_> por fin reparo mi armadura
+[23:52:02] [Async Chat Thread - #55/INFO]: [Not Secure] <EduardoKeith> x2
+[23:52:03] [Async Chat Thread - #56/INFO]: [Not Secure] <SunnyyIsHere_> la tenia en la shit
+[23:52:06] [Server thread/INFO]: IKAL7064 issued server command: /team home
+[23:52:14] [Server thread/INFO]: IKAL7064 issued server command: /team home
+[23:52:29] [Craft Scheduler Thread - 483 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[23:52:29] [Server thread/INFO]: IKAL7064 issued server command: /team home
+[23:52:31] [Async Chat Thread - #56/INFO]: [Not Secure] <_FacuMC_> yo ahora consigo full reparacion y me voy a un spawner de zombi
+[23:52:51] [Async Chat Thread - #56/INFO]: [Not Secure] <IKAL7064> el dragon c sar
+[23:52:55] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/generate_end_island_features
+[23:52:55] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/generate_end_island_features]
+[23:52:56] [Server thread/INFO]: IKAL7064 issued server command: /rp tp end
+[23:53:06] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/fix_markers
+[23:53:06] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/fix_markers]
+[23:53:13] [Server thread/INFO]: iCsar issued server command: /gamemode creative
+[23:53:13] [Server thread/INFO]: [iCsar: Set own game mode to Creative Mode]
+[23:53:28] [Async Chat Thread - #55/INFO]: [Not Secure] <EduardoKeith> q
+[23:53:29] [Server thread/INFO]: iCsar has reached the goal [Journey's End]
+[23:53:32] [Async Chat Thread - #55/INFO]: [Not Secure] <EduardoKeith> jumpscare
+[23:53:53] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> sob
+[23:54:02] [Async Chat Thread - #55/INFO]: [Not Secure] <IKAL7064> y esto porque anda todo roto
+[23:54:04] [Async Chat Thread - #55/INFO]: [Not Secure] <SunnyyIsHere_> aqui con sunnyfloo reparando el pico
+[23:54:14] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> ven ikal
+[23:54:15] [Async Chat Thread - #55/INFO]: [Not Secure] <_FacuMC_> hola sunifloo
+[23:54:21] [Server thread/INFO]: iCsar issued server command: /tpahere IKAL7064
+[23:54:24] [Server thread/INFO]: IKAL7064 issued server command: /tpaccept
+[23:54:29] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> prueba ahora
+[23:54:34] [Async Chat Thread - #55/INFO]: [Not Secure] <iLeola_> cesar que gracioso eres
+[23:54:42] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> si
+[23:54:49] [Async Chat Thread - #55/INFO]: [Not Secure] <IKAL7064> this magic is sealed behind a powerfull beast
+[23:54:58] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> XD
+[23:54:58] [Async Chat Thread - #55/INFO]: [Not Secure] <IKAL7064> es lo que dice cuando el dragon sigue vivo
+[23:55:06] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> voy
+[23:55:15] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:15] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:18] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> ya
+[23:55:23] [Async Chat Thread - #55/INFO]: [Not Secure] <iCsar> q
+[23:55:24] [Async Chat Thread - #55/INFO]: [Not Secure] <IKAL7064> igual
+[23:55:26] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:26] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:26] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:26] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:27] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:27] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:28] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:28] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:29] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:29] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:29] [Server thread/INFO]: iCsar issued server command: /function stellarity:_cmd/ender_dragon.kill
+[23:55:29] [Server thread/INFO]: [iCsar: Running function stellarity:_cmd/ender_dragon.kill]
+[23:55:51] [Server thread/INFO]: iCsar issued server command: /summon minecraft:ender_dragon
+[23:55:51] [Server thread/INFO]: [iCsar: Summoned new Ender Dragon]
+[23:55:52] [Server thread/INFO]: Sign Spy - Location: x: 9486, y: 57, z: -4762, world: world
+[23:55:52] [Server thread/INFO]: Player: Urikett009
+[23:55:52] [Server thread/INFO]: Lines - 1:  - 2: Filo
+[23:55:52] [Server thread/INFO]: Lines - 3: V - 4: 
+[23:55:56] [Server thread/INFO]: iCsar issued server command: /summon minecraft:ender_dragon
+[23:55:56] [Server thread/INFO]: [iCsar: Summoned new Ender Dragon]
+[23:56:00] [Server thread/INFO]: iCsar issued server command: /summon minecraft:ender_dragon ~ ~ ~
+[23:56:00] [Server thread/INFO]: [iCsar: Summoned new Ender Dragon]
