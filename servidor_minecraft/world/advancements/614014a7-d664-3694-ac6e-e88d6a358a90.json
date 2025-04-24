@@ -565,27 +565,28 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-04-22 00:29:46 +0000",
-      "mutton": "2025-04-21 21:08:34 +0000",
       "chicken": "2025-04-21 21:27:54 +0000",
-      "bread": "2025-04-21 22:21:27 +0000",
-      "rotten_flesh": "2025-04-21 21:27:58 +0000",
-      "suspicious_stew": "2025-04-23 22:52:10 +0000",
       "cooked_mutton": "2025-04-21 23:00:27 +0000",
-      "glow_berries": "2025-04-24 23:05:18 +0000",
       "sweet_berries": "2025-04-21 22:59:58 +0000",
-      "salmon": "2025-04-22 00:24:23 +0000",
       "chorus_fruit": "2025-04-22 21:02:19 +0000",
       "cooked_beef": "2025-04-23 23:33:59 +0000",
       "beef": "2025-04-21 21:12:36 +0000",
       "baked_potato": "2025-04-22 03:13:55 +0000",
-      "melon_slice": "2025-04-21 21:15:03 +0000",
       "porkchop": "2025-04-22 00:27:12 +0000",
       "tropical_fish": "2025-04-24 23:08:26 +0000",
-      "golden_carrot": "2025-04-23 01:12:33 +0000",
       "apple": "2025-04-22 01:03:13 +0000",
       "spider_eye": "2025-04-24 23:20:23 +0000",
       "potato": "2025-04-21 21:28:22 +0000",
       "poisonous_potato": "2025-04-23 03:49:59 +0000",
+      "mutton": "2025-04-21 21:08:34 +0000",
+      "bread": "2025-04-21 22:21:27 +0000",
+      "rotten_flesh": "2025-04-21 21:27:58 +0000",
+      "suspicious_stew": "2025-04-23 22:52:10 +0000",
+      "cookie": "2025-04-24 23:41:08 +0000",
+      "glow_berries": "2025-04-24 23:05:18 +0000",
+      "salmon": "2025-04-22 00:24:23 +0000",
+      "melon_slice": "2025-04-21 21:15:03 +0000",
+      "golden_carrot": "2025-04-23 01:12:33 +0000",
       "cooked_salmon": "2025-04-22 03:03:20 +0000",
       "carrot": "2025-04-21 23:14:02 +0000"
     },
@@ -3411,74 +3412,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-04-24 23:31:56 +0000",
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-24 23:31:30 +0000"
+      "log_spam_fixer": "2025-04-24 23:41:30 +0000"
     },
     "done": false
   },
@@ -3494,9 +3494,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-04-24 23:34:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-04-24 23:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-04-24 23:36:40 +0000"
     },
     "done": true
   },
