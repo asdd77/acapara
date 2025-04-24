@@ -112,6 +112,7 @@ Aldea:
   name: Aldea
   lastvisit: 24/04/2025
   admins:
+  - 8e82b803-32a1-328e-9012-b7db5c346b1f@PixelRTX_1
   - 42e87595-5b86-3968-86bb-7b6c5725d790@_FacuMC_
   - 614014a7-d664-3694-ac6e-e88d6a358a90@EduardoKeith
   members: []
@@ -167,7 +168,8 @@ pina:
   name: pina
   lastvisit: 24/04/2025
   admins: []
-  members: []
+  members:
+  - 8e82b803-32a1-328e-9012-b7db5c346b1f@PixelRTX_1
   leaders:
   - 9f11e501-0b1f-30e4-95f0-3749efba8ca9@Urikett009
   priority: 0
@@ -218,7 +220,7 @@ pina:
   tppoint: 9496,70,-4764,0.0,0.0
 end:
   name: end
-  lastvisit: 23/04/2025
+  lastvisit: 24/04/2025
   admins: []
   members: []
   leaders:
