@@ -419,6 +419,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-04-23 20:51:21 +0000",
       "minecraft:vindicator": "2025-04-23 21:34:36 +0000",
+      "minecraft:enderman": "2025-04-25 03:23:26 +0000",
       "minecraft:witch": "2025-04-23 21:17:24 +0000",
       "minecraft:spider": "2025-04-23 19:55:29 +0000",
       "minecraft:vex": "2025-04-23 21:43:59 +0000",
@@ -540,6 +541,8 @@
     "criteria": {
       "cooked_porkchop": "2025-04-23 20:06:59 +0000",
       "bread": "2025-04-23 19:57:30 +0000",
+      "cooked_mutton": "2025-04-25 03:22:14 +0000",
+      "chorus_fruit": "2025-04-25 03:23:37 +0000",
       "beef": "2025-04-23 19:56:04 +0000",
       "melon_slice": "2025-04-23 20:44:44 +0000",
       "carrot": "2025-04-23 23:34:40 +0000"
@@ -2456,73 +2459,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:20:27 +0000"
+      "log_spam_fixer": "2025-04-25 03:30:27 +0000"
     },
     "done": false
   },
@@ -2538,6 +2541,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-04-25 03:23:27 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/chorus_plant_from_fruit": {
+    "criteria": {
+      "has_item": "2025-04-25 03:23:27 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/sugar_from_chorus_fruit": {
+    "criteria": {
+      "has_item": "2025-04-25 03:23:27 +0000"
+    },
+    "done": true
+  },
+  "stellarity:adventure/anger_enderman": {
+    "criteria": {
+      "anger_enderman": "2025-04-25 03:23:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-04-25 03:26:23 +0000"
+    },
+    "done": true
+  },
   "stellarity:recipes/leather_from_membranes": {
     "criteria": {
       "has_item": "2025-04-25 03:13:09 +0000"
@@ -2547,6 +2580,12 @@
   "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2025-04-25 01:14:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-04-25 03:26:23 +0000"
     },
     "done": true
   },
