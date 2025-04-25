@@ -2873,77 +2873,23 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
+      "voluntary_exile": "2025-04-24 23:26:25 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
+      "has_glowstone_dust": "2025-04-24 23:27:44 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
+      "has_glowstone_dust": "2025-04-24 23:27:44 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 00:02:29 +0000"
-    },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
@@ -2951,9 +2897,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
+  "minecraft:adventure/ol_betsy": {
     "criteria": {
-      "voluntary_exile": "2025-04-24 23:26:25 +0000"
+      "shot_crossbow": "2025-04-24 23:29:41 +0000"
     },
     "done": true
   },
@@ -2969,29 +2915,83 @@
     },
     "done": true
   },
-  "minecraft:adventure/ol_betsy": {
-    "criteria": {
-      "shot_crossbow": "2025-04-24 23:29:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
       "has_clay_block": "2025-04-24 23:37:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "has_glowstone_dust": "2025-04-24 23:27:44 +0000"
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/combat/spectral_arrow": {
+  "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "has_glowstone_dust": "2025-04-24 23:27:44 +0000"
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
     },
-    "done": true
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 00:23:29 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
