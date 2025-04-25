@@ -1,6 +1,60 @@
+hallow:
+  name: hallow
+  lastvisit: 25/04/2025
+  admins:
+  - 04c6568a-80d6-38d1-9c7e-efc90999a73c@iLeola_
+  members: []
+  leaders:
+  - 3c697ae3-cde3-322e-9523-6878f4ab07a7@IKAL7064
+  priority: 0
+  welcome: ''
+  world: world_the_end
+  maxX: 5003
+  maxZ: -4356
+  minX: 5001
+  minZ: -4358
+  maxY: 256
+  minY: 0
+  value: 0.0
+  flags:
+    can-grow: true
+    leaves-decay: false
+    allow-effects: true
+    door: false
+    teleport: true
+    allow-spawner: false
+    mob-loot: false
+    button: false
+    fire: false
+    flow: true
+    iceform-player: true
+    allow-home: false
+    chest: false
+    iceform-world: true
+    smart-door: true
+    fishing: false
+    use-potions: true
+    lever: false
+    pvp: false
+    spawn-animals: true
+    passives: false
+    press-plate: false
+    minecart: false
+    ender-chest: false
+    build: false
+    allow-fly: true
+    gravity: true
+    flow-damage: false
+    spawn-monsters: true
+    allow-potions: true
+    block-transform: true
+    redstone: false
+  candelete: true
+  canpurge: true
+  tppoint: ''
 endcity_3:
   name: endcity_3
-  lastvisit: 24/04/2025
+  lastvisit: 25/04/2025
   admins: []
   members: []
   leaders:
@@ -53,7 +107,7 @@ endcity_3:
   tppoint: ''
 endcity_2:
   name: endcity_2
-  lastvisit: 24/04/2025
+  lastvisit: 25/04/2025
   admins:
   - 04c6568a-80d6-38d1-9c7e-efc90999a73c@iLeola_
   - d80fc530-d520-3a81-a756-7be8e9829ad5@TheRNCz
@@ -108,7 +162,7 @@ endcity_2:
   tppoint: ''
 End:
   name: End
-  lastvisit: 24/04/2025
+  lastvisit: 25/04/2025
   admins: []
   members: []
   leaders:
@@ -161,7 +215,7 @@ End:
   tppoint: ''
 endcity:
   name: endcity
-  lastvisit: 24/04/2025
+  lastvisit: 25/04/2025
   admins:
   - 04c6568a-80d6-38d1-9c7e-efc90999a73c@iLeola_
   members: []
