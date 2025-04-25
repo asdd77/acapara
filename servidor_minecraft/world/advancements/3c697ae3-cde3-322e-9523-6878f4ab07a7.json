@@ -40,6 +40,7 @@
       "minecraft:sparse_jungle": "2025-04-21 21:06:55 +0000",
       "minecraft:deep_ocean": "2025-04-21 21:55:22 +0000",
       "minecraft:river": "2025-04-21 21:07:24 +0000",
+      "minecraft:snowy_plains": "2025-04-25 01:45:23 +0000",
       "minecraft:lush_caves": "2025-04-22 22:41:19 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-21 21:19:55 +0000",
       "minecraft:frozen_river": "2025-04-23 20:07:12 +0000",
@@ -50,6 +51,7 @@
       "minecraft:birch_forest": "2025-04-21 21:11:25 +0000",
       "minecraft:windswept_hills": "2025-04-21 22:01:37 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-24 23:49:58 +0000",
+      "minecraft:snowy_beach": "2025-04-25 01:45:45 +0000",
       "minecraft:plains": "2025-04-21 21:06:09 +0000"
     },
     "done": false
@@ -3917,77 +3919,41 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:end/respawn_dragon": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
+      "summoned_dragon": "2025-04-25 01:15:37 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "stellarity:dragons_den/god_slayer": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
+      "kill_dragon_again": "2025-04-25 01:19:55 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "stellarity:exploration/enter_hallow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
+      "requirement": "2025-04-25 01:29:20 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
+      "has_logs": "2025-04-25 01:31:24 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
+      "has_log": "2025-04-25 01:31:25 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "minecraft:recipes/decorations/birch_hanging_sign": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
+      "has_stripped_logs": "2025-04-25 01:31:25 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:34:18 +0000"
-    },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
@@ -4007,27 +3973,9 @@
     },
     "done": true
   },
-  "stellarity:exploration/enter_hallow": {
-    "criteria": {
-      "requirement": "2025-04-25 01:29:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2025-04-25 01:31:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-04-25 01:31:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-04-25 01:31:25 +0000"
     },
     "done": true
   },
@@ -4049,21 +3997,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2025-04-25 01:31:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2025-04-25 01:31:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/respawn_dragon": {
-    "criteria": {
-      "summoned_dragon": "2025-04-25 01:15:37 +0000"
     },
     "done": true
   },
@@ -4073,11 +4009,77 @@
     },
     "done": true
   },
-  "stellarity:dragons_den/god_slayer": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "kill_dragon_again": "2025-04-25 01:19:55 +0000"
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
     },
-    "done": true
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
