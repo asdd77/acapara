@@ -183,6 +183,7 @@
       "porkchop": "2025-04-22 02:08:44 +0000",
       "golden_carrot": "2025-04-22 01:29:47 +0000",
       "cooked_chicken": "2025-04-23 02:17:11 +0000",
+      "enchanted_golden_apple": "2025-04-25 03:44:15 +0000",
       "carrot": "2025-04-25 03:20:59 +0000"
     },
     "done": false
@@ -1311,6 +1312,7 @@
     "criteria": {
       "minecraft:pillager": "2025-04-22 03:03:19 +0000",
       "minecraft:blaze": "2025-04-23 03:28:06 +0000",
+      "minecraft:phantom": "2025-04-25 03:39:47 +0000",
       "minecraft:wither_skeleton": "2025-04-23 02:55:41 +0000",
       "minecraft:hoglin": "2025-04-22 04:30:01 +0000",
       "minecraft:breeze": "2025-04-23 02:09:51 +0000",
@@ -2561,77 +2563,84 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "global:kanokarob": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "trigger": "2025-04-25 02:48:06 +0000"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2025-04-25 02:48:06 +0000"
+    },
+    "done": true
+  },
+  "nitdim:nitdim": {
+    "criteria": {
+      "trigger": "2025-04-25 02:48:06 +0000"
+    },
+    "done": true
+  },
+  "nitdim:tutorial/use_portal": {
+    "criteria": {
+      "requirement": "2025-04-25 02:51:45 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/enter_hallow": {
+    "criteria": {
+      "requirement": "2025-04-25 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/enter_chapel": {
+    "criteria": {
+      "enter_chapel": "2025-04-25 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/discover_all_biomes": {
+    "criteria": {
+      "the_hallow": "2025-04-25 03:04:30 +0000",
+      "end_barrens": "2025-04-25 03:06:53 +0000"
     },
     "done": false
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:end/root": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "entered_end": "2025-04-25 03:04:30 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "stellarity:events/first_time_in_end": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "requirement": "2025-04-25 03:04:30 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "entered_end": "2025-04-25 03:04:30 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "stellarity:eol/summon_empress": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "requirement": "2025-04-25 03:04:55 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "has_blue_orchid": "2025-04-25 03:10:32 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
+      "has_carrot": "2025-04-25 03:20:55 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 03:34:27 +0000"
-    },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
@@ -2645,54 +2654,11 @@
     },
     "done": true
   },
-  "stellarity:exploration/enter_hallow": {
-    "criteria": {
-      "requirement": "2025-04-25 03:04:30 +0000"
-    },
-    "done": true
-  },
-  "global:kanokarob": {
-    "criteria": {
-      "trigger": "2025-04-25 02:48:06 +0000"
-    },
-    "done": true
-  },
-  "stellarity:exploration/enter_chapel": {
-    "criteria": {
-      "enter_chapel": "2025-04-25 03:04:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-04-25 03:22:56 +0000"
     },
     "done": true
-  },
-  "global:root": {
-    "criteria": {
-      "trigger": "2025-04-25 02:48:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2025-04-25 03:10:32 +0000"
-    },
-    "done": true
-  },
-  "stellarity:eol/summon_empress": {
-    "criteria": {
-      "requirement": "2025-04-25 03:04:55 +0000"
-    },
-    "done": true
-  },
-  "stellarity:exploration/discover_all_biomes": {
-    "criteria": {
-      "the_hallow": "2025-04-25 03:04:30 +0000",
-      "end_barrens": "2025-04-25 03:06:53 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
@@ -2706,27 +2672,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2025-04-25 03:20:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-04-25 03:22:56 +0000"
-    },
-    "done": true
-  },
-  "nitdim:tutorial/use_portal": {
-    "criteria": {
-      "requirement": "2025-04-25 02:51:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2025-04-25 03:04:30 +0000"
     },
     "done": true
   },
@@ -2736,21 +2684,154 @@
     },
     "done": true
   },
-  "stellarity:events/first_time_in_end": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "requirement": "2025-04-25 03:04:30 +0000"
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-04-25 03:44:45 +0000",
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
     },
     "done": true
   },
-  "nitdim:nitdim": {
+  "incendium:technical/firestorm": {
     "criteria": {
-      "trigger": "2025-04-25 02:48:06 +0000"
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 03:44:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-25 03:38:43 +0000"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "stellarity:end_city/jeb_": {
     "criteria": {
-      "entered_end": "2025-04-25 03:04:30 +0000"
+      "craft5": "2025-04-25 03:38:47 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-04-25 03:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-04-25 03:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-25 03:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-04-25 03:44:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-25 03:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-25 03:38:43 +0000"
+    },
+    "done": true
+  },
+  "stellarity:adventure/night_sky_stalkers": {
+    "criteria": {
+      "sleep_deprivation": "2025-04-25 03:39:47 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/leather_from_membranes": {
+    "criteria": {
+      "has_item": "2025-04-25 03:40:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-04-25 03:41:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-04-25 03:41:18 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/color_a_shulker_box": {
+    "criteria": {
+      "color_shulker_box": "2025-04-25 03:38:47 +0000"
     },
     "done": true
   },
