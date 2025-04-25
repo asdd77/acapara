@@ -2751,87 +2751,33 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:end/root": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 01:45:17 +0000"
-    },
-    "done": false
-  },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "kill_dragon": "2025-04-25 01:19:55 +0000"
+      "entered_end": "2025-04-25 01:13:20 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_bricks": {
+  "stellarity:events/first_time_in_end": {
     "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+      "requirement": "2025-04-25 01:13:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-04-25 01:13:20 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/sacrificial_ritual": {
+    "criteria": {
+      "requirement": "2025-04-25 01:15:11 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/final_showdown": {
+    "criteria": {
+      "spawn_dragon_first_time": "2025-04-25 01:15:37 +0000"
     },
     "done": true
   },
@@ -2847,102 +2793,15 @@
     },
     "done": true
   },
-  "stellarity:end_city/defeat_shulker": {
-    "criteria": {
-      "defeat_shulkers": "2025-04-25 01:17:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
-    },
-    "done": true
-  },
-  "stellarity:story/obtain_an_ender_pearl": {
-    "criteria": {
-      "criteria": "2025-04-25 01:17:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz": {
-    "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
-    },
-    "done": true
-  },
-  "stellarity:exploration/discover_all_biomes": {
-    "criteria": {
-      "amethyst_forest": "2025-04-25 01:26:07 +0000",
-      "end_shrubland": "2025-04-25 01:23:20 +0000",
-      "end_highlands": "2025-04-25 01:25:09 +0000",
-      "end_barrens": "2025-04-25 01:26:27 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/final_showdown": {
-    "criteria": {
-      "spawn_dragon_first_time": "2025-04-25 01:15:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2025-04-25 01:23:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2025-04-25 01:16:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_the_recipe": "2025-04-25 01:17:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2025-04-25 01:13:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-04-25 01:24:11 +0000"
-    },
-    "done": true
-  },
   "stellarity:recipes/glass_from_end_stone": {
     "criteria": {
       "has_item": "2025-04-25 01:16:11 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/sacrificial_ritual": {
-    "criteria": {
-      "requirement": "2025-04-25 01:15:11 +0000"
     },
     "done": true
   },
@@ -2958,17 +2817,158 @@
     },
     "done": true
   },
-  "stellarity:events/first_time_in_end": {
+  "stellarity:story/obtain_an_ender_pearl": {
     "criteria": {
-      "requirement": "2025-04-25 01:13:20 +0000"
+      "criteria": "2025-04-25 01:17:18 +0000"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "minecraft:recipes/misc/ender_eye": {
     "criteria": {
-      "entered_end": "2025-04-25 01:13:20 +0000"
+      "has_the_recipe": "2025-04-25 01:17:18 +0000"
     },
     "done": true
+  },
+  "stellarity:end_city/defeat_shulker": {
+    "criteria": {
+      "defeat_shulkers": "2025-04-25 01:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "kill_dragon": "2025-04-25 01:19:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-04-25 01:23:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/discover_all_biomes": {
+    "criteria": {
+      "amethyst_forest": "2025-04-25 01:26:07 +0000",
+      "end_shrubland": "2025-04-25 01:23:20 +0000",
+      "end_highlands": "2025-04-25 01:25:09 +0000",
+      "end_barrens": "2025-04-25 01:26:27 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-04-25 01:24:11 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:00:17 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }

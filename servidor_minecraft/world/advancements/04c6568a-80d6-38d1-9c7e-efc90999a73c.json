@@ -2954,6 +2954,7 @@
   },
   "stellarity:exploration/discover_all_biomes": {
     "criteria": {
+      "the_hallow": "2025-04-25 01:59:09 +0000",
       "frozen_marsh": "2025-04-24 19:37:05 +0000",
       "frosted_valley": "2025-04-22 23:58:02 +0000",
       "end_shrubland": "2025-04-22 23:59:35 +0000",
@@ -3824,75 +3825,82 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "requirement": "2025-04-25 01:58:35 +0000",
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 01:48:17 +0000"
+      "log_spam_fixer": "2025-04-25 01:58:17 +0000"
     },
     "done": false
+  },
+  "stellarity:exploration/enter_hallow": {
+    "criteria": {
+      "requirement": "2025-04-25 01:59:09 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
