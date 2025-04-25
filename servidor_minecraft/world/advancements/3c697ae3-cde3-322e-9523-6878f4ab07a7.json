@@ -4012,99 +4012,33 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 02:07:17 +0000"
-    },
-    "done": false
-  },
-  "stellarity:exploration/keep_warm": {
-    "criteria": {
-      "keep_warm": "2025-04-25 02:05:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2025-04-25 01:53:10 +0000"
     },
     "done": true
   },
-  "stellarity:exploration/shimmer/ambrosia": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "lucky_carrot": "2025-04-25 01:59:07 +0000"
+      "has_bone_meal": "2025-04-25 01:53:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2025-04-25 01:55:12 +0000"
     },
     "done": true
   },
   "stellarity:exploration/shimmer/transmute_item": {
     "criteria": {
       "transmute_item": "2025-04-25 01:57:57 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/shimmer/ambrosia": {
+    "criteria": {
+      "lucky_carrot": "2025-04-25 01:59:07 +0000"
     },
     "done": true
   },
@@ -4117,15 +4051,87 @@
     },
     "done": false
   },
-  "minecraft:husbandry/plant_seed": {
+  "stellarity:exploration/keep_warm": {
     "criteria": {
-      "beetroots": "2025-04-25 01:55:12 +0000"
+      "keep_warm": "2025-04-25 02:05:19 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "has_bone_meal": "2025-04-25 01:53:10 +0000"
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+    },
+    "done": false
+  },
+  "stellarity:exploration/find_end_village": {
+    "criteria": {
+      "find_a_town_in_a_complete_shithole": "2025-04-25 02:12:38 +0000"
     },
     "done": true
   },
