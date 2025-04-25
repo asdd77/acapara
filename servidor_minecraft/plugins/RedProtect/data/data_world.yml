@@ -435,6 +435,59 @@ Aldea:
   candelete: true
   canpurge: true
   tppoint: ''
+Acacia:
+  name: Acacia
+  lastvisit: 25/04/2025
+  admins: []
+  members: []
+  leaders:
+  - fb013c45-202d-32af-bd12-3c45f90b2242@Sicraft
+  priority: 0
+  welcome: ''
+  world: world
+  maxX: -2344
+  maxZ: 951
+  minX: -2353
+  minZ: 946
+  maxY: 320
+  minY: -64
+  value: 0.0
+  flags:
+    can-grow: true
+    leaves-decay: false
+    allow-effects: true
+    door: false
+    teleport: true
+    allow-spawner: false
+    mob-loot: false
+    button: false
+    fire: false
+    flow: true
+    iceform-player: true
+    allow-home: false
+    chest: false
+    iceform-world: true
+    smart-door: true
+    fishing: false
+    use-potions: true
+    lever: false
+    pvp: false
+    spawn-animals: true
+    passives: false
+    press-plate: false
+    minecart: false
+    ender-chest: false
+    build: false
+    allow-fly: true
+    gravity: true
+    flow-damage: false
+    spawn-monsters: true
+    allow-potions: true
+    block-transform: true
+    redstone: false
+  candelete: true
+  canpurge: true
+  tppoint: ''
 pina:
   name: pina
   lastvisit: 25/04/2025
@@ -544,6 +597,59 @@ Woods:
   candelete: true
   canpurge: true
   tppoint: ''
+Portal:
+  name: Portal
+  lastvisit: 25/04/2025
+  admins: []
+  members: []
+  leaders:
+  - 9f11e501-0b1f-30e4-95f0-3749efba8ca9@Urikett009
+  priority: 0
+  welcome: ''
+  world: world
+  maxX: 9540
+  maxZ: -4627
+  minX: 9537
+  minZ: -4630
+  maxY: 320
+  minY: -64
+  value: 0.0
+  flags:
+    can-grow: true
+    leaves-decay: false
+    allow-effects: true
+    door: false
+    teleport: true
+    allow-spawner: false
+    mob-loot: false
+    button: false
+    fire: false
+    flow: true
+    iceform-player: true
+    allow-home: false
+    chest: false
+    iceform-world: true
+    smart-door: true
+    fishing: false
+    use-potions: true
+    lever: false
+    pvp: false
+    spawn-animals: true
+    passives: false
+    press-plate: false
+    minecart: false
+    ender-chest: false
+    build: false
+    allow-fly: true
+    gravity: true
+    flow-damage: false
+    spawn-monsters: true
+    allow-potions: true
+    block-transform: true
+    redstone: false
+  candelete: true
+  canpurge: true
+  tppoint: 9539,83,-4628,0.0,0.0
 end:
   name: end
   lastvisit: 25/04/2025
