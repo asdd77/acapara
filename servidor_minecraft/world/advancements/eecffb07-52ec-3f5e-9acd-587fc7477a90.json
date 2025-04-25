@@ -169,9 +169,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-04-22 03:15:45 +0000",
+      "chicken": "2025-04-25 03:22:46 +0000",
       "bread": "2025-04-22 03:25:44 +0000",
       "golden_apple": "2025-04-23 03:44:10 +0000",
-      "cooked_chicken": "2025-04-23 02:17:11 +0000",
       "honey_bottle": "2025-04-23 02:17:32 +0000",
       "rotten_flesh": "2025-04-22 00:51:49 +0000",
       "suspicious_stew": "2025-04-22 03:07:04 +0000",
@@ -179,7 +179,9 @@
       "cooked_beef": "2025-04-23 02:18:42 +0000",
       "baked_potato": "2025-04-23 02:28:17 +0000",
       "porkchop": "2025-04-22 02:08:44 +0000",
-      "golden_carrot": "2025-04-22 01:29:47 +0000"
+      "golden_carrot": "2025-04-22 01:29:47 +0000",
+      "cooked_chicken": "2025-04-23 02:17:11 +0000",
+      "carrot": "2025-04-25 03:20:59 +0000"
     },
     "done": false
   },
@@ -2559,79 +2561,109 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:52:25 +0000"
+      "log_spam_fixer": "2025-04-25 03:22:27 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-04-25 03:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-04-25 03:22:56 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/enter_hallow": {
+    "criteria": {
+      "requirement": "2025-04-25 03:04:30 +0000"
+    },
+    "done": true
   },
   "global:kanokarob": {
     "criteria": {
       "trigger": "2025-04-25 02:48:06 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/enter_chapel": {
+    "criteria": {
+      "enter_chapel": "2025-04-25 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-04-25 03:22:56 +0000"
     },
     "done": true
   },
@@ -2641,15 +2673,82 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-04-25 03:10:32 +0000"
+    },
+    "done": true
+  },
+  "stellarity:eol/summon_empress": {
+    "criteria": {
+      "requirement": "2025-04-25 03:04:55 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/discover_all_biomes": {
+    "criteria": {
+      "the_hallow": "2025-04-25 03:04:30 +0000",
+      "end_barrens": "2025-04-25 03:06:53 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-04-25 03:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-04-25 03:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-04-25 03:20:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-04-25 03:22:56 +0000"
+    },
+    "done": true
+  },
   "nitdim:tutorial/use_portal": {
     "criteria": {
       "requirement": "2025-04-25 02:51:45 +0000"
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-04-25 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-04-25 03:22:56 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/first_time_in_end": {
+    "criteria": {
+      "requirement": "2025-04-25 03:04:30 +0000"
+    },
+    "done": true
+  },
   "nitdim:nitdim": {
     "criteria": {
       "trigger": "2025-04-25 02:48:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-04-25 03:04:30 +0000"
     },
     "done": true
   },

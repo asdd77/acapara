@@ -52,6 +52,60 @@ hallow:
   candelete: true
   canpurge: true
   tppoint: ''
+eol:
+  name: eol
+  lastvisit: 25/04/2025
+  admins:
+  - 04c6568a-80d6-38d1-9c7e-efc90999a73c@iLeola_
+  members: []
+  leaders:
+  - 3c697ae3-cde3-322e-9523-6878f4ab07a7@IKAL7064
+  priority: 0
+  welcome: ''
+  world: world_the_end
+  maxX: 13042
+  maxZ: -11447
+  minX: 13040
+  minZ: -11449
+  maxY: 256
+  minY: 0
+  value: 0.0
+  flags:
+    can-grow: true
+    leaves-decay: false
+    allow-effects: true
+    door: false
+    teleport: true
+    allow-spawner: false
+    mob-loot: false
+    button: false
+    fire: false
+    flow: true
+    iceform-player: true
+    allow-home: false
+    chest: false
+    iceform-world: true
+    smart-door: true
+    fishing: false
+    use-potions: true
+    lever: false
+    pvp: false
+    spawn-animals: true
+    passives: false
+    press-plate: false
+    minecart: false
+    ender-chest: false
+    build: false
+    allow-fly: true
+    gravity: true
+    flow-damage: false
+    spawn-monsters: true
+    allow-potions: true
+    block-transform: true
+    redstone: false
+  candelete: true
+  canpurge: true
+  tppoint: ''
 endcity_3:
   name: endcity_3
   lastvisit: 25/04/2025

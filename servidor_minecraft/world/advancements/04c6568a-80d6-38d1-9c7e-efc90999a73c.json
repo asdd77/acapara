@@ -3832,73 +3832,74 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "requirement": "2025-04-25 03:23:28 +0000",
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:48:24 +0000"
+      "log_spam_fixer": "2025-04-25 03:23:27 +0000"
     },
     "done": false
   },
@@ -3932,9 +3933,27 @@
     },
     "done": true
   },
+  "stellarity:exploration/enter_chapel": {
+    "criteria": {
+      "enter_chapel": "2025-04-25 03:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-04-25 03:06:09 +0000"
+    },
+    "done": true
+  },
   "stellarity:exploration/shimmer/ambrosia": {
     "criteria": {
       "energizing_fruit": "2025-04-25 02:00:27 +0000"
+    },
+    "done": true
+  },
+  "stellarity:eol/summon_empress": {
+    "criteria": {
+      "requirement": "2025-04-25 03:04:55 +0000"
     },
     "done": true
   },
@@ -3958,6 +3977,12 @@
       "energizing_fruit": "2025-04-25 02:00:27 +0000"
     },
     "done": false
+  },
+  "stellarity:void_fishing/topped_off": {
+    "criteria": {
+      "cardio": "2025-04-25 03:01:58 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
