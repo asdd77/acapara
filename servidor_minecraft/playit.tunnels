@@ -35,8 +35,8 @@
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "9e556410-d306-42bd-9ed1-96506efafa48",
-          "agent_name": "from-key-89fa",
+          "agent_id": "9950cd75-cbca-4780-8631-a5b111c43f2a",
+          "agent_name": "from-key-9cf2",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
@@ -82,8 +82,8 @@
       "name": "unnamed",
       "origin": {
         "data": {
-          "agent_id": "9e556410-d306-42bd-9ed1-96506efafa48",
-          "agent_name": "from-key-89fa",
+          "agent_id": "9950cd75-cbca-4780-8631-a5b111c43f2a",
+          "agent_name": "from-key-9cf2",
           "local_ip": "127.0.0.1",
           "local_port": 2221
         },
@@ -129,8 +129,8 @@
       "name": "Minecraft Bedrock",
       "origin": {
         "data": {
-          "agent_id": "9e556410-d306-42bd-9ed1-96506efafa48",
-          "agent_name": "from-key-89fa",
+          "agent_id": "9950cd75-cbca-4780-8631-a5b111c43f2a",
+          "agent_name": "from-key-9cf2",
           "local_ip": "127.0.0.1",
           "local_port": 2336
         },

@@ -34,6 +34,7 @@
       "minecraft:cold_ocean": "2025-04-23 00:52:17 +0000",
       "minecraft:beach": "2025-04-21 23:51:55 +0000",
       "minecraft:old_growth_pine_taiga": "2025-04-23 00:58:52 +0000",
+      "minecraft:dark_forest": "2025-04-25 18:09:08 +0000",
       "minecraft:forest": "2025-04-21 22:19:27 +0000",
       "minecraft:taiga": "2025-04-21 23:54:11 +0000",
       "minecraft:deep_ocean": "2025-04-23 00:53:30 +0000",
@@ -47,6 +48,7 @@
       "minecraft:frozen_river": "2025-04-22 22:12:59 +0000",
       "minecraft:ocean": "2025-04-23 00:54:07 +0000",
       "minecraft:meadow": "2025-04-22 22:10:41 +0000",
+      "minecraft:birch_forest": "2025-04-25 18:17:26 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-23 00:59:12 +0000",
       "minecraft:snowy_beach": "2025-04-22 22:12:37 +0000",
       "minecraft:savanna": "2025-04-21 22:03:00 +0000",
@@ -445,13 +447,14 @@
       "golden_apple": "2025-04-22 02:06:56 +0000",
       "rotten_flesh": "2025-04-22 21:59:11 +0000",
       "suspicious_stew": "2025-04-23 20:18:17 +0000",
-      "cooked_cod": "2025-04-24 23:08:37 +0000",
       "cooked_beef": "2025-04-21 22:10:24 +0000",
       "chorus_fruit": "2025-04-25 02:00:27 +0000",
-      "rabbit_stew": "2025-04-25 02:01:17 +0000",
       "tropical_fish": "2025-04-24 23:04:51 +0000",
       "golden_carrot": "2025-04-22 01:48:33 +0000",
-      "beetroot": "2025-04-25 02:01:08 +0000"
+      "beetroot": "2025-04-25 02:01:08 +0000",
+      "cooked_chicken": "2025-04-25 19:34:33 +0000",
+      "cooked_cod": "2025-04-24 23:08:37 +0000",
+      "rabbit_stew": "2025-04-25 02:01:17 +0000"
     },
     "done": false
   },
@@ -3830,81 +3833,9 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "stellarity:exploration/enter_hallow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-04-25 04:01:52 +0000"
-    },
-    "done": false
-  },
-  "stellarity:exploration/keep_warm": {
-    "criteria": {
-      "keep_warm": "2025-04-25 02:09:07 +0000"
+      "requirement": "2025-04-25 01:59:09 +0000"
     },
     "done": true
   },
@@ -3914,57 +3845,15 @@
     },
     "done": true
   },
-  "stellarity:recipes/papyrus": {
-    "criteria": {
-      "has_item": "2025-04-25 02:05:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2025-04-25 02:27:37 +0000"
-    },
-    "done": true
-  },
-  "stellarity:exploration/enter_hallow": {
-    "criteria": {
-      "requirement": "2025-04-25 01:59:09 +0000"
-    },
-    "done": true
-  },
-  "stellarity:exploration/enter_chapel": {
-    "criteria": {
-      "enter_chapel": "2025-04-25 03:03:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2025-04-25 03:06:09 +0000"
-    },
-    "done": true
-  },
-  "stellarity:exploration/shimmer/ambrosia": {
-    "criteria": {
-      "energizing_fruit": "2025-04-25 02:00:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:eol/summon_empress": {
-    "criteria": {
-      "requirement": "2025-04-25 03:04:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2025-04-25 01:59:17 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+  "stellarity:exploration/shimmer/ambrosia": {
     "criteria": {
-      "walk_on_powder_snow_with_leather_boots": "2025-04-25 02:09:11 +0000"
+      "energizing_fruit": "2025-04-25 02:00:27 +0000"
     },
     "done": true
   },
@@ -3977,15 +3866,351 @@
     },
     "done": false
   },
+  "stellarity:recipes/papyrus": {
+    "criteria": {
+      "has_item": "2025-04-25 02:05:30 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/keep_warm": {
+    "criteria": {
+      "keep_warm": "2025-04-25 02:09:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-04-25 02:09:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-04-25 02:27:37 +0000"
+    },
+    "done": true
+  },
   "stellarity:void_fishing/topped_off": {
     "criteria": {
       "cardio": "2025-04-25 03:01:58 +0000"
     },
     "done": true
   },
+  "stellarity:exploration/enter_chapel": {
+    "criteria": {
+      "enter_chapel": "2025-04-25 03:03:58 +0000"
+    },
+    "done": true
+  },
+  "stellarity:eol/summon_empress": {
+    "criteria": {
+      "requirement": "2025-04-25 03:04:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-04-25 03:06:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-04-25 03:56:22 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-25 20:53:38 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-04-25 18:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-04-25 18:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2025-04-25 18:48:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-04-25 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-04-25 19:41:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-04-25 18:51:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-04-25 19:22:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-04-25 18:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2025-04-25 18:25:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2025-04-25 18:25:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-04-25 19:22:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-04-25 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-04-25 18:51:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-25 18:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-04-25 18:51:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2025-04-25 18:25:33 +0000"
     },
     "done": true
   },

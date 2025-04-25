@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.210.202.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1745604513552
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1745614448893
+  login: 1745604150218
+money: '0'
+last-account-name: iLeola_
+lastlocation:
+  world: 96039646-7379-431c-aeae-6df46aece665
+  world-name: world
+  x: 300.3593662809536
+  y: 72.0
+  z: 3624.300000011921
+  yaw: -179.6951904296875
+  pitch: 11.348187446594238
+logoutlocation:
+  world: 96039646-7379-431c-aeae-6df46aece665
+  world-name: world
+  x: 13595.142588178174
+  y: 94.0
+  z: 6908.510486140583
+  yaw: -8.115631103515625
+  pitch: 19.876596450805664

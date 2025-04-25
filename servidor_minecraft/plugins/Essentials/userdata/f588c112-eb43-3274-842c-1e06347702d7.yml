@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.2.114.198
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1745613019686
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1745614448879
+  login: 1745602801646
+money: '0'
+last-account-name: iCsar
+lastlocation:
+  world: 96039646-7379-431c-aeae-6df46aece665
+  world-name: world
+  x: 13583.641240262126
+  y: 72.0625
+  z: 6916.4661344404
+  yaw: -49.62353515625
+  pitch: 4.627623081207275
+logoutlocation:
+  world: 96039646-7379-431c-aeae-6df46aece665
+  world-name: world
+  x: 13592.126034874445
+  y: 94.0
+  z: 6903.458872188528
+  yaw: 118.4068603515625
+  pitch: -2.4785871505737305

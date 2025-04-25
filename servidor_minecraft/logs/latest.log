@@ -1,53 +1,38 @@
-[17:05:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
-[17:05:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[17:05:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:05:46] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.12-beta-02.jar'...
-[17:05:48] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.12-beta-02.jar' in 2096ms.
-[17:05:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[17:05:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - Geyser-Spigot (2.7.0-SNAPSHOT), LoginSecurity (3.3.0), SkinsRestorer (15.6.2), ViaBackwards (5.3.2), ViaRewind (4.0.4), ViaVersion (5.3.2), WorldEdit (7.3.12-beta-02+ac380ad), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[17:05:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:05:53] [ServerMain/WARN]: Missing metadata in pack file/Angwyy's Armory (1).zip
-[17:05:53] [ServerMain/WARN]: Missing metadata in pack file/MINECRAFT - SERVERS.zip
-[17:05:53] [ServerMain/WARN]: Missing metadata in pack file/intown.zip
-[17:05:56] [ServerMain/INFO]: Loaded 1314 recipes
-[17:05:57] [ServerMain/ERROR]: Couldn't load advancements: [nitex:nitex/defeat_rexial, nitdim:nitdim/in_between/settler_journals, nitdim:nitdim/enter_buried_ocean, nitdim:nitdim/in_between/ruined_town, nitsea:nitsea/defeat_raiden, nitsea:nitsea/root, nitdim:nitdim/enter_primordial_desert, nitex:nitex/find_artifact, nitdim:nitdim/in_between/battlefield_wreck, nitex:nitex/complete_mine, nitex:nitex/clear_illager_arena, nitdim:nitdim/primordial_desert/obelisk_reports, nitdim:nitdim/root, nitsea:nitsea/clear_castle, nitsea:nitsea/clear_galleon, nitsea:nitsea/complete_fleet, nitinv:nitinv/root, nitsea:nitsea/clear_lab, nitdim:nitdim/buried_ocean/tower, nitex:nitex/root, nitsea:nitsea/pirates, nitex:nitex/clear_piglin_cave, nitdim:nitdim/enter_tempest, nitdim:nitdim/buried_ocean/tower_history, nitex:nitex/clear_pyramid, nitdim:nitdim/primordial_desert/obelisk]
-[17:05:57] [ServerMain/INFO]: Loaded 1645 advancements
-[17:05:57] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: nitdim:buried_ocean/boiling_sea, nitdim:buried_ocean/mushroom_forest, nitdim:buried_ocean/mystic_roughs, nitdim:buried_ocean/pristine_sea, nitdim:buried_ocean/verdant_grove, nitdim:primordial_desert/crystal_caves, nitdim:primordial_desert/oasis, nitdim:primordial_desert/painted_desert, nitdim:primordial_desert/tar_pits, nitdim:primordial_desert/volcanic_zone
-[17:05:57] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[17:05:57] [Server thread/INFO]: Loading properties
-[17:05:57] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[17:05:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:05:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:05:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:05:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[17:05:59] [Server thread/INFO]: Default game type: SURVIVAL
-[17:05:59] [Server thread/INFO]: Generating keypair
-[17:05:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:05:59] [Server thread/INFO]: Using epoll channel type
-[17:05:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:05:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:06:00] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.12-beta-02.jar' in folder 'plugins/.paper-remapped'
-org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.3
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:06:00] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[17:06:00] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[17:06:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:06:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:06:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:06:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[17:06:05] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[17:06:05] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.3.2.jar' in folder 'plugins' (Is it up to date?)
+[17:32:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[17:32:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[17:32:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:33:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[17:33:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - Essentials (2.21.0), Geyser-Spigot (2.7.0-SNAPSHOT), LoginSecurity (3.3.0), SkinsRestorer (15.6.2), ViaBackwards (5.3.2), ViaRewind (4.0.4), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[17:33:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:33:04] [ServerMain/WARN]: Missing metadata in pack file/Angwyy's Armory (1).zip
+[17:33:04] [ServerMain/WARN]: Missing metadata in pack file/MINECRAFT - SERVERS.zip
+[17:33:04] [ServerMain/WARN]: Missing metadata in pack file/intown.zip
+[17:33:07] [ServerMain/INFO]: Loaded 1314 recipes
+[17:33:07] [ServerMain/ERROR]: Couldn't load advancements: [nitex:nitex/defeat_rexial, nitdim:nitdim/in_between/settler_journals, nitdim:nitdim/enter_buried_ocean, nitdim:nitdim/in_between/ruined_town, nitsea:nitsea/defeat_raiden, nitsea:nitsea/root, nitdim:nitdim/enter_primordial_desert, nitex:nitex/find_artifact, nitdim:nitdim/in_between/battlefield_wreck, nitex:nitex/complete_mine, nitex:nitex/clear_illager_arena, nitdim:nitdim/primordial_desert/obelisk_reports, nitdim:nitdim/root, nitsea:nitsea/clear_castle, nitsea:nitsea/clear_galleon, nitsea:nitsea/complete_fleet, nitinv:nitinv/root, nitsea:nitsea/clear_lab, nitdim:nitdim/buried_ocean/tower, nitex:nitex/root, nitsea:nitsea/pirates, nitex:nitex/clear_piglin_cave, nitdim:nitdim/enter_tempest, nitdim:nitdim/buried_ocean/tower_history, nitex:nitex/clear_pyramid, nitdim:nitdim/primordial_desert/obelisk]
+[17:33:07] [ServerMain/INFO]: Loaded 1645 advancements
+[17:33:07] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: nitdim:buried_ocean/boiling_sea, nitdim:buried_ocean/mushroom_forest, nitdim:buried_ocean/mystic_roughs, nitdim:buried_ocean/pristine_sea, nitdim:buried_ocean/verdant_grove, nitdim:primordial_desert/crystal_caves, nitdim:primordial_desert/oasis, nitdim:primordial_desert/painted_desert, nitdim:primordial_desert/tar_pits, nitdim:primordial_desert/volcanic_zone
+[17:33:08] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[17:33:08] [Server thread/INFO]: Loading properties
+[17:33:08] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[17:33:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:33:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:33:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:33:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:33:09] [Server thread/INFO]: Default game type: SURVIVAL
+[17:33:09] [Server thread/INFO]: Generating keypair
+[17:33:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:33:09] [Server thread/INFO]: Using epoll channel type
+[17:33:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:33:09] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:33:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[17:33:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[17:33:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:33:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:33:15] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:33:15] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:33:16] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[17:33:16] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.3.2.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType.findById(int)'
 	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8$3.register(EntityPacketRewriter1_8.java:144) ~[ViaRewind-4.0.4.jar:?]
 	at ViaVersion-5.3.2.jar/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.<init>(PacketHandlers.java:38) ~[ViaVersion-5.3.2.jar:?]
@@ -71,613 +56,1141 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:06:05] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[17:06:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:06:06] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[17:06:06] [Server thread/INFO]: [floodgate] Took 1,607ms to boot Floodgate
-[17:06:06] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[17:06:06] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[17:06:06] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
-[17:06:06] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
-[17:06:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:06:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:06:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:06:08] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[17:06:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
-[17:06:09] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[17:06:10] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[17:06:10] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[17:06:11] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[17:06:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:06:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:06:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:06:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:06:11] [Server thread/INFO]: Preparing level "world"
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[17:06:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[17:06:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:06:12] [Server thread/INFO]: Time elapsed: 1009 ms
-[17:06:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:06:13] [Server thread/INFO]: Time elapsed: 279 ms
-[17:06:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:06:13] [Server thread/INFO]: Time elapsed: 522 ms
-[17:06:13] [Server thread/INFO]: Preparing start region for dimension nitdim:buried_ocean
-[17:06:13] [Server thread/INFO]: Time elapsed: 194 ms
-[17:06:13] [Server thread/INFO]: Preparing start region for dimension nitdim:in_between
-[17:06:13] [Server thread/INFO]: Time elapsed: 130 ms
-[17:06:13] [Server thread/INFO]: Preparing start region for dimension nitdim:primordial_desert
-[17:06:14] [Server thread/INFO]: Time elapsed: 164 ms
-[17:06:14] [Server thread/INFO]: Preparing start region for dimension nitdim:tempest
-[17:06:14] [Server thread/INFO]: Time elapsed: 130 ms
-[17:06:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[17:06:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[17:06:14] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[17:06:14] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:06:15] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[17:06:15] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[17:06:15] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[17:06:15] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[17:06:15] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[17:06:15] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[17:06:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
-[17:06:16] [Server thread/INFO]: [spark] Starting background profiler...
-[17:06:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:06:16] [Server thread/INFO]: [Geyser-Spigot] 
-[17:06:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b812 (git-master-efd4dcc)
-[17:06:16] [Server thread/INFO]: [Geyser-Spigot] 
-[17:06:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:06:24] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
-[17:06:24] [Server thread/INFO]: [Geyser-Spigot] Done (8.323s)! Run /geyser help for help!
-[17:06:25] [Server thread/INFO]: Done preparing level "world" (13.931s)
-[17:06:25] [Server thread/INFO]: Running delayed init tasks
-[17:06:25] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[17:06:25] [Server thread/INFO]: Done (40.096s)! For help, type "help"
-[17:06:25] [Server thread/INFO]: Timings Reset
-[17:07:01] [Server thread/INFO]: Whitelist is now turned on
-[17:07:04] [Server thread/INFO]: Made uncrid a server operator
-[17:07:33] [User Authenticator #0/INFO]: UUID of player uncrid is ae096b60-1fd0-3454-aa6c-de002eef48a4
-[17:07:36] [Server thread/INFO]: uncrid joined the game
-[17:07:36] [Server thread/INFO]: uncrid[/127.104.36.218:51861] logged in with entity id 239 at ([world]0.0, 71.0, 0.0)
-[17:07:47] [Async Chat Thread - #0/INFO]: [Not Secure] <uncrid> lagtest
-[17:07:55] [Server thread/INFO]: uncrid issued server command: /gamemode creative
-[17:07:55] [Server thread/INFO]: [uncrid: Set own game mode to Creative Mode]
-[17:08:30] [Server thread/INFO]: [Not Secure] [Server] epera entro
-[17:08:31] [Server thread/INFO]: [Not Secure] [Server] s
-[17:08:37] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives list
-[17:09:18] [User Authenticator #1/INFO]: UUID of player iCsar is f588c112-eb43-3274-842c-1e06347702d7
-[17:09:21] [Server thread/INFO]: iCsar joined the game
-[17:09:21] [Server thread/INFO]: iCsar[/127.2.114.198:32879] logged in with entity id 626 at ([world]0.0, 71.0, 0.0)
-[17:09:24] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives add tick.secs dummy
-[17:09:24] [Server thread/INFO]: [uncrid: Created new objective [tick.secs]]
-[17:09:28] [Server thread/INFO]: uncrid issued server command: /tp iCsar
-[17:09:28] [Server thread/INFO]: [uncrid: Teleported uncrid to iCsar]
-[17:09:32] [Async Chat Thread - #1/INFO]: [Not Secure] <uncrid> hola
-[17:09:35] [Async Chat Thread - #1/INFO]: [Not Secure] <uncrid> adios
-[17:09:36] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> hola
-[17:09:39] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> aadios
-[17:09:41] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> aver
-[17:09:49] [Server thread/INFO]: iCsar issued server command: /locate structure mansion
-[17:09:50] [Server thread/INFO]: Locating element minecraft:mansion took 426 ms
-[17:09:51] [Server thread/INFO]: iCsar issued server command: /tp @s 144 ~ 656
-[17:09:51] [Server thread/INFO]: [iCsar: Teleported iCsar to 144.500000, 68.000000, 656.500000]
-[17:09:59] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> XD
-[17:10:03] [Server thread/INFO]: uncrid issued server command: /bossbar add time
-[17:10:05] [Server thread/INFO]: uncrid issued server command: /bossbar add time ""
-[17:10:05] [Server thread/INFO]: [uncrid: Created custom bossbar []]
-[17:10:05] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> que hace esto aquí por dios
-[17:10:26] [Server thread/INFO]: uncrid issued server command: /tp iCsar
-[17:10:26] [Server thread/INFO]: [uncrid: Teleported uncrid to iCsar]
-[17:10:26] [Server thread/INFO]: iCsar issued server command: /time set dqy
-[17:10:29] [Server thread/INFO]: iCsar issued server command: /time set day
-[17:10:29] [Server thread/INFO]: [iCsar: Set the time to 1000]
-[17:10:33] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> bien cerca del spawn
-[17:10:43] [Async Chat Thread - #1/INFO]: [Not Secure] <uncrid> en donde queres que ponga los bloques de ocmadnos?
-[17:10:44] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> y encima en un bioma que nada que ver
-[17:10:50] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> eee
-[17:10:54] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> lejos de aqui
-[17:11:05] [Server thread/INFO]: uncrid issued server command: /tp 77777777777777 77 7777777777777777777
-[17:11:07] [Server thread/INFO]: uncrid issued server command: /tp 77777777777777 77 777777777777
-[17:11:09] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> unos 3k bloques lejos
-[17:11:09] [Server thread/INFO]: uncrid issued server command: /tp 77777777 77 777777777777
-[17:11:12] [Server thread/INFO]: uncrid issued server command: /tp 77777777 77 777777
-[17:11:13] [Server thread/INFO]: uncrid issued server command: /tp 77777777 77 7777
-[17:11:16] [Server thread/INFO]: uncrid issued server command: /tp 77777 77 7777
-[17:11:16] [Server thread/INFO]: [uncrid: Teleported uncrid to 77777.500000, 77.000000, 7777.500000]
-[17:11:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
-[17:11:18] [Server thread/INFO]: iCsar issued server command: /plugins
-[17:11:19] [Server thread/INFO]: uncrid issued server command: /tp 77777 77 77777
-[17:11:19] [Server thread/INFO]: [uncrid: Teleported uncrid to 77777.500000, 77.000000, 77777.500000]
-[17:11:24] [Server thread/WARN]: iCsar moved too quickly! -13.507684502711129,5.2443359466236785,-31.398361271851854
-[17:11:27] [Async Chat Thread - #1/INFO]: [Not Secure] <uncrid> veni a 77777 77 77777
-[17:11:37] [Server thread/INFO]: uncrid issued server command: /gamemode spectator
-[17:11:37] [Server thread/INFO]: [uncrid: Set own game mode to Spectator Mode]
-[17:11:41] [Server thread/INFO]: iCsar issued server command: /tp 77777 77 77777
-[17:11:41] [Server thread/INFO]: [iCsar: Teleported iCsar to 77777.500000, 77.000000, 77777.500000]
-[17:11:42] [Server thread/INFO]: uncrid issued server command: /gamemode creative
-[17:11:42] [Server thread/INFO]: [uncrid: Set own game mode to Creative Mode]
-[17:11:50] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> no te veo
-[17:11:55] [Server thread/INFO]: uncrid issued server command: /tp iCsar uncrid}
-[17:11:56] [Server thread/INFO]: uncrid issued server command: /tp iCsar uncrid
-[17:11:56] [Server thread/INFO]: [uncrid: Teleported iCsar to uncrid]
-[17:11:57] [Server thread/INFO]: iCsar issued server command: /tp 77777 77 77777
-[17:11:57] [Server thread/INFO]: [iCsar: Teleported iCsar to 77777.500000, 77.000000, 77777.500000]
-[17:11:58] [Server thread/INFO]: uncrid issued server command: /tp iCsar uncrid
-[17:11:58] [Server thread/INFO]: [uncrid: Teleported iCsar to uncrid]
-[17:12:00] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> XD
-[17:12:02] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> aver
-[17:12:21] [Async Chat Thread - #1/INFO]: [Not Secure] <uncrid> de cuantos minutos va a ser?
-[17:12:26] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> 20
-[17:12:33] [Server thread/INFO]: iCsar issued server command: /locate structure mansion
-[17:12:33] [Server thread/INFO]: Locating element minecraft:mansion took 311 ms
-[17:12:36] [Server thread/INFO]: iCsar issued server command: /tp @s 79648 ~ 75072
-[17:12:36] [Server thread/INFO]: [iCsar: Teleported iCsar to 79648.500000, 112.000000, 75072.500000]
-[17:12:48] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time max 24000
-[17:12:48] [Server thread/INFO]: [uncrid: Custom bossbar [] has changed maximum to 24000]
-[17:12:52] [Async Chat Thread - #1/INFO]: [Not Secure] <iCsar> creo que me fui muchos bloques
-[17:12:54] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time visible true
-[17:13:13] [Server thread/INFO]: iCsar issued server command: /tp 10827 89 26272
-[17:13:13] [Server thread/INFO]: [iCsar: Teleported iCsar to 10827.500000, 89.000000, 26272.500000]
-[17:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
-[17:13:28] [Server thread/INFO]: iCsar issued server command: /tp 10827 89 2627
-[17:13:28] [Server thread/INFO]: [iCsar: Teleported iCsar to 10827.500000, 89.000000, 2627.500000]
-[17:13:34] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-211, y=-58, z=-85}
-[17:13:34] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-153, y=-58, z=-122}
-[17:13:34] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time players uncrid
-[17:13:34] [Server thread/INFO]: [uncrid: Custom bossbar [] now has 1 player(s): uncrid]
-[17:13:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3947ms or 78 ticks behind
-[17:13:36] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-161, y=-58, z=-83}
-[17:13:36] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-158, y=-57, z=-42}
-[17:13:37] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-158, y=-57, z=-42}
-[17:13:39] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-158, y=-57, z=-42}
-[17:13:39] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-129, y=-58, z=-61}
-[17:13:39] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-127, y=-58, z=-61}
-[17:13:42] [Server thread/INFO]: iCsar issued server command: /locate structure mansion
-[17:13:42] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-136, y=-58, z=-70}
-[17:13:42] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-211, y=-58, z=-85}
-[17:13:42] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-161, y=-58, z=-83}
-[17:13:43] [Server thread/INFO]: Locating element minecraft:mansion took 656 ms
-[17:13:45] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-161, y=-58, z=-83}
-[17:13:46] [Server thread/INFO]: iCsar issued server command: /tp @s 13584 ~ 6896
-[17:13:46] [Server thread/INFO]: [iCsar: Teleported iCsar to 13584.500000, 89.000000, 6896.500000]
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-161, y=-58, z=-83}
-[17:13:49] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time name "TIEMPO RESTANTE"
-[17:13:49] [Server thread/INFO]: [uncrid: Custom bossbar [TIEMPO RESTANTE] has been renamed]
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-211, y=-58, z=-85}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-158, y=-57, z=-42}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-136, y=-58, z=-70}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-153, y=-58, z=-122}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-158, y=-57, z=-42}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-211, y=-58, z=-85}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-158, y=-57, z=-42}
-[17:13:49] [Paper Common Worker #0/ERROR]: Block-attached entity at invalid position: BlockPos{x=-211, y=-58, z=-85}
-[17:14:53] [Server thread/INFO]: iCsar issued server command: /tp uncrid
-[17:14:53] [Server thread/INFO]: [iCsar: Teleported iCsar to uncrid]
-[17:14:59] [Server thread/INFO]: iCsar issued server command: /gamemode aventurr
-[17:15:01] [Server thread/INFO]: iCsar issued server command: /gamemode aventure
-[17:15:15] [Server thread/INFO]: iCsar issued server command: /gamemode adventure
-[17:15:15] [Server thread/INFO]: [iCsar: Set own game mode to Adventure Mode]
-[17:15:22] [Server thread/INFO]: iCsar issued server command: /gamemode creative
-[17:15:22] [Server thread/INFO]: [iCsar: Set own game mode to Creative Mode]
-[17:15:43] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> te pondré en aventura para probar lgo
-[17:15:45] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> a
-[17:16:07] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> 5
-[17:16:10] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> 4
-[17:16:11] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> 3
-[17:16:12] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> 2
-[17:16:14] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> 1
-[17:16:21] [Server thread/INFO]: uncrid issued server command: /summon minecraft:armor_stand 77777 112 77776 {Invulnerable:1b,Tags:["time"]}
-[17:16:21] [Server thread/INFO]: [uncrid: Summoned new Armor Stand]
-[17:16:24] [Server thread/INFO]: iCsar issued server command: /gamemode adventure @a
-[17:16:24] [Server thread/INFO]: [iCsar: Set uncrid's game mode to Adventure Mode]
-[17:16:24] [Server thread/INFO]: [iCsar: Set own game mode to Adventure Mode]
-[17:16:30] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> ah si se puede
-[17:16:32] [Server thread/INFO]: uncrid issued server command: /gamemode creative
-[17:16:32] [Server thread/INFO]: [uncrid: Set own game mode to Creative Mode]
-[17:16:35] [Server thread/INFO]: iCsar issued server command: /gamemode creative @a
-[17:16:35] [Server thread/INFO]: [iCsar: Set own game mode to Creative Mode]
-[17:16:35] [Server thread/INFO]: uncrid issued server command: /summon minecraft:armor_stand 77777 112 77776 {Invulnerable:1b,Tags:["time"]}
-[17:16:35] [Server thread/INFO]: [uncrid: Summoned new Armor Stand]
-[17:16:38] [Server thread/INFO]: uncrid issued server command: /gamemode survival
-[17:16:38] [Server thread/INFO]: [uncrid: Set own game mode to Survival Mode]
-[17:16:42] [Server thread/INFO]: uncrid issued server command: /gamemode creative
-[17:16:42] [Server thread/INFO]: [uncrid: Set own game mode to Creative Mode]
-[17:17:07] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives remove tick.secs
-[17:17:07] [Server thread/INFO]: [uncrid: Removed objective [tick.secs]]
-[17:17:17] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives add time dummy
-[17:17:17] [Server thread/INFO]: [uncrid: Created new objective [time]]
-[17:18:02] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time players iCsar
-[17:18:02] [Server thread/INFO]: [uncrid: Custom bossbar [TIEMPO RESTANTE] now has 1 player(s): iCsar]
-[17:18:06] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time players @a
-[17:18:06] [Server thread/INFO]: [uncrid: Custom bossbar [TIEMPO RESTANTE] now has 2 player(s): uncrid, iCsar]
-[17:18:12] [Async Chat Thread - #5/INFO]: [Not Secure] <uncrid> ves la bossbar?
-[17:18:26] [Async Chat Thread - #5/INFO]: [Not Secure] <uncrid> murio
-[17:18:34] [Async Chat Thread - #5/INFO]: [Not Secure] <iCsar> si
-[17:18:39] [Async Chat Thread - #5/INFO]: [Not Secure] <iCsar> está vacio
-[17:18:57] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] time 24000
-[17:18:57] [Server thread/INFO]: [uncrid: Set [time] for Armor Stand to 24000]
-[17:20:01] [Async Chat Thread - #7/INFO]: [Not Secure] <uncrid> ahi
-[17:20:04] [Async Chat Thread - #7/INFO]: [Not Secure] <iCsar> wow
-[17:20:06] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] time 2000
-[17:20:06] [Server thread/INFO]: [uncrid: Set [time] for Armor Stand to 2000]
-[17:20:09] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] time 2538972
-[17:20:09] [Server thread/INFO]: [uncrid: Set [time] for Armor Stand to 2538972]
-[17:20:11] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] time 999
-[17:20:11] [Server thread/INFO]: [uncrid: Set [time] for Armor Stand to 999]
-[17:20:28] [Async Chat Thread - #7/INFO]: [Not Secure] <uncrid> si cambio el score del atril, se muestra en la bossbar
-[17:20:31] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] time 24000
-[17:20:31] [Server thread/INFO]: [uncrid: Set [time] for Armor Stand to 24000]
-[17:20:40] [Async Chat Thread - #7/INFO]: [Not Secure] <iCsar> con cuál comando lo cambias
-[17:20:50] [Async Chat Thread - #7/INFO]: [Not Secure] <uncrid> ./scoreboard players set @n[tag=time] time 24000
-[17:21:02] [Async Chat Thread - #7/INFO]: [Not Secure] <iCsar> vale
-[17:21:03] [Async Chat Thread - #7/INFO]: [Not Secure] <uncrid> 24000 son los 20 minutos
-[17:21:10] [Async Chat Thread - #7/INFO]: [Not Secure] <uncrid> ahora
-[17:21:18] [Async Chat Thread - #7/INFO]: [Not Secure] <uncrid> debe restarse infinitamente
-[17:21:36] [Server thread/INFO]: iCsar issued server command: /tp @s 13584 ~ 6896
-[17:21:36] [Server thread/INFO]: [iCsar: Teleported iCsar to 13584.500000, 112.000000, 6896.500000]
-[17:21:44] [Server thread/INFO]: iCsar issued server command: /time set day
-[17:21:44] [Server thread/INFO]: [iCsar: Set the time to 1000]
-[17:22:14] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives add start dummy
-[17:22:14] [Server thread/INFO]: [uncrid: Created new objective [start]]
-[17:22:29] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] start 0
-[17:22:29] [Server thread/INFO]: [uncrid: Set [start] for Armor Stand to 0]
-[17:23:38] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] start 1
-[17:23:38] [Server thread/INFO]: [uncrid: Set [start] for Armor Stand to 1]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23999)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23998)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23997)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23996)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23995)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23994)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23993)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23992)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23991)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23990)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23989)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23988)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23987)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23986)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23985)]
-[17:23:38] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23984)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23983)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23982)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23981)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23980)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23979)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23978)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23977)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23976)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23975)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23974)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23973)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23972)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23971)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23970)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23969)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23968)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23967)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23966)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23965)]
-[17:23:39] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23964)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23963)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23962)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23961)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23960)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23959)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23958)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23957)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23956)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23955)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23954)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23953)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23952)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23951)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23950)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23949)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23948)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23947)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23946)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23945)]
-[17:23:40] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23944)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23943)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23942)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23941)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23940)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23939)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23938)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23937)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23936)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23935)]
-[17:23:41] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> por cierto usaré el world border en un momento del evento, no afectara al armor stand?
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23934)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23933)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23932)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23931)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23930)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23929)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23928)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23927)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23926)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23925)]
-[17:23:41] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23924)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23923)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23922)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23921)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23920)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23919)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23918)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23917)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23916)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23915)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23914)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23913)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23912)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23911)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23910)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23909)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23908)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23907)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23906)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23905)]
-[17:23:42] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23904)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23903)]
-[17:23:43] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> por cierto usaré el world border en un momento del evento, no afectara al armor stand?
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23902)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23901)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23900)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23899)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23898)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23897)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23896)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23895)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23894)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23893)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23892)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23891)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23890)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23889)]
-[17:23:43] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> por cierto usaré el world border en un momento del evento, no afectara al armor stand?
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23888)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23887)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23886)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23885)]
-[17:23:43] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23884)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23883)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23882)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23881)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23880)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23879)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23878)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23877)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23876)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23875)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23874)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23873)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23872)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23871)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23870)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23869)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23868)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23867)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23866)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23865)]
-[17:23:44] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23864)]
-[17:23:44] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> por cierto usaré el world border en un momento del evento, no afectara al armor stand?
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23863)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23862)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23861)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23860)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23859)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23858)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23857)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23856)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23855)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23854)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23853)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23852)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23851)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23850)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23849)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23848)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23847)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23846)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23845)]
-[17:23:45] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23844)]
-[17:23:45] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> por cierto usaré el world border en un momento del evento, no afectara al armor stand?
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23843)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23842)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23841)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23840)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23839)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23838)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23837)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23836)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23835)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23834)]
-[17:23:46] [Server thread/INFO]: [Armor Stand: Removed 1 from [time] for Armor Stand (now 23833)]
-[17:23:46] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @n[tag=time] start 0
-[17:23:46] [Server thread/INFO]: [uncrid: Set [start] for Armor Stand to 0]
-[17:23:46] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> por cierto usaré el world border en un momento del evento, no afectara al armor stand?
-[17:23:57] [Async Chat Thread - #9/INFO]: [Not Secure] <uncrid> no tengo idea
-[17:24:03] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> bueno
-[17:25:22] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:23] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:24] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:25] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:26] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
-[17:26:34] [Async Chat Thread - #11/INFO]: [Not Secure] <uncrid> a ver, ya vuelvo
-[17:26:36] [Server thread/INFO]: uncrid lost connection: Disconnected
-[17:26:36] [Server thread/INFO]: uncrid left the game
-[17:26:46] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> vale
-[17:27:15] [Server thread/INFO]: iCsar lost connection: Timed out
-[17:27:15] [Server thread/INFO]: iCsar left the game
-[17:27:28] [Server thread/INFO]: [Not Secure] [Server] h
-[17:27:35] [User Authenticator #2/INFO]: UUID of player iCsar is f588c112-eb43-3274-842c-1e06347702d7
-[17:27:36] [Server thread/INFO]: iCsar joined the game
-[17:27:36] [Server thread/INFO]: iCsar[/127.2.114.198:58939] logged in with entity id 5904 at ([world]0.0, 71.0, 0.0)
-[17:27:36] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
-[17:28:15] [Server thread/INFO]: iCsar issued server command: /gamemode adventure
-[17:28:15] [Server thread/INFO]: [iCsar: Set own game mode to Adventure Mode]
-[17:28:28] [Server thread/INFO]: iCsar issued server command: /gamemode creatibe
-[17:28:30] [Server thread/INFO]: iCsar issued server command: /gamemode creative
-[17:28:30] [Server thread/INFO]: [iCsar: Set own game mode to Creative Mode]
-[17:29:42] [User Authenticator #3/INFO]: UUID of player uncrid is ae096b60-1fd0-3454-aa6c-de002eef48a4
-[17:29:44] [Server thread/INFO]: uncrid joined the game
-[17:29:44] [Server thread/INFO]: uncrid[/127.104.36.218:44497] logged in with entity id 6325 at ([world]0.0, 71.0, 0.0)
-[17:29:55] [Async Chat Thread - #13/INFO]: [Not Secure] <uncrid> lagtest
-[17:30:13] [Async Chat Thread - #13/INFO]: [Not Secure] <iCsar> meteré reinicio para una mini config ya te aviso cuando prenda
-[17:30:18] [Server thread/INFO]: Stopping the server
-[17:30:18] [Server thread/INFO]: Stopping server
-[17:30:18] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
-[17:30:18] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:30:18] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:30:18] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
-[17:30:18] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[17:30:18] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[17:30:18] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[17:30:18] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[17:30:18] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:30:18] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[17:30:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[17:30:18] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[17:30:18] [Server thread/INFO]: Saving players
-[17:30:18] [Server thread/INFO]: iCsar lost connection: Server closed
-[17:30:18] [Server thread/INFO]: iCsar left the game
-[17:30:18] [Server thread/INFO]: uncrid lost connection: Server closed
-[17:30:19] [Server thread/INFO]: uncrid left the game
-[17:30:19] [WebSocketConnectReadThread-99/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[17:30:19] [Server thread/INFO]: Saving worlds
-[17:30:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:30:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:30:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:30:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 1030 block chunks, 1075 entity chunks, 0 poi chunks in world 'world' in 1.54s
-[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 37 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_buried_ocean]'/nitdim:buried_ocean
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_buried_ocean'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_buried_ocean'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_buried_ocean'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nitdim_buried_ocean' in 0.02s
-[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_in_between]'/nitdim:in_between
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_in_between'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_in_between'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_in_between'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nitdim_in_between' in 0.00s
-[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_primordial_desert]'/nitdim:primordial_desert
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_primordial_desert'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_primordial_desert'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_primordial_desert'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nitdim_primordial_desert' in 0.00s
-[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_tempest]'/nitdim:tempest
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_tempest'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_tempest'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_tempest'
-[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nitdim_tempest' in 0.00s
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (buried_ocean): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (in_between): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (primordial_desert): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (tempest): All chunks are saved
-[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:33:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[17:33:16] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:33:18] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:33:18] [Server thread/INFO]: [floodgate] Took 1,507ms to boot Floodgate
+[17:33:18] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[17:33:18] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[17:33:18] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[17:33:18] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[17:33:18] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[17:33:20] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:33:20] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:33:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:33:20] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[17:33:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[17:33:20] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[17:33:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[17:33:21] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[17:33:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[17:33:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:33:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:33:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:33:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:33:22] [Server thread/INFO]: Preparing level "world"
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:33:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:33:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:33:24] [Server thread/INFO]: Time elapsed: 1230 ms
+[17:33:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:33:24] [Server thread/INFO]: Time elapsed: 165 ms
+[17:33:24] [Server thread/INFO]: Preparing start region for dimension nitdim:in_between
+[17:33:24] [Server thread/INFO]: Time elapsed: 230 ms
+[17:33:24] [Server thread/INFO]: Preparing start region for dimension nitdim:primordial_desert
+[17:33:25] [Server thread/INFO]: Time elapsed: 216 ms
+[17:33:25] [Server thread/INFO]: Preparing start region for dimension nitdim:buried_ocean
+[17:33:25] [Server thread/INFO]: Time elapsed: 183 ms
+[17:33:25] [Server thread/INFO]: Preparing start region for dimension nitdim:tempest
+[17:33:25] [Server thread/INFO]: Time elapsed: 119 ms
+[17:33:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[17:33:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[17:33:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[17:33:25] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:33:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[17:33:26] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[17:33:26] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:33:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[17:33:27] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[17:33:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[17:33:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:33:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:33:27] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[17:33:27] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[17:33:27] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[17:33:27] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[17:33:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[17:33:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[17:33:28] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[17:33:28] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[17:33:28] [Server thread/INFO]: [Essentials] Using locale en
+[17:33:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:33:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:33:28] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:33:28] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[17:33:28] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:33:28] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:33:28] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:33:28] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:33:28] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[17:33:28] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[17:33:29] [Server thread/INFO]: [spark] Starting background profiler...
+[17:33:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:33:29] [Server thread/INFO]: [Geyser-Spigot] 
+[17:33:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b812 (git-master-efd4dcc)
+[17:33:29] [Server thread/INFO]: [Geyser-Spigot] 
+[17:33:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:33:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
+[17:33:37] [Server thread/INFO]: [Geyser-Spigot] Done (8.003s)! Run /geyser help for help!
+[17:33:37] [Server thread/INFO]: Done preparing level "world" (15.486s)
+[17:33:37] [Server thread/INFO]: Running delayed init tasks
+[17:33:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:33:37] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:33:37] [Server thread/INFO]: Done (39.415s)! For help, type "help"
+[17:33:37] [Server thread/INFO]: Timings Reset
+[17:34:01] [User Authenticator #0/INFO]: UUID of player uncrid is ae096b60-1fd0-3454-aa6c-de002eef48a4
+[17:34:03] [Server thread/INFO]: uncrid joined the game
+[17:34:03] [Server thread/INFO]: uncrid[/127.104.36.218:54537] logged in with entity id 26 at ([world]0.0, 71.0, 0.0)
+[17:34:03] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[17:34:08] [Async Chat Thread - #1/INFO]: [Not Secure] <uncrid> lagtest
+[17:36:13] [Server thread/INFO]: uncrid issued server command: /scoreboard players set uncrid start 1
+[17:36:13] [Server thread/INFO]: [uncrid: Set [start] for uncrid to 1]
+[17:36:13] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -1)]
+[17:36:13] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -2)]
+[17:36:13] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -3)]
+[17:36:13] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -4)]
+[17:36:13] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -5)]
+[17:36:13] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -6)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -7)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -8)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -9)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -10)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -11)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -12)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -13)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -14)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -15)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -16)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -17)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -18)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -19)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -20)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -21)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -22)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -23)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -24)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -25)]
+[17:36:14] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -26)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -27)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -28)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -29)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -30)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -31)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -32)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -33)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -34)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -35)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -36)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -37)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -38)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -39)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -40)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -41)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -42)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -43)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -44)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -45)]
+[17:36:15] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -46)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -47)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -48)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -49)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -50)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -51)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -52)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -53)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -54)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -55)]
+[17:36:16] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now -56)]
+[17:36:16] [Server thread/INFO]: uncrid issued server command: /scoreboard players set uncrid start 0
+[17:36:16] [Server thread/INFO]: [uncrid: Set [start] for uncrid to 0]
+[17:36:16] [Server thread/INFO]: [uncrid: Set [time] for uncrid to 24000]
+[17:36:30] [Server thread/INFO]: uncrid issued server command: /scoreboard players set uncrid start 1
+[17:36:30] [Server thread/INFO]: [uncrid: Set [start] for uncrid to 1]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23999)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23998)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23997)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23996)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23995)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23994)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23993)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23992)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23991)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23990)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23989)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23988)]
+[17:36:30] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23987)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23986)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23985)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23984)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23983)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23982)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23981)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23980)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23979)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23978)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23977)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23976)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23975)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23974)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23973)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23972)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23971)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23970)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23969)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23968)]
+[17:36:31] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23967)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23966)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23965)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23964)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23963)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23962)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23961)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23960)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23959)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23958)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23957)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23956)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23955)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23954)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23953)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23952)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23951)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23950)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23949)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23948)]
+[17:36:32] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23947)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23946)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23945)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23944)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23943)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23942)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23941)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23940)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23939)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23938)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23937)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23936)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23935)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23934)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23933)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23932)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23931)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23930)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23929)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23928)]
+[17:36:33] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23927)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23926)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23925)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23924)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23923)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23922)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23921)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23920)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23919)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23918)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23917)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23916)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23915)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23914)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23913)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23912)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23911)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23910)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23909)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23908)]
+[17:36:34] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23907)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23906)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23905)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23904)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23903)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23902)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23901)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23900)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23899)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23898)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23897)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23896)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23895)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23894)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23893)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23892)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23891)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23890)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23889)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23888)]
+[17:36:35] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23887)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23886)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23885)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23884)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23883)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23882)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23881)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23880)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23879)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23878)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23877)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23876)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23875)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23874)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23873)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23872)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23871)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23870)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23869)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23868)]
+[17:36:36] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23867)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23866)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23865)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23864)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23863)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23862)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23861)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23860)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23859)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23858)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23857)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23856)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23855)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23854)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23853)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23852)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23851)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23850)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23849)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23848)]
+[17:36:37] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23847)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23846)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23845)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23844)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23843)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23842)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23841)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23840)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23839)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23838)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23837)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23836)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23835)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23834)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23833)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23832)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23831)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23830)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23829)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23828)]
+[17:36:38] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23827)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23826)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23825)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23824)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23823)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23822)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23821)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23820)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23819)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23818)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23817)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23816)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23815)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23814)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23813)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23812)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23811)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23810)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23809)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23808)]
+[17:36:39] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23807)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23806)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23805)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23804)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23803)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23802)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23801)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23800)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23799)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23798)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23797)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23796)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23795)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23794)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23793)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23792)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23791)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23790)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23789)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23788)]
+[17:36:40] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23787)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23786)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23785)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23784)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23783)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23782)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23781)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23780)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23779)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23778)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23777)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23776)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23775)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23774)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23773)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23772)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23771)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23770)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23769)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23768)]
+[17:36:41] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23767)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23766)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23765)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23764)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23763)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23762)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23761)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23760)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23759)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23758)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23757)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23756)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23755)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23754)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23753)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23752)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23751)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23750)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23749)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23748)]
+[17:36:42] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23747)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23746)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23745)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23744)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23743)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23742)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23741)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23740)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23739)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23738)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23737)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23736)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23735)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23734)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23733)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23732)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23731)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23730)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23729)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23728)]
+[17:36:43] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23727)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23726)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23725)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23724)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23723)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23722)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23721)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23720)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23719)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23718)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23717)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23716)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23715)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23714)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23713)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23712)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23711)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23710)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23709)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23708)]
+[17:36:44] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23707)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23706)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23705)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23704)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23703)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23702)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23701)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23700)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23699)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23698)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23697)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23696)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23695)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23694)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23693)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23692)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23691)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23690)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23689)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23688)]
+[17:36:45] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23687)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23686)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23685)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23684)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23683)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23682)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23681)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23680)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23679)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23678)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23677)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23676)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23675)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23674)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23673)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23672)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23671)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23670)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23669)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23668)]
+[17:36:46] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23667)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23666)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23665)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23664)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23663)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23662)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23661)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23660)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23659)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23658)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23657)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23656)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23655)]
+[17:36:47] [Server thread/INFO]: [uncrid: Removed 1 from [time] for uncrid (now 23654)]
+[17:36:47] [Server thread/INFO]: uncrid issued server command: /gamerule commandBlockOutput false
+[17:36:47] [Server thread/INFO]: [uncrid: Gamerule commandBlockOutput is now set to: false]
+[17:36:49] [Server thread/INFO]: uncrid issued server command: /gamemode survival
+[17:36:50] [Server thread/INFO]: uncrid issued server command: /gamemode creative
+[17:38:33] [Server thread/INFO]: Made iLeola_ a server operator
+[17:39:09] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a 0
+[17:39:16] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a start 0
+[17:39:16] [Server thread/INFO]: [uncrid: Set [start] for uncrid to 0]
+[17:39:36] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time color blue
+[17:39:36] [Server thread/INFO]: [uncrid: Custom bossbar [TIEMPO RESTANTE] has changed color]
+[17:40:00] [User Authenticator #1/INFO]: UUID of player iCsar is f588c112-eb43-3274-842c-1e06347702d7
+[17:40:01] [Server thread/INFO]: iCsar joined the game
+[17:40:01] [Server thread/INFO]: iCsar[/127.2.114.198:43541] logged in with entity id 255 at ([world]0.0, 71.0, 0.0)
+[17:40:10] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> hola
+[17:40:13] [Async Chat Thread - #2/INFO]: [Not Secure] <iCsar> soy rojo
+[17:40:17] [Server thread/INFO]: uncrid issued server command: /bossbar set minecraft:time name {"text":"TIEMPO RESTANTE","color":"blue"}
+[17:40:17] [Server thread/INFO]: [uncrid: Custom bossbar [TIEMPO RESTANTE] has been renamed]
+[17:40:18] [Async Chat Thread - #3/INFO]: [Not Secure] <uncrid> hola
+[17:40:27] [Server thread/INFO]: iCsar issued server command: /tp uncrid
+[17:40:44] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a start 1
+[17:40:44] [Server thread/INFO]: [uncrid: Set [start] for 2 entities to 1]
+[17:40:44] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> oye pero esto se usará en el segundo Game, como hago que desaparezca y aparezca esto
+[17:40:53] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a start 1
+[17:40:53] [Server thread/INFO]: [uncrid: Set [start] for 2 entities to 1]
+[17:40:54] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a start 1
+[17:40:54] [Server thread/INFO]: [uncrid: Set [start] for 2 entities to 1]
+[17:40:54] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a start 1
+[17:40:54] [Server thread/INFO]: [uncrid: Set [start] for 2 entities to 1]
+[17:41:11] [Server thread/INFO]: uncrid issued server command: /scoreboard players set @a start 0
+[17:41:11] [Server thread/INFO]: [uncrid: Set [start] for 2 entities to 0]
+[17:41:18] [Async Chat Thread - #3/INFO]: [Not Secure] <uncrid> para
+[17:41:23] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> que paso
+[17:41:23] [Async Chat Thread - #3/INFO]: [Not Secure] <uncrid> vas a estar en el evento?
+[17:41:27] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> no
+[17:41:33] [Async Chat Thread - #3/INFO]: [Not Secure] <iCsar> solo como simple aadmin
+[17:41:40] [Async Chat Thread - #3/INFO]: [Not Secure] <uncrid> bueno
+[17:42:05] [Server thread/INFO]: iCsar issued server command: /tp @s 13584 ~ 6896
+[17:42:12] [Server thread/INFO]: iCsar issued server command: /tp iCsar 13584 ~ 6896
+[17:42:13] [Server thread/INFO]: uncrid issued server command: /scoreboard players reset @a time
+[17:42:13] [Server thread/INFO]: [uncrid: Reset [time] for 2 entities]
+[17:42:17] [Server thread/INFO]: uncrid issued server command: /scoreboard players reset @a start
+[17:42:17] [Server thread/INFO]: [uncrid: Reset [start] for 2 entities]
+[17:42:41] [Async Chat Thread - #4/INFO]: [Not Secure] <uncrid> no se si funciona si estamos lejos
+[17:42:42] [Async Chat Thread - #4/INFO]: [Not Secure] <uncrid> a ver
+[17:43:00] [Server thread/INFO]: uncrid issued server command: /tp uncrid 77777 112 77777
+[17:43:08] [Server thread/INFO]: uncrid issued server command: /tp 1 121 1
+[17:43:13] [Server thread/INFO]: uncrid issued server command: /tp iCsar uncrid
+[17:43:23] [Server thread/INFO]: uncrid issued server command: /scoreboard players set iCsar start 1
+[17:43:23] [Server thread/INFO]: [uncrid: Set [start] for iCsar to 1]
+[17:43:32] [Server thread/INFO]: uncrid issued server command: /gamerule commandBlockOutput true
+[17:43:32] [Server thread/INFO]: [uncrid: Gamerule commandBlockOutput is now set to: true]
+[17:43:39] [Async Chat Thread - #4/INFO]: [Not Secure] <uncrid> no funca si estamos lejos
+[17:43:43] [Async Chat Thread - #4/INFO]: [Not Secure] <iCsar> sob
+[17:43:44] [Server thread/INFO]: iCsar issued server command: /tp @s 13584 ~ 6896
+[17:43:49] [Server thread/INFO]: iCsar issued server command: /tp iCsar 13584 ~ 6896
+[17:43:54] [Async Chat Thread - #4/INFO]: [Not Secure] <uncrid> lo hago en datapack?
+[17:43:56] [Server thread/INFO]: iCsar issued server command: /gamemode spectator
+[17:44:18] [Async Chat Thread - #4/INFO]: [Not Secure] <iCsar> mientras pueda hacer un comando el cual active y desactive el conteo si
+[17:44:23] [Server thread/INFO]: uncrid issued server command: /tp uncrid 77777 112 77777
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23999)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23998)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23997)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23996)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23995)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23994)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23993)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23992)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23991)]
+[17:44:23] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23990)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23989)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23988)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23987)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23986)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23985)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23984)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23983)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23982)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23981)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23980)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23979)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23978)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23977)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23976)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23975)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23974)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23973)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23972)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23971)]
+[17:44:24] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23970)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23969)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23968)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23967)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23966)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23965)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23964)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23963)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23962)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23961)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23960)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23959)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23958)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23957)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23956)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23955)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23954)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23953)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23952)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23951)]
+[17:44:25] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23950)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23949)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23948)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23947)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23946)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23945)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23944)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23943)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23942)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23941)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23940)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23939)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23938)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23937)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23936)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23935)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23934)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23933)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23932)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23931)]
+[17:44:26] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23930)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23929)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23928)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23927)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23926)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23925)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23924)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23923)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23922)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23921)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23920)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23919)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23918)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23917)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23916)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23915)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23914)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23913)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23912)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23911)]
+[17:44:27] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23910)]
+[17:44:28] [Server thread/INFO]: [iCsar: Removed 1 from [time] for iCsar (now 23909)]
+[17:44:28] [Server thread/INFO]: uncrid issued server command: /gamerule commandBlockOutput false
+[17:44:28] [Server thread/INFO]: [uncrid: Gamerule commandBlockOutput is now set to: false]
+[17:44:38] [Async Chat Thread - #4/INFO]: [Not Secure] <iCsar> en el dc te diré lo que hare
+[17:44:43] [Async Chat Thread - #4/INFO]: [Not Secure] <uncrid> bueno dale
+[17:44:44] [Server thread/INFO]: iCsar issued server command: /gamemode creative
+[17:45:10] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives remove time
+[17:45:10] [Server thread/INFO]: [uncrid: Removed objective [time]]
+[17:45:13] [Server thread/INFO]: uncrid issued server command: /scoreboard objectives remove start
+[17:45:13] [Server thread/INFO]: [uncrid: Removed objective [start]]
+[17:45:20] [Server thread/INFO]: uncrid issued server command: /bossbar remove minecraft:time
+[17:45:20] [Server thread/INFO]: [uncrid: Removed custom bossbar [TIEMPO RESTANTE]]
+[17:45:22] [Server thread/INFO]: uncrid lost connection: Disconnected
+[17:45:22] [Server thread/INFO]: uncrid left the game
+[17:58:20] [Server thread/INFO]: [Not Secure] [Server] j
+[18:02:28] [User Authenticator #2/INFO]: UUID of player iLeola_ is 04c6568a-80d6-38d1-9c7e-efc90999a73c
+[18:02:30] [Server thread/INFO]: iLeola_ joined the game
+[18:02:30] [Server thread/INFO]: iLeola_[/127.210.202.86:49707] logged in with entity id 1010 at ([world]0.0, 71.0, 0.0)
+[18:02:39] [Async Chat Thread - #7/INFO]: [Not Secure] <iLeola_> HELO
+[18:02:42] [Async Chat Thread - #7/INFO]: [Not Secure] <iCsar> hola
+[18:02:46] [Async Chat Thread - #7/INFO]: [Not Secure] <iCsar> hazte tp aca
+[18:02:50] [Async Chat Thread - #7/INFO]: [Not Secure] <iCsar> guarda todo antes
+[18:02:55] [Async Chat Thread - #7/INFO]: [Not Secure] <iLeola_> ya voy
+[18:06:43] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> si la cantidad de personas no es la adecuada tocara hacerlo mañana
+[18:06:49] [Async Chat Thread - #9/INFO]: [Not Secure] <iCsar> si no ya fue se hace hoy
+[18:07:06] [Async Chat Thread - #9/INFO]: [Not Secure] <iLeola_> toca ver
+[18:08:26] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[18:08:33] [Server thread/INFO]: iLeola_ issued server command: /tp iCsar
+[18:08:52] [Async Chat Thread - #11/INFO]: [Not Secure] <iLeola_> estás matando a todos los vindicadores?
+[18:08:58] [Server thread/INFO]: iCsar issued server command: /mobkill hostile world
+[18:09:07] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> si, ya con el essentialw
+[18:09:23] [Async Chat Thread - #11/INFO]: [Not Secure] <iLeola_> el minimapa no me dice que haya más nada
+[18:09:29] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> ven
+[18:09:56] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> mira, necesito cubrir toooooooddooooooo esto de bedro para hacer la pista de carrera
+[18:10:14] [Async Chat Thread - #11/INFO]: [Not Secure] <iLeola_> cubrir de bedrock toda la mansión?
+[18:10:42] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> no, osea dejar un rectángulo enorme desde la mansión hasta el inicio que será donde estarán todos cuando comience la carrea
+[18:10:44] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> carrea
+[18:10:46] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> carrera
+[18:10:56] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> ven
+[18:10:58] [Server thread/WARN]: iCsar moved too quickly! -4.530925017339541,-4.687940984705065,18.1776984009648
+[18:11:39] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> asi
+[18:11:47] [Async Chat Thread - #11/INFO]: [Not Secure] <iLeola_> fuera fácil con worldedit
+[18:11:54] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> no sirve
+[18:12:02] [Async Chat Thread - #11/INFO]: [Not Secure] <iLeola_> toca usar comandos de base no queda otra
+[18:12:19] [Server thread/INFO]: [Not Secure] [Server] sii
+[18:12:45] [Server thread/INFO]: iLeola_ issued server command: /fill 13568 114 6979
+[18:12:57] [Server thread/INFO]: iLeola_ issued server command: /fill 13568 114 6979
+[18:13:00] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> mira, también podemos hacer algo, simplemente con el worldborder
+[18:13:20] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> dejemos esto acá de base
+[18:13:27] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> busquemos un centro
+[18:13:36] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> dónde se hará el set worldborder
+[18:13:52] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> aca
+[18:14:00] [Server thread/INFO]: iCsar issued server command: /worldborder set
+[18:14:02] [Async Chat Thread - #11/INFO]: [Not Secure] <iLeola_> más a la derecha
+[18:14:54] [Server thread/INFO]: iCsar issued server command: /worldborder center
+[18:15:21] [Server thread/INFO]: iCsar issued server command: /worldborder center 13596 6925
+[18:15:21] [Server thread/INFO]: [iCsar: Set the center of the world border to 13596.50, 6925.50]
+[18:15:25] [Async Chat Thread - #13/INFO]: [Not Secure] <iCsar> ahora
+[18:15:41] [Server thread/INFO]: iCsar issued server command: /worldborder set 20 1
+[18:15:41] [Server thread/INFO]: [iCsar: Shrinking the world border to 20.0 block(s) wide over 1 second(s)]
+[18:15:45] [Async Chat Thread - #13/INFO]: [Not Secure] <iCsar> asi
+[18:15:54] [Server thread/INFO]: iCsar issued server command: /time set day
+[18:16:12] [Server thread/INFO]: iCsar issued server command: /time set day
+[18:16:23] [Server thread/INFO]: iCsar issued server command: /worldborder set 1000 1
+[18:16:23] [Server thread/INFO]: [iCsar: Growing the world border to 1000.0 blocks wide over 1 seconds]
+[18:16:34] [Server thread/INFO]: iCsar issued server command: /worldborder set 500 1
+[18:16:34] [Server thread/INFO]: [iCsar: Shrinking the world border to 500.0 block(s) wide over 1 second(s)]
+[18:16:46] [Async Chat Thread - #15/INFO]: [Not Secure] <iLeola_> muchos bloques
+[18:16:46] [Server thread/INFO]: iCsar issued server command: /worldborder set 200 1
+[18:16:46] [Server thread/INFO]: [iCsar: Shrinking the world border to 200.0 block(s) wide over 1 second(s)]
+[18:16:51] [Async Chat Thread - #15/INFO]: [Not Secure] <iCsar> si
+[18:17:02] [Server thread/INFO]: iLeola_ issued server command: /gamemode survival
+[18:17:03] [Server thread/INFO]: iLeola_ left the confines of this world
+[18:17:03] [Server thread/INFO]: iCsar issued server command: /worldborder set 100 1
+[18:17:03] [Server thread/INFO]: [iCsar: Shrinking the world border to 100.0 block(s) wide over 1 second(s)]
+[18:17:11] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[18:17:12] [Async Chat Thread - #15/INFO]: [Not Secure] <iCsar> XD
+[18:17:20] [Async Chat Thread - #15/INFO]: [Not Secure] <iLeola_> quita una jodida barbaridad de vida
+[18:17:22] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[18:17:25] [Async Chat Thread - #15/INFO]: [Not Secure] <iCsar> si
+[18:17:31] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[18:17:41] [Async Chat Thread - #15/INFO]: [Not Secure] <iCsar> ahora ocupamos hacer la pista de carrera y la meta
+[18:18:07] [Server thread/INFO]: iCsar issued server command: /worldborder set 150 1
+[18:18:07] [Server thread/INFO]: [iCsar: Growing the world border to 150.0 blocks wide over 1 seconds]
+[18:18:17] [Server thread/INFO]: iCsar issued server command: /worldborder set 120 1
+[18:18:17] [Server thread/INFO]: [iCsar: Shrinking the world border to 120.0 block(s) wide over 1 second(s)]
+[18:19:01] [Async Chat Thread - #17/INFO]: [Not Secure] <iCsar> ah si tenemos que cubrir con bedro abajo del suelo
+[18:19:51] [Async Chat Thread - #17/INFO]: [Not Secure] <iCsar> asegúrate de que rellene a la misma altura
+[18:19:58] [Server thread/INFO]: iLeola_ issued server command: /fill ~ ~ ~
+[18:20:15] [Server thread/INFO]: iCsar issued server command: /fill 13537 623 6866
+[18:20:21] [Server thread/INFO]: iLeola_ issued server command: /fill 13536 63 6865
+[18:20:41] [Server thread/INFO]: iLeola_ issued server command: /fill 13536 63 6865 ~ ~ ~ minecraft:bedrock
+[18:20:41] [Server thread/INFO]: [iLeola_: Successfully filled 14400 block(s)]
+[18:21:06] [Async Chat Thread - #19/INFO]: [Not Secure] <iLeola_> o igual está muy arriba
+[18:21:09] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> rellenalo con grass block mejor
+[18:21:15] [Server thread/INFO]: iLeola_ issued server command: /fill 13536 63 6865 ~ ~ ~ minecraft:grass_block
+[18:21:15] [Server thread/INFO]: [iLeola_: Successfully filled 24 block(s)]
+[18:21:18] [Async Chat Thread - #19/INFO]: [Not Secure] <iLeola_> XD
+[18:21:18] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> XD
+[18:22:02] [Server thread/INFO]: iLeola_ issued server command: /fill 13536 63 6865 ~ ~ ~ minecraft:grass_block
+[18:22:02] [Server thread/INFO]: [iLeola_: Successfully filled 14389 block(s)]
+[18:22:07] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[18:22:13] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[18:22:17] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> bien
+[18:22:27] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> ahora a hacer la pista de carrera xdxdxd
+[18:22:34] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> ah espera
+[18:22:47] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> nomás rellenamos esto con bedro
+[18:23:19] [Async Chat Thread - #19/INFO]: [Not Secure] <iLeola_> estaremos en modo aventura o así en survival?
+[18:23:32] [Async Chat Thread - #19/INFO]: [Not Secure] <iCsar> aventura por eso estoy estará en grass block
+[18:24:42] [Async Chat Thread - #21/INFO]: [Not Secure] <iCsar> creo que ya
+[18:24:47] [Async Chat Thread - #21/INFO]: [Not Secure] <iLeola_> si, ya
+[18:24:57] [Async Chat Thread - #21/INFO]: [Not Secure] <iCsar> ahora la meta será en el pico de la mansion
+[18:25:04] [Async Chat Thread - #21/INFO]: [Not Secure] <iLeola_> si pero este espacio q
+[18:25:18] [Async Chat Thread - #21/INFO]: [Not Secure] <iLeola_> a ver si
+[18:25:25] [Async Chat Thread - #21/INFO]: [Not Secure] <iCsar> para darles la libertad de ver no se xexdXDxdxdxd
+[18:25:34] [Async Chat Thread - #21/INFO]: [Not Secure] <iCsar> ah XD
+[18:25:46] [Server thread/INFO]: iLeola_ issued server command: /fill 13537 64 6870 13537 64 6870 minecraft:red_wool
+[18:25:49] [Server thread/INFO]: iLeola_ issued server command: /fill 13537 64 6870 13537 64 6870 minecraft:red_wool
+[18:25:51] [Server thread/INFO]: iCsar issued server command: /worldborder set 151 1
+[18:25:51] [Server thread/INFO]: [iCsar: Growing the world border to 151.0 blocks wide over 1 seconds]
+[18:25:53] [Server thread/INFO]: iLeola_ issued server command: /fill 13537 64 6870 13537 64 6870 minecraft:red_wool
+[18:25:56] [Server thread/INFO]: iCsar issued server command: /worldborder set 151 1
+[18:26:00] [Server thread/INFO]: iLeola_ issued server command: /fill 13537 64 6870 13537 64 6870 minecraft:red_wool
+[18:26:05] [Server thread/INFO]: iLeola_ issued server command: /fill 13537 64 6870 13537 64 6870 minecraft:red_wool
+[18:26:12] [Server thread/INFO]: iCsar issued server command: /worldborder set 121 1
+[18:26:12] [Server thread/INFO]: [iCsar: Shrinking the world border to 121.0 block(s) wide over 1 second(s)]
+[18:26:58] [Async Chat Thread - #23/INFO]: [Not Secure] <iLeola_> que profesional por dios
+[18:27:04] [Async Chat Thread - #23/INFO]: [Not Secure] <iCsar> si
+[18:27:09] [Server thread/INFO]: iCsar issued server command: /time set day
+[18:27:15] [Async Chat Thread - #23/INFO]: [Not Secure] <iCsar> ahora, a hacer las indicaciones
+[18:27:22] [Async Chat Thread - #23/INFO]: [Not Secure] <iCsar> porque seguro no sabrán a dónde ir
+[18:29:12] [Async Chat Thread - #25/INFO]: [Not Secure] <iCsar> XD
+[18:29:15] [Async Chat Thread - #25/INFO]: [Not Secure] <iCsar> LEO
+[18:29:22] [Async Chat Thread - #25/INFO]: [Not Secure] <iCsar> llenamos todo de tierra
+[18:29:24] [Async Chat Thread - #25/INFO]: [Not Secure] <iCsar> el piso
+[18:29:40] [Async Chat Thread - #25/INFO]: [Not Secure] <iLeola_> bueno le da un toque a la mansión xDXDxd
+[18:29:41] [Async Chat Thread - #25/INFO]: [Not Secure] <iCsar> ni tan mal se ve
+[18:29:45] [Async Chat Thread - #26/INFO]: [Not Secure] <iCsar> jaja si
+[18:30:36] [Server thread/INFO]: iCsar has made the advancement [Glow and Behold!]
+[18:31:54] [Async Chat Thread - #27/INFO]: [Not Secure] <iCsar> creo que ya tenemos lo de las carreras ahora el segundo juego
+[18:32:34] [Async Chat Thread - #27/INFO]: [Not Secure] <iCsar> q
+[18:33:22] [Async Chat Thread - #27/INFO]: [Not Secure] <iLeola_> ya decía por qué no podía sacar un bloque de esta versión
+[18:33:30] [Async Chat Thread - #27/INFO]: [Not Secure] <iLeola_> se me olvidó que esto está en la 1.21.1 xdXDXdxdXd
+[18:33:31] [Async Chat Thread - #27/INFO]: [Not Secure] <iCsar> porque
+[18:33:34] [Async Chat Thread - #27/INFO]: [Not Secure] <iCsar> X
+[18:33:41] [Async Chat Thread - #27/INFO]: [Not Secure] <iLeola_> estoy viendo la valla pálida esa
+[18:33:46] [Async Chat Thread - #27/INFO]: [Not Secure] <iLeola_> pero me la transforma en piedra
+[18:33:52] [Async Chat Thread - #27/INFO]: [Not Secure] <iCsar> wo
+[18:37:21] [Async Chat Thread - #29/INFO]: [Not Secure] <iCsar> dónde estas
+[18:37:26] [Async Chat Thread - #29/INFO]: [Not Secure] <iLeola_> decorando acá
+[18:37:30] [Async Chat Thread - #29/INFO]: [Not Secure] <iCsar> q
+[18:37:38] [Async Chat Thread - #29/INFO]: [Not Secure] <iCsar> vale
+[18:39:22] [Server thread/INFO]: [Not Secure] [Server] h
+[18:39:51] [Server thread/INFO]: iCsar has made the advancement [Bring Home the Beacon]
+[18:40:40] [Async Chat Thread - #32/INFO]: [Not Secure] <iCsar> listo
+[18:40:53] [Server thread/INFO]: iCsar issued server command: /time set day
+[18:40:57] [Async Chat Thread - #33/INFO]: [Not Secure] <iCsar> XD
+[18:40:58] [Async Chat Thread - #33/INFO]: [Not Secure] <iCsar> wow
+[18:42:19] [Server thread/INFO]: iLeola_ issued server command: /difficulty
+[18:42:34] [Server thread/INFO]: iLeola_ issued server command: /gamemode survival
+[18:42:37] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[18:42:47] [Async Chat Thread - #34/INFO]: [Not Secure] <iLeola_> por qué intento poner un ajolote y no sale jaja
+[18:42:55] [Async Chat Thread - #34/INFO]: [Not Secure] <iCsar> qq
+[18:43:00] [Server thread/INFO]: iLeola_ issued server command: /spawnmob axolotl
+[18:43:01] [Async Chat Thread - #34/INFO]: [Not Secure] <iCsar> bugcraft
+[18:43:03] [Async Chat Thread - #34/INFO]: [Not Secure] <iLeola_> ahora si
+[18:43:06] [Async Chat Thread - #34/INFO]: [Not Secure] <iLeola_> con la cubeta no salía
+[18:43:21] [Async Chat Thread - #34/INFO]: [Not Secure] <iCsar> bueno ya está el juego del escondite!
+[18:43:49] [Server thread/INFO]: iCsar issued server command: /give iCsar barrier
+[18:44:28] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> pero
+[18:44:38] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[18:44:38] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> puse todo en un shulker, lo tomé y desaparecio
+[18:44:41] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[18:45:02] [Async Chat Thread - #36/INFO]: [Not Secure] <iLeola_> a mi no me spawnean mobs si no con comandos
+[18:45:21] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> ah si eso es porque quite la opción de que salgan
+[18:45:38] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[18:45:50] [Server thread/INFO]: iCsar issued server command: /give iCsar command_block
+[18:46:01] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> ocupamos una sala de comandos
+[18:46:13] [Async Chat Thread - #36/INFO]: [Not Secure] <iLeola_> donde
+[18:46:20] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> lugar ultra escondido
+[18:46:28] [Async Chat Thread - #36/INFO]: [Not Secure] <iLeola_> pues aquí debajo xdxd
+[18:46:34] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> ya encontré zona
+[18:46:39] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[18:46:43] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[18:46:54] [Async Chat Thread - #36/INFO]: [Not Secure] <iCsar> en la mansión porque pronto cerraré el borde dependiendo del juego
+[18:48:34] [Async Chat Thread - #38/INFO]: [Not Secure] <iCsar> tengo solo el problema de que no me acuerdo cómo usar el /title
+[18:49:48] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[18:49:50] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[18:49:56] [Server thread/INFO]: iLeola_ issued server command: /spawnmob axolotl
+[18:50:04] [Server thread/INFO]: iLeola_ issued server command: /spawnmob axolotl
+[18:59:43] [Async Chat Thread - #40/INFO]: [Not Secure] <iCsar> volvi
+[19:04:37] [Async Chat Thread - #42/INFO]: [Not Secure] <iCsar> XD
+[19:04:41] [Async Chat Thread - #42/INFO]: [Not Secure] <iLeola_> 2
+[19:04:41] [Async Chat Thread - #42/INFO]: [Not Secure] <iCsar> todo mal
+[19:07:18] [Server thread/INFO]: iLeola_ issued server command: /give iLeola_ barrier
+[19:08:53] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:09:05] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:09:19] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[19:09:21] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[19:09:23] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[19:09:24] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[19:09:35] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[19:09:36] [Server thread/INFO]: iLeola_ issued server command: /spawnmob tropicalfish
+[19:09:47] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:10:11] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:13:47] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:14:48] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:17:21] [Async Chat Thread - #44/INFO]: [Not Secure] <iLeola_> puta madre como se nota que esto es en la 1.21.1
+[19:17:30] [Async Chat Thread - #44/INFO]: [Not Secure] <iCsar> si
+[19:17:40] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:17:53] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:18:38] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:18:52] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:18:59] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:night_vision
+[19:18:59] [Server thread/INFO]: [iLeola_: Applied effect Night Vision to iLeola_]
+[19:19:05] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:night_vision infinite
+[19:19:05] [Server thread/INFO]: [iLeola_: Applied effect Night Vision to iLeola_]
+[19:19:47] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:19:53] [Async Chat Thread - #46/INFO]: [Not Secure] <iCsar> pero
+[19:19:58] [Async Chat Thread - #47/INFO]: [Not Secure] <iCsar> maldito bloque todo maluco
+[19:21:03] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:21:34] [Async Chat Thread - #48/INFO]: [Not Secure] <iCsar> me rindo paso de usar el title
+[19:21:55] [Async Chat Thread - #48/INFO]: [Not Secure] <iCsar> wow quedó molon
+[19:22:26] [Async Chat Thread - #48/INFO]: [Not Secure] <iCsar> bueno ya tenemos los 2 juegos
+[19:22:30] [Async Chat Thread - #48/INFO]: [Not Secure] <iCsar> falta el ultimo
+[19:22:37] [Server thread/INFO]: [Not Secure] [Server] h
+[19:22:39] [Async Chat Thread - #48/INFO]: [Not Secure] <iLeola_> el de todos contra todos?
+[19:22:48] [Async Chat Thread - #48/INFO]: [Not Secure] <iCsar> si
+[19:23:49] [Server thread/INFO]: iCsar issued server command: /kill
+[19:23:53] [Server thread/INFO]: iCsar issued server command: /kill iCsa
+[19:23:53] [Server thread/INFO]: iCsar died
+[19:23:58] [Async Chat Thread - #51/INFO]: [Not Secure] <iCsar> q
+[19:24:03] [Async Chat Thread - #51/INFO]: [Not Secure] <iCsar> lagtest
+[19:24:06] [Server thread/INFO]: iCsar issued server command: /back
+[19:24:12] [Server thread/INFO]: iCsar issued server command: /back
+[19:24:45] [Async Chat Thread - #51/INFO]: [Not Secure] <iCsar> uy
+[19:27:38] [Async Chat Thread - #52/INFO]: [Not Secure] <iCsar> bueno creo que tenemos los 2 gam3s
+[19:28:49] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:30:22] [Async Chat Thread - #54/INFO]: [Not Secure] <iCsar> oye si puedes decora este techo
+[19:30:27] [Async Chat Thread - #54/INFO]: [Not Secure] <iCsar> está todo plano y vacio
+[19:30:34] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:30:42] [Async Chat Thread - #54/INFO]: [Not Secure] <iLeola_> decorar techos no es lo mio xdxd
+[19:30:55] [Async Chat Thread - #54/INFO]: [Not Secure] <iCsar> nomás ponle suelo, y hazle el camino
+[19:32:15] [Server thread/INFO]: iCsar has made the advancement [Cloud Save]
+[19:32:22] [Async Chat Thread - #56/INFO]: [Not Secure] <iLeola_> GUARDADO EN LA NUBE?
+[19:32:23] [Async Chat Thread - #56/INFO]: [Not Secure] <iCsar> q
+[19:32:32] [Async Chat Thread - #56/INFO]: [Not Secure] <iLeola_> dura referencia
+[19:32:34] [Async Chat Thread - #56/INFO]: [Not Secure] <iCsar> que yo sepa no existía un logro de eso XD
+[19:32:40] [Async Chat Thread - #56/INFO]: [Not Secure] <iLeola_> será de los datapacks
+[19:32:48] [Async Chat Thread - #56/INFO]: [Not Secure] <iLeola_> además está en inglés, con más razón
+[19:32:53] [Async Chat Thread - #56/INFO]: [Not Secure] <iCsar> si
+[19:33:09] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:34:31] [Server thread/INFO]: iLeola_ issued server command: /give iLeola_ chickencooked
+[19:34:40] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:34:52] [Server thread/INFO]: iCsar issued server command: /time set day
+[19:34:53] [Async Chat Thread - #58/INFO]: [Not Secure] <iLeola_> y esto
+[19:34:56] [Async Chat Thread - #58/INFO]: [Not Secure] <iCsar> q
+[19:35:03] [Async Chat Thread - #58/INFO]: [Not Secure] <iCsar> la meta
+[19:35:11] [Async Chat Thread - #58/INFO]: [Not Secure] <iLeola_> pedazo de meta
+[19:35:14] [Async Chat Thread - #58/INFO]: [Not Secure] <iCsar> así bien family friendly
+[19:35:43] [Async Chat Thread - #58/INFO]: [Not Secure] <iCsar> corazones porque en este evento somos buenas personas :joy:
+[19:35:53] [Async Chat Thread - #58/INFO]: [Not Secure] <iLeola_> si, yo soy buenisima persona
+[19:35:58] [Async Chat Thread - #58/INFO]: [Not Secure] <iCsar> si
+[19:36:40] [Async Chat Thread - #58/INFO]: [Not Secure] <iCsar> afk eating
+[19:37:12] [Server thread/INFO]: iLeola_ issued server command: /give iLeola_ barrier
+[19:41:34] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:41:37] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:42:06] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:42:09] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:49:55] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:50:15] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:51:46] [User Authenticator #3/INFO]: UUID of player NotZumy is 4a03ff3b-79cf-3221-8bc3-5dec2d052098
+[19:51:46] [Server thread/INFO]: Disconnecting NotZumy (/127.175.36.180:51211): You are not whitelisted on this server!
+[19:51:46] [Server thread/INFO]: NotZumy (/127.175.36.180:51211) lost connection: You are not whitelisted on this server!
+[19:51:47] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:52:11] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:52:44] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:52:47] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[19:53:25] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:53:40] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:53:52] [Server thread/INFO]: iLeola_ issued server command: /give iLeola_ barrier
+[19:56:09] [Server thread/INFO]: [Not Secure] [Server] h
+[19:58:44] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[19:58:46] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[19:59:51] [Server thread/INFO]: iLeola_ issued server command: /fill 13600 81 6923
+[20:00:29] [Server thread/INFO]: iLeola_ issued server command: /fill 13600 81 6923 13604 80 6952 minecraft:dark_oak_planks
+[20:00:29] [Server thread/INFO]: [iLeola_: Successfully filled 263 block(s)]
+[20:00:44] [Server thread/INFO]: iLeola_ issued server command: /fill 13600 81 6923 13604 80 6956 minecraft:dark_oak_planks
+[20:00:44] [Server thread/INFO]: [iLeola_: Successfully filled 39 block(s)]
+[20:01:11] [Server thread/INFO]: iLeola_ issued server command: /fill 13605 81 6922
+[20:01:19] [Server thread/INFO]: iLeola_ issued server command: /fill 13605 82 6922
+[20:01:37] [Server thread/INFO]: iLeola_ issued server command: /fill 13605 82 6922 13600 82 6950 ice
+[20:01:37] [Server thread/INFO]: [iLeola_: Successfully filled 172 block(s)]
+[20:05:36] [Server thread/INFO]: iLeola_ issued server command: /repair
+[20:05:39] [Server thread/INFO]: iLeola_ issued server command: /repair all
+[20:05:57] [Server thread/INFO]: iLeola_ issued server command: /premium
+[20:07:53] [Server thread/INFO]: [Not Secure] [Server] barra premiumXD?
+[20:16:43] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> hola leo
+[20:16:54] [Server thread/INFO]: iCsar issued server command: /tp iLeola_
+[20:17:05] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> si, a ver si tenía el comando el coso
+[20:17:07] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> hola
+[20:17:12] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> que haces XD
+[20:17:17] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> ye sto
+[20:17:24] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> para que no sea solo correr y avanzar
+[20:17:44] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> sabes que usaremos está misma mansión para el minijuego 2 y 3?
+[20:18:17] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> eso preferiblemente dejarlo abajo
+[20:18:24] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> no vamos a jugar a las escondidas tampoco aquí arriba
+[20:18:31] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> simplemente cerramos está ventana y ya :joy:
+[20:18:34] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> si
+[20:18:55] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> lo del juego 3 lo haré dentro de la mansión
+[20:19:13] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> ya todo está menos ese último no?
+[20:19:24] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[20:19:26] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:19:45] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> el último minijuego ya está listo, solo es hacer tp a todos en zonas random y ir poniendo arcos y flechas e ítems de ayuda por el mapa
+[20:20:09] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> todo planeado :la_formula:
+[20:20:19] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> uy pero cuando vengan todo morirán XD
+[20:20:33] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> el borde los matara
+[20:20:44] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> es verdad
+[20:20:53] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> XD está m3sa
+[20:21:00] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[20:21:06] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> dejaremos un enderchest y que guarden todo ahi
+[20:21:19] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:21:29] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> sto ya andamos leo
+[20:21:33] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[20:21:35] [Server thread/INFO]: iLeola_ issued server command: /gamemode survival
+[20:21:43] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[20:21:48] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> ah esñera
+[20:22:04] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> para las escondidas pensé en darles armaduras de cuero y dejarlos en invisible
+[20:22:16] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> y darles speed 1
+[20:22:26] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> al buscador darknes5
+[20:22:28] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> t
+[20:22:34] [Async Chat Thread - #62/INFO]: [Not Secure] <iLeola_> si
+[20:22:57] [Async Chat Thread - #62/INFO]: [Not Secure] <iCsar> bueno ya lo tenemos
+[20:24:36] [Server thread/INFO]: iLeola_ issued server command: /gamemode survival
+[20:24:42] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[20:24:44] [Async Chat Thread - #64/INFO]: [Not Secure] <iCsar> aver hagamos la carrera testing
+[20:25:16] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:25:26] [Server thread/INFO]: iCsar issued server command: /effect give @a
+[20:25:36] [Server thread/INFO]: iCsar issued server command: /effect give @a minecraft:speed infinite 2
+[20:25:36] [Server thread/INFO]: [iCsar: Applied effect Speed to 2 targets]
+[20:25:40] [Async Chat Thread - #64/INFO]: [Not Secure] <iCsar> 3
+[20:25:42] [Async Chat Thread - #64/INFO]: [Not Secure] <iCsar> 2
+[20:25:45] [Async Chat Thread - #64/INFO]: [Not Secure] <iCsar> 1
+[20:25:47] [Async Chat Thread - #64/INFO]: [Not Secure] <iCsar> GO
+[20:26:05] [Async Chat Thread - #64/INFO]: [Not Secure] <iCsar> XD
+[20:26:26] [Async Chat Thread - #65/INFO]: [Not Secure] <iCsar> Leo XD
+[20:27:48] [Async Chat Thread - #66/INFO]: [Not Secure] <iCsar> wow
+[20:27:55] [Async Chat Thread - #66/INFO]: [Not Secure] <iCsar> vale listo!
+[20:28:12] [Async Chat Thread - #66/INFO]: [Not Secure] <iLeola_> vas a tener que dejar que tengan siempre la saturación llena
+[20:28:18] [Async Chat Thread - #66/INFO]: [Not Secure] <iCsar> si
+[20:28:32] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:saturation
+[20:28:32] [Server thread/INFO]: [iLeola_: Applied effect Saturation to iLeola_]
+[20:28:40] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:saturation infinite 255
+[20:28:40] [Server thread/INFO]: [iLeola_: Applied effect Saturation to iLeola_]
+[20:29:16] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[20:29:39] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:30:05] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[20:30:09] [Server thread/INFO]: iLeola_ issued server command: /gamemode survival
+[20:30:12] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:30:19] [Server thread/INFO]: iCsar issued server command: /tp iLeola_
+[20:30:35] [Async Chat Thread - #68/INFO]: [Not Secure] <iCsar> vale tenemos 30 minutos!
+[20:30:40] [Async Chat Thread - #68/INFO]: [Not Secure] <iCsar> a descansar
+[20:30:40] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[20:30:57] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:31:00] [Server thread/INFO]: [Not Secure] [Server] h
+[20:31:14] [Server thread/INFO]: iLeola_ issued server command: /gamemode creative
+[20:31:29] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:31:58] [Server thread/INFO]: iLeola_ issued server command: /gamemode spectator
+[20:32:01] [Server thread/INFO]: iLeola_ issued server command: /gamemode adventure
+[20:41:17] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:health_boost infinite 0
+[20:41:17] [Server thread/INFO]: [iLeola_: Applied effect Health Boost to iLeola_]
+[20:41:23] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:health_boost infinite -0
+[20:41:24] [Server thread/INFO]: iLeola_ issued server command: /effect give iLeola_ minecraft:health_boost infinite -1
+[20:41:36] [Server thread/INFO]: iLeola_ issued server command: /effect clear iLeola_
+[20:41:36] [Server thread/INFO]: [iLeola_: Removed every effect from iLeola_]
+[20:42:16] [Server thread/INFO]: [Not Secure] [Server] j
+[20:43:25] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health
+[20:43:31] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health modifier add 10
+[20:43:33] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health modifier add
+[20:43:39] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health base set 10
+[20:43:42] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health base set 1
+[20:43:43] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health base set
+[20:43:45] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health base get
+[20:43:46] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health base get 1
+[20:43:49] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health base get 10
+[20:43:58] [Server thread/INFO]: iLeola_ issued server command: /attribute iLeola_ minecraft:max_health get 1
+[20:44:52] [Server thread/INFO]: [Not Secure] [Server] LEO QUITA A LLUVIA O EL TRUENO SE QUEMA A ANSION
+[20:44:55] [Server thread/INFO]: [Not Secure] [Server] LEO
+[20:45:04] [Server thread/INFO]: iLeola_ issued server command: /weather clear
+[20:47:13] [User Authenticator #4/INFO]: UUID of player IKAL7064 is 3c697ae3-cde3-322e-9523-6878f4ab07a7
+[20:47:13] [Server thread/INFO]: Disconnecting IKAL7064 (/127.29.232.125:57297): You are not whitelisted on this server!
+[20:47:13] [Server thread/INFO]: IKAL7064 (/127.29.232.125:57297) lost connection: You are not whitelisted on this server!
+[20:48:18] [Server thread/INFO]: iCsar issued server command: /attribute iLeola_ minecraft:max_absorption base set 20
+[20:48:33] [Server thread/INFO]: iCsar issued server command: /attribute iLeola_ minecraft:max_health base set 20
+[20:49:01] [Server thread/INFO]: iCsar issued server command: /attribute iLeola_ minecraft:max_health base set 10
+[20:49:14] [Server thread/INFO]: iCsar issued server command: /kill iLeola_
+[20:49:14] [Server thread/INFO]: iLeola_ was slain by iCsar
+[20:53:19] [User Authenticator #5/INFO]: UUID of player IKAL7064 is 3c697ae3-cde3-322e-9523-6878f4ab07a7
+[20:53:19] [Server thread/INFO]: Disconnecting IKAL7064 (/127.29.232.125:35175): You are not whitelisted on this server!
+[20:53:19] [Server thread/INFO]: IKAL7064 (/127.29.232.125:35175) lost connection: You are not whitelisted on this server!
+[20:54:06] [Server thread/INFO]: [Not Secure] [Server] que hacia ikaal
+[20:54:08] [Server thread/INFO]: Stopping the server
+[20:54:08] [Server thread/INFO]: Stopping server
+[20:54:08] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[20:54:08] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:54:08] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:54:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[20:54:08] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[20:54:08] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[20:54:08] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[20:54:08] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[20:54:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[20:54:08] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[20:54:08] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[20:54:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[20:54:08] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:54:08] [Server thread/INFO]: Saving players
+[20:54:08] [Server thread/INFO]: iCsar lost connection: Server closed
+[20:54:08] [WebSocketConnectReadThread-103/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[20:54:08] [Server thread/INFO]: iCsar left the game
+[20:54:08] [Server thread/INFO]: iLeola_ lost connection: Server closed
+[20:54:08] [Server thread/INFO]: iLeola_ left the game
+[20:54:09] [Server thread/INFO]: Saving worlds
+[20:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saved 440 block chunks, 119 entity chunks, 3 poi chunks in world 'world' in 0.50s
+[20:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_in_between]'/nitdim:in_between
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_in_between'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_in_between'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_in_between'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nitdim_in_between' in 0.00s
+[20:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_primordial_desert]'/nitdim:primordial_desert
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_primordial_desert'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_primordial_desert'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_primordial_desert'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nitdim_primordial_desert' in 0.00s
+[20:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_buried_ocean]'/nitdim:buried_ocean
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_buried_ocean'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_buried_ocean'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_buried_ocean'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nitdim_buried_ocean' in 0.02s
+[20:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_tempest]'/nitdim:tempest
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_tempest'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_tempest'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_tempest'
+[20:54:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nitdim_tempest' in 0.00s
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (in_between): All chunks are saved
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (primordial_desert): All chunks are saved
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (buried_ocean): All chunks are saved
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (tempest): All chunks are saved
+[20:54:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
