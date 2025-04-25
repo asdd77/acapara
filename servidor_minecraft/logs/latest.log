@@ -596,3 +596,88 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
 [17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
 [17:25:27] [Server thread/INFO]: [Armor Stand: Set [time] for Armor Stand to 24000]
+[17:26:34] [Async Chat Thread - #11/INFO]: [Not Secure] <uncrid> a ver, ya vuelvo
+[17:26:36] [Server thread/INFO]: uncrid lost connection: Disconnected
+[17:26:36] [Server thread/INFO]: uncrid left the game
+[17:26:46] [Async Chat Thread - #11/INFO]: [Not Secure] <iCsar> vale
+[17:27:15] [Server thread/INFO]: iCsar lost connection: Timed out
+[17:27:15] [Server thread/INFO]: iCsar left the game
+[17:27:28] [Server thread/INFO]: [Not Secure] [Server] h
+[17:27:35] [User Authenticator #2/INFO]: UUID of player iCsar is f588c112-eb43-3274-842c-1e06347702d7
+[17:27:36] [Server thread/INFO]: iCsar joined the game
+[17:27:36] [Server thread/INFO]: iCsar[/127.2.114.198:58939] logged in with entity id 5904 at ([world]0.0, 71.0, 0.0)
+[17:27:36] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[17:28:15] [Server thread/INFO]: iCsar issued server command: /gamemode adventure
+[17:28:15] [Server thread/INFO]: [iCsar: Set own game mode to Adventure Mode]
+[17:28:28] [Server thread/INFO]: iCsar issued server command: /gamemode creatibe
+[17:28:30] [Server thread/INFO]: iCsar issued server command: /gamemode creative
+[17:28:30] [Server thread/INFO]: [iCsar: Set own game mode to Creative Mode]
+[17:29:42] [User Authenticator #3/INFO]: UUID of player uncrid is ae096b60-1fd0-3454-aa6c-de002eef48a4
+[17:29:44] [Server thread/INFO]: uncrid joined the game
+[17:29:44] [Server thread/INFO]: uncrid[/127.104.36.218:44497] logged in with entity id 6325 at ([world]0.0, 71.0, 0.0)
+[17:29:55] [Async Chat Thread - #13/INFO]: [Not Secure] <uncrid> lagtest
+[17:30:13] [Async Chat Thread - #13/INFO]: [Not Secure] <iCsar> meteré reinicio para una mini config ya te aviso cuando prenda
+[17:30:18] [Server thread/INFO]: Stopping the server
+[17:30:18] [Server thread/INFO]: Stopping server
+[17:30:18] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[17:30:18] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:30:18] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:30:18] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[17:30:18] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[17:30:18] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[17:30:18] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[17:30:18] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[17:30:18] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:30:18] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[17:30:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[17:30:18] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:30:18] [Server thread/INFO]: Saving players
+[17:30:18] [Server thread/INFO]: iCsar lost connection: Server closed
+[17:30:18] [Server thread/INFO]: iCsar left the game
+[17:30:18] [Server thread/INFO]: uncrid lost connection: Server closed
+[17:30:19] [Server thread/INFO]: uncrid left the game
+[17:30:19] [WebSocketConnectReadThread-99/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:30:19] [Server thread/INFO]: Saving worlds
+[17:30:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:30:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:30:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:30:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 1030 block chunks, 1075 entity chunks, 0 poi chunks in world 'world' in 1.54s
+[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 37 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_buried_ocean]'/nitdim:buried_ocean
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_buried_ocean'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_buried_ocean'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_buried_ocean'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nitdim_buried_ocean' in 0.02s
+[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_in_between]'/nitdim:in_between
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_in_between'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_in_between'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_in_between'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nitdim_in_between' in 0.00s
+[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_primordial_desert]'/nitdim:primordial_desert
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_primordial_desert'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_primordial_desert'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_primordial_desert'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nitdim_primordial_desert' in 0.00s
+[17:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nitdim_tempest]'/nitdim:tempest
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nitdim_tempest'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nitdim_tempest'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nitdim_tempest'
+[17:30:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nitdim_tempest' in 0.00s
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (buried_ocean): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (in_between): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (primordial_desert): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (tempest): All chunks are saved
+[17:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
