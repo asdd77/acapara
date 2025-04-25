@@ -511,3 +511,257 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [01:29:52] [Server thread/INFO]: Player: Urikett009
 [01:29:52] [Server thread/INFO]: Lines - 1: Eficiencia V - 2: 
 [01:29:52] [Server thread/INFO]: Lines - 3:  - 4: 
+[01:29:53] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> bloques: esfuerzo
+[01:29:55] [Server thread/INFO]: Villager Villager['Librarian'/361, uuid='9eb00220-da3f-434d-9df6-7dccf58b99e8', l='ServerLevel[world]', x=9478.50, y=55.00, z=-4763.30, cpos=[592, -298], tl=216773, v=true] died, message: 'Librarian went up in flames'
+[01:29:56] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> agua: poder regalado
+[01:30:03] [Server thread/INFO]: Sign Spy - Location: x: 9484, y: 57, z: -4762, world: world
+[01:30:03] [Server thread/INFO]: Player: Urikett009
+[01:30:03] [Server thread/INFO]: Lines - 1:  - 2: Barrido
+[01:30:03] [Server thread/INFO]: Lines - 3: III - 4: 
+[01:30:17] [Craft Scheduler Thread - 112 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[01:30:17] [User Authenticator #4/INFO]: UUID of player EduardoKeith is 614014a7-d664-3694-ac6e-e88d6a358a90
+[01:30:18] [Server thread/INFO]: EduardoKeith joined the game
+[01:30:18] [Server thread/INFO]: EduardoKeith[/127.130.30.118:49779] logged in with entity id 20488 at ([world]0.0, 71.0, 0.0)
+[01:30:23] [Async Chat Thread - #3/INFO]: [Not Secure] <Sicraft> Chicos
+[01:30:33] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> q
+[01:30:33] [Async Chat Thread - #2/INFO]: [Not Secure] <IKAL7064> no te la puedo creer
+[01:30:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> se pueden hacer escaleras con la piedra negra de las cavernas?
+[01:30:39] [Async Chat Thread - #2/INFO]: [Not Secure] <IKAL7064> salio enano el bioma de mierda
+[01:30:41] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> creo q
+[01:30:42] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> si
+[01:30:43] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> no se
+[01:30:45] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> quita tu mierda
+[01:30:47] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> me quede en mc 1.8
+[01:30:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> x2
+[01:30:53] [Async Chat Thread - #2/INFO]: [Not Secure] <IKAL7064> me voy a matar si no puedo invocar a la eol aqui
+[01:30:54] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> ya la habia quitado
+[01:31:00] [Server thread/INFO]: EduardoKeith issued server command: /tpa SunnyyIsHere_
+[01:31:03] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpa EduardoKeith
+[01:31:06] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> pero
+[01:31:06] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> XDD
+[01:31:09] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> empece a jugar mc por ahi de la 1.5
+[01:31:14] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpahere EduardoKeith
+[01:31:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn EduardoKeith<--[HERE]
+[01:31:15] [Server thread/INFO]: [RedProtect] Player EduardoKeith damaged by VOID - Running command:
+ - Command: spawn EduardoKeith
+[01:31:15] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
+[01:31:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:31:15] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:31:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn EduardoKeith<--[HERE]
+[01:31:15] [Server thread/INFO]: [RedProtect] Player EduardoKeith damaged by VOID - Running command:
+ - Command: spawn EduardoKeith
+[01:31:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:31:15] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:31:15] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
+[01:31:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn EduardoKeith<--[HERE]
+[01:31:16] [Server thread/INFO]: [RedProtect] Player EduardoKeith damaged by VOID - Running command:
+ - Command: spawn EduardoKeith
+[01:31:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:31:16] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:31:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn EduardoKeith<--[HERE]
+[01:31:16] [Server thread/INFO]: [RedProtect] Player EduardoKeith damaged by VOID - Running command:
+ - Command: spawn EduardoKeith
+[01:31:16] [Server thread/INFO]: EduardoKeith fell out of the world
+[01:31:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:31:16] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:31:17] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:31:17] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:31:17] [Server thread/INFO]: SunnyyIsHere_ fell out of the world
+[01:31:18] [Server thread/INFO]: PixelRTX_1 issued server command: /tpahere SunnyyIsHere_
+[01:31:19] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> QUE
+[01:31:19] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> QUE
+[01:31:20] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> QUE
+[01:31:20] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> QUE
+[01:31:21] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> QUE
+[01:31:22] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> PERO EDUARDO
+[01:31:23] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> SOMOS UNOS DOWNS
+[01:31:24] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> PERO SUNIN
+[01:31:24] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> XDDDDDDDDDDDDDDDDDDDDDDDDD
+[01:31:25] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> SUNIN
+[01:31:26] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> QUE
+[01:31:27] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> QUEEEE
+[01:31:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Sicraft> 1.5 te voy a creer xd
+[01:31:28] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> SUS COSAS
+[01:31:29] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> NOOOO
+[01:31:30] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> NOOOOOO
+[01:31:38] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> NUESTROS ITEMS TIO
+[01:31:41] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> NOOO
+[01:31:42] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> XDDDDDDDDDDDDDDDDDDDDD
+[01:31:49] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> no mames
+[01:31:50] [Server thread/INFO]: iLeola_ issued server command: /team home
+[01:31:57] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> PERO SUNIN
+[01:32:00] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> PQ TE QUEDASTE QUIETA
+[01:32:02] [Server thread/INFO]: Sign Spy - Location: x: 5004, y: 61, z: -4356, world: world_the_end
+[01:32:02] [Server thread/INFO]: Player: IKAL7064
+[01:32:02] [Server thread/INFO]: Lines - 1: [rp] - 2: hallow
+[01:32:02] [Server thread/INFO]: Lines - 3:  - 4: 
+[01:32:09] [Async Chat Thread - #3/INFO]: [Not Secure] <Sicraft> oe regalan los diamantes en las cavernas
+[01:32:12] [Server thread/INFO]: IKAL7064 issued server command: /rp addadmin iLeola_
+[01:32:14] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> reak
+[01:32:24] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> yo con fortuna iii y una mina random soy feliz
+[01:32:28] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> JAJAJAJAJA
+[01:32:38] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> ya nou juego bro
+[01:32:41] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> m void
+[01:32:43] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> los zombies son toquicos aqui
+[01:32:46] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> toxicosww
+[01:32:52] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> sunin
+[01:32:55] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> te acarreo
+[01:32:59] [Server thread/INFO]: PixelRTX_1 issued server command: /tpahere SunnyyIsHere_
+[01:33:04] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpaccept
+[01:33:12] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> mira esto
+[01:33:14] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> q
+[01:33:17] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> ME FALTA EL AIRE
+[01:33:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:33:18] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:33:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:33:18] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:33:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:33:19] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:33:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:33:19] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:33:19] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> Y EL CORAZON TUCUN TUCUN
+[01:33:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:33:20] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:33:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+spawn SunnyyIsHere_<--[HERE]
+[01:33:20] [Server thread/INFO]: [RedProtect] Player SunnyyIsHere_ damaged by VOID - Running command:
+ - Command: spawn SunnyyIsHere_
+[01:33:20] [Server thread/INFO]: SunnyyIsHere_ fell out of the world
+[01:33:48] [Server thread/INFO]: PixelRTX_1 issued server command: /rp tp base
+[01:33:54] [Server thread/INFO]: PixelRTX_1 issued server command: /rp tp base world
+[01:34:07] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> tienen coords de la stronghold?
+[01:34:10] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> no
+[01:34:13] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> pero
+[01:34:14] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> XDDDDD
+[01:34:20] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> ikal
+[01:34:22] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> si me tepeo a ti
+[01:34:22] [Server thread/INFO]: IKAL7064 issued server command: /team home
+[01:34:24] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> no me haces mierda?
+[01:34:25] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> tenemos mejoras
+[01:34:28] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> busquemos diamantes
+[01:34:32] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> yo tengo
+[01:34:33] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> tengo*
+[01:34:35] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> tomen para los dos
+[01:34:40] [Server thread/INFO]: IKAL7064 lost connection: Disconnected
+[01:34:40] [Server thread/INFO]: IKAL7064 left the game
+[01:34:41] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> veni
+[01:34:41] [Server thread/INFO]: PixelRTX_1 issued server command: /tpa SunnyyIsHere_
+[01:34:43] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpaccept
+[01:34:54] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> de nada amikos
+[01:34:57] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> toma eduardo
+[01:35:05] [Server thread/INFO]: Sign Spy - Location: x: 9478, y: 57, z: -4762, world: world
+[01:35:05] [Server thread/INFO]: Player: Urikett009
+[01:35:05] [Server thread/INFO]: Lines - 1:  - 2: Saqueo
+[01:35:05] [Server thread/INFO]: Lines - 3: III - 4: 
+[01:35:07] [Server thread/INFO]: Sign Spy - Location: x: 9476, y: 57, z: -4762, world: world
+[01:35:07] [Server thread/INFO]: Player: Urikett009
+[01:35:07] [Server thread/INFO]: Lines - 1: Eficiencia - 2: V
+[01:35:07] [Server thread/INFO]: Lines - 3:  - 4: 
+[01:35:08] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> JAJAJA
+[01:35:09] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> MAN
+[01:35:11] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> XDDDDDDD
+[01:35:14] [Server thread/INFO]: Sicraft issued server command: /rp tp Mainland
+[01:35:16] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> pa ti todo eso
+[01:35:21] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> luego me acompañan a por netherite
+[01:35:23] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> y consigo mas
+[01:35:23] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> y los diamantes
+[01:35:25] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> no voy solo
+[01:35:27] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> te los di
+[01:35:31] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> no los tengo
+[01:35:32] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> los debes de tener ahi en el inv
+[01:35:33] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> q
+[01:35:36] [Server thread/INFO]: PixelRTX_1 issued server command: /rp tp base
+[01:35:38] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> como mi papa
+[01:35:39] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> no tengo nada
+[01:35:46] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> VOLO ALTO SOAP Y RAMIREZ
+[01:35:49] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> XDDDDDDDD
+[01:35:53] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> quien es soap
+[01:35:56] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> mis elytras
+[01:35:57] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> el pico
+[01:35:58] [Server thread/INFO]: PixelRTX_1 issued server command: /tpa EduardoKeith
+[01:35:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> Jabón
+[01:36:07] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> yo me cuide muy bien
+[01:36:11] [Server thread/INFO]: iLeola_ issued server command: /rp list
+[01:36:11] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> but
+[01:36:13] [Server thread/INFO]: iLeola_ issued server command: /rp teleport End world_the_end
+[01:36:15] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> me mori 129084923848234 veces ayer
+[01:36:32] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> aun no supero la hora en el nether ayer man
+[01:36:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> a
+[01:36:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> Por qué el cubo me da leche y no sopa de champiñones?
+[01:36:58] [Server thread/INFO]: PixelRTX_1 issued server command: /tpa SunnyyIsHere_
+[01:37:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Urikett009> pq es con un cuenco
+[01:37:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> aaa
+[01:37:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Sicraft> arigato
+[01:37:10] [Server thread/INFO]: SunnyyIsHere_ issued server command: /tpaccept
+[01:37:10] [Server thread/INFO]: PixelRTX_1 issued server command: /rp tp Aldea
+[01:37:18] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> bueno
+[01:37:23] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> toma sunin
+[01:37:27] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> eduardo hicimos la de LOS AMO PADRES
+[01:37:33] [Async Chat Thread - #2/INFO]: [Not Secure] <SunnyyIsHere_> ya tengo herramientas
+[01:37:36] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> siiiiiiiiii
+[01:37:41] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> denme palos we
+[01:37:45] [Async Chat Thread - #2/INFO]: [Not Secure] <PixelRTX_1> palos
+[01:37:48] [Async Chat Thread - #2/INFO]: [Not Secure] <EduardoKeith> si
+[01:37:49] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> pidanle al pixel
+[01:37:51] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> el tiene bastantes
+[01:37:51] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> alchile ya no qiero jugar jejejeje
+[01:37:56] [Server thread/INFO]: PixelRTX_1 issued server command: /rp tp base
+[01:37:58] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> mejor me espero al skyblock
+[01:38:09] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> dice mega que no te vayas
+[01:38:11] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> mentira
+[01:38:17] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> no tengo ni idea de q dice
+[01:38:18] [Server thread/INFO]: Sign Spy - Location: x: 9476, y: 57, z: -4762, world: world
+[01:38:18] [Server thread/INFO]: Player: Urikett009
+[01:38:18] [Server thread/INFO]: Lines - 1:  - 2: Eficiencia
+[01:38:18] [Server thread/INFO]: Lines - 3: V - 4: 
+[01:38:29] [Server thread/INFO]: iLeola_ lost connection: Timed out
+[01:38:29] [Server thread/INFO]: iLeola_ left the game
+[01:38:30] [User Authenticator #5/INFO]: UUID of player IKAL7064 is 3c697ae3-cde3-322e-9523-6878f4ab07a7
+[01:38:31] [Server thread/INFO]: IKAL7064 joined the game
+[01:38:31] [Server thread/INFO]: IKAL7064[/127.29.232.125:35379] logged in with entity id 26585 at ([world]0.0, 71.0, 0.0)
+[01:38:48] [Server thread/INFO]: PixelRTX_1 issued server command: /tpa e
+[01:38:50] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
+[01:38:57] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> eduardo
+[01:38:59] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> JAJAJA}
+[01:38:59] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> yo
+[01:39:01] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> AMIGO
+[01:39:04] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> NO AGUANTO LA RISA
+[01:39:06] [Async Chat Thread - #3/INFO]: [Not Secure] <SunnyyIsHere_> XDDDDDDDDDDD
+[01:39:14] [User Authenticator #5/INFO]: UUID of player iLeola_ is 04c6568a-80d6-38d1-9c7e-efc90999a73c
+[01:39:16] [Server thread/INFO]: iLeola_ joined the game
+[01:39:16] [Server thread/INFO]: iLeola_[/127.210.202.86:37297] logged in with entity id 27189 at ([world]0.0, 71.0, 0.0)
+[01:39:16] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:39:16] [Async Chat Thread - #3/INFO]: [Not Secure] <EduardoKeith> LA HEMOS LIADO
+[01:39:29] [Async Chat Thread - #3/INFO]: [Not Secure] <iLeola_> creo que mejor no uso este libro más
+[01:39:34] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> amigos
+[01:39:35] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> y si
+[01:39:44] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> agarro esos libros que dicen Proteccion IV
+[01:39:48] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> y se los pongo a mi armaduura de mierda?
+[01:39:50] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> no mejor no
+[01:39:53] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> luego me cagan a palos
+[01:39:56] [Async Chat Thread - #3/INFO]: [Not Secure] <PixelRTX_1> jajajajajaja
+[01:40:17] [Craft Scheduler Thread - 133 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
