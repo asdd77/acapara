@@ -493,75 +493,82 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "requirement": "2025-04-25 02:31:00 +0000",
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:22:25 +0000"
+      "log_spam_fixer": "2025-04-25 02:30:24 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
@@ -605,6 +612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-04-25 02:10:04 +0000"
@@ -632,6 +645,12 @@
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2025-04-25 02:09:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
     },
     "done": true
   },
@@ -683,6 +702,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-25 02:10:15 +0000"
@@ -713,6 +738,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:piglin": "2025-04-25 02:21:32 +0000",
@@ -738,6 +769,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-25 02:10:15 +0000"
@@ -750,9 +787,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-04-25 02:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
     },
     "done": true
   },
@@ -900,9 +949,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-04-25 02:09:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
     },
     "done": true
   },
@@ -915,6 +976,12 @@
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-25 02:10:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
     },
     "done": true
   },
@@ -936,6 +1003,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
   "incendium:misc/soul_searcher": {
     "criteria": {
       "incendium:withered_forest": "2025-04-25 02:17:21 +0000"
@@ -954,6 +1033,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-04-25 02:29:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-25 02:10:15 +0000"
@@ -963,6 +1048,12 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2025-04-25 02:10:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-04-25 02:30:49 +0000"
     },
     "done": true
   },

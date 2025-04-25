@@ -4059,79 +4059,121 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 02:18:20 +0000"
+      "log_spam_fixer": "2025-04-25 02:29:25 +0000"
     },
     "done": false
   },
   "stellarity:exploration/find_end_village": {
     "criteria": {
       "find_a_town_in_a_complete_shithole": "2025-04-25 02:12:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_banner": {
+    "criteria": {
+      "has_green_wool": "2025-04-25 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/enter_chapel": {
+    "criteria": {
+      "enter_chapel": "2025-04-25 02:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_carpet": {
+    "criteria": {
+      "has_green_wool": "2025-04-25 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed": {
+    "criteria": {
+      "has_green_wool": "2025-04-25 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/super_sonic": {
+    "criteria": {
+      "fly": "2025-04-25 02:26:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-25 02:20:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-04-25 02:20:09 +0000"
     },
     "done": true
   },
