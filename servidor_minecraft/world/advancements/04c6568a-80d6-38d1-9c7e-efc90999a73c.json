@@ -3071,6 +3071,7 @@
   },
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2025-04-25 00:54:42 +0000",
       "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2025-04-23 00:45:28 +0000"
     },
     "done": false
@@ -3805,75 +3806,82 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "requirement": "2025-04-25 01:17:17 +0000",
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-25 00:52:04 +0000"
+      "log_spam_fixer": "2025-04-25 01:17:17 +0000"
     },
     "done": false
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2025-04-25 01:15:37 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
